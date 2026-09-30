@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "scripts": [
+    {
+      "name": "Audit-EntraSecurity.ps1",
+      "category": "Azure Security",
+      "description": "Read-only Microsoft Graph audit of Entra security settings, Conditional Access, legacy authentication controls, named locations, identity risk access, and recent failed sign-ins.",
+      "tags": [
+        "Read-only",
+        "Entra ID",
+        "PowerShell"
+      ],
+      "path": "Azure Security/Audit-EntraSecurity.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Azure%20Security/Audit-EntraSecurity.ps1"
+    },
+    {
+      "name": "Remediate-EntraSecurity.ps1",
+      "category": "Azure Security",
+      "description": "Creates a report-only Conditional Access policy requiring MFA for all users and checks Smart Lockout settings. Exclude a break-glass account before enabling the policy.",
+      "tags": [
+        "Changes tenant",
+        "Report-only",
+        "Entra ID"
+      ],
+      "path": "Azure Security/Remediate-EntraSecurity.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Azure%20Security/Remediate-EntraSecurity.ps1"
+    },
+    {
+      "name": "Cleanup-WindowsUpdates.ps1",
+      "category": "Windows Cleanup",
+      "description": "Resets Windows Update services and cache, runs DISM and SFC, and clears temporary and Prefetch files. Requires administrator rights and makes broad system changes.",
+      "tags": [
+        "Admin required",
+        "System repair",
+        "Deletes files"
+      ],
+      "path": "BloatWare/Cleanup-WindowsUpdates.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/Cleanup-WindowsUpdates.ps1"
+    },
+    {
+      "name": "Disable-BrowserNotifications.ps1",
+      "category": "Windows Cleanup",
+      "description": "Changes Edge and Chrome policies to block notifications and pop-ups, edits the Edge profile and hosts file, and enables SmartScreen.",
+      "tags": [
+        "Admin required",
+        "Changes policy",
+        "Browser"
+      ],
+      "path": "BloatWare/Disable-BrowserNotifications.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/Disable-BrowserNotifications.ps1"
+    },
+    {
+      "name": "Remove-DellBloatware.ps1",
+      "category": "Windows Cleanup",
+      "description": "Removes a configured set of Dell apps and utilities. Review the removal list first to keep any Dell tools you still use.",
+      "tags": [
+        "Admin required",
+        "Uninstalls software",
+        "Dell"
+      ],
+      "path": "BloatWare/Remove-DellBloatware.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/Remove-DellBloatware.ps1"
+    },
+    {
+      "name": "Remove-LenovoBloatware.ps1",
+      "category": "Windows Cleanup",
+      "description": "Removes Lenovo apps, services, scheduled tasks, and startup entries, with a WhatIf preview option. It preserves hardware and pointing-device drivers.",
+      "tags": [
+        "Admin required",
+        "Uninstalls software",
+        "Preview available"
+      ],
+      "path": "BloatWare/Remove-LenovoBloatware.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/Remove-LenovoBloatware.ps1"
+    },
+    {
+      "name": "Remove-Windows10Bloatware.ps1",
+      "category": "Windows Cleanup",
+      "description": "Removes the Windows 10 apps listed in its configuration. Review that list before running because some listed apps may be ones you want to keep.",
+      "tags": [
+        "Admin required",
+        "Uninstalls apps",
+        "Windows 10"
+      ],
+      "path": "BloatWare/Remove-Windows10Bloatware.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/Remove-Windows10Bloatware.ps1"
+    },
+    {
+      "name": "The RunMe Bit.cmd",
+      "category": "Windows Cleanup",
+      "description": "Currently contains a PowerShell execution-policy command despite its .cmd extension; it may not run as a batch file and needs review before use.",
+      "tags": [
+        "Needs review",
+        "Launcher",
+        "Execution policy"
+      ],
+      "path": "BloatWare/The RunMe Bit.cmd",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/The%20RunMe%20Bit.cmd"
+    },
+    {
+      "name": "Windows11_Cleanup.ps1",
+      "category": "Windows Cleanup",
+      "description": "Prompts before clearing Windows Update cache, Windows and user temporary files, Prefetch, and update logs, then restarts Windows Update.",
+      "tags": [
+        "Admin required",
+        "Confirmation",
+        "Deletes files"
+      ],
+      "path": "BloatWare/Windows11_Cleanup.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/BloatWare/Windows11_Cleanup.ps1"
+    },
+    {
+      "name": "CorporateBuild.ps1",
+      "category": "Deployment & Build",
+      "description": "Provisions and configures a Windows 11 PC: installs apps and updates, removes selected consumer and OEM software, sets regional preferences, configures Microsoft 365 sign-in, and writes a build report. May prompt to reboot.",
+      "tags": [
+        "Admin required",
+        "Installs software",
+        "System changes"
+      ],
+      "path": "Deployment & Build/CorporateBuild.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Deployment%20%26%20Build/CorporateBuild.ps1"
+    },
+    {
+      "name": "Add_Archive_Prefix_SharedMailboxes.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Adds an Archive- prefix to cloud-only shared mailbox display names and reports synced mailboxes that need renaming on-premises.",
+      "tags": [
+        "Changes tenant",
+        "Exchange Online",
+        "Mailbox rename"
+      ],
+      "path": "Exchange & Mailbox Management/Add_Archive_Prefix_SharedMailboxes.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Add_Archive_Prefix_SharedMailboxes.ps1"
+    },
+    {
+      "name": "Convert_SharedMailboxes_CloudManaged.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Changes synced shared mailboxes to cloud-managed Exchange attributes and reports their resulting status.",
+      "tags": [
+        "Changes tenant",
+        "Exchange Online",
+        "Mailbox settings"
+      ],
+      "path": "Exchange & Mailbox Management/Convert_SharedMailboxes_CloudManaged.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Convert_SharedMailboxes_CloudManaged.ps1"
+    },
+    {
+      "name": "Enable-DKIM-O365.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Installs or updates the Exchange Online module, checks DKIM DNS records, creates configuration if needed, and enables DKIM signing for a domain.",
+      "tags": [
+        "Changes tenant",
+        "Exchange Online",
+        "Email security"
+      ],
+      "path": "Exchange & Mailbox Management/Enable-DKIM-O365.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Enable-DKIM-O365.ps1"
+    },
+    {
+      "name": "Enable_Archive_All_Users.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Finds non-shared mailboxes at or above 20 GB without an online archive and enables archiving for them.",
+      "tags": [
+        "Changes tenant",
+        "Exchange Online",
+        "Mailbox settings"
+      ],
+      "path": "Exchange & Mailbox Management/Enable_Archive_All_Users.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Enable_Archive_All_Users.ps1"
+    },
+    {
+      "name": "ExchangeOnline_DelegatedAccess_Setup.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Sets a user-scoped PowerShell execution policy, installs Exchange Online modules, and connects to a configured customer tenant using delegated access.",
+      "tags": [
+        "Setup",
+        "Exchange Online",
+        "Changes local settings"
+      ],
+      "path": "Exchange & Mailbox Management/ExchangeOnline_DelegatedAccess_Setup.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/ExchangeOnline_DelegatedAccess_Setup.ps1"
+    },
+    {
+      "name": "Hide_CloudOnly_SharedMailboxes_GAL.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Hides cloud-only shared mailboxes from the Global Address List and lists synced mailboxes for separate on-premises handling.",
+      "tags": [
+        "Changes tenant",
+        "Exchange Online",
+        "Address list"
+      ],
+      "path": "Exchange & Mailbox Management/Hide_CloudOnly_SharedMailboxes_GAL.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Hide_CloudOnly_SharedMailboxes_GAL.ps1"
+    },
+    {
+      "name": "Hide_Shared_Mailboxes_GAL.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Hides all shared mailboxes from the Global Address List and displays their resulting visibility state.",
+      "tags": [
+        "Changes tenant",
+        "Exchange Online",
+        "Address list"
+      ],
+      "path": "Exchange & Mailbox Management/Hide_Shared_Mailboxes_GAL.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Hide_Shared_Mailboxes_GAL.ps1"
+    },
+    {
+      "name": "Initialize-ArchiverEnvironment.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Prepares the SharePoint archiver environment, installs or updates PnP.PowerShell, connects to a site, and can save client connection details for reuse.",
+      "tags": [
+        "Setup",
+        "SharePoint",
+        "Interactive"
+      ],
+      "path": "Exchange & Mailbox Management/Initialize-ArchiverEnvironment.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Initialize-ArchiverEnvironment.ps1"
+    },
+    {
+      "name": "Mailboxes_Over50GB_With_ArchiveSize.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Reports mailboxes at least 50 GB in size with mailbox type, archive status, and archive size.",
+      "tags": [
+        "Read-only",
+        "Exchange Online",
+        "Reporting"
+      ],
+      "path": "Exchange & Mailbox Management/Mailboxes_Over50GB_With_ArchiveSize.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Mailboxes_Over50GB_With_ArchiveSize.ps1"
+    },
+    {
+      "name": "Manage-M365GroupOwners.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Uses an existing Microsoft Graph session to find a Microsoft 365 group and interactively manage its owners.",
+      "tags": [
+        "Changes tenant",
+        "Microsoft Graph",
+        "Interactive"
+      ],
+      "path": "Exchange & Mailbox Management/Manage-M365GroupOwners.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Manage-M365GroupOwners.ps1"
+    },
+    {
+      "name": "MergeContacts.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Reads duplicate contact pairs from a CSV and uses Xero API authentication to merge the selected contacts.",
+      "tags": [
+        "Changes cloud data",
+        "Xero API",
+        "CSV input"
+      ],
+      "path": "Exchange & Mailbox Management/MergeContacts.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/MergeContacts.ps1"
+    },
+    {
+      "name": "Run-QuarterlyArchive.ps1",
+      "category": "Exchange & Mailbox",
+      "description": "Runs SharePoint archiving for configured clients, with dry-run and live-run modes and an option to target a single client.",
+      "tags": [
+        "SharePoint",
+        "Dry run",
+        "Can move or delete files"
+      ],
+      "path": "Exchange & Mailbox Management/Run-QuarterlyArchive.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Exchange%20%26%20Mailbox%20Management/Run-QuarterlyArchive.ps1"
+    },
+    {
+      "name": "Promote-CurrentUserToLocalAdmin.ps1",
+      "category": "Local Admin",
+      "description": "Adds the interactively signed-in Entra ID user to the local Administrators group. It must be run from an already elevated session.",
+      "tags": [
+        "Admin required",
+        "Changes local access",
+        "Entra ID"
+      ],
+      "path": "Local Admin/Promote-CurrentUserToLocalAdmin.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Local%20Admin/Promote-CurrentUserToLocalAdmin.ps1"
+    },
+    {
+      "name": "Run-PromoteToLocalAdmin.bat",
+      "category": "Local Admin",
+      "description": "Launcher that requests elevation, unblocks the companion PowerShell script, and runs it with a process-scoped execution-policy bypass.",
+      "tags": [
+        "Launcher",
+        "Admin required",
+        "Changes local access"
+      ],
+      "path": "Local Admin/Run-PromoteToLocalAdmin.bat",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Local%20Admin/Run-PromoteToLocalAdmin.bat"
+    },
+    {
+      "name": "Configure-DefenderQuiet.ps1",
+      "category": "Security & Defender",
+      "description": "Changes Microsoft Defender settings to reduce alerts and cloud protections, including attempting to disable Tamper Protection. Review carefully because it weakens security protections.",
+      "tags": [
+        "Admin required",
+        "Weakens protection",
+        "Review first"
+      ],
+      "path": "Security & Defender/Configure-DefenderQuiet.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Security%20%26%20Defender/Configure-DefenderQuiet.ps1"
+    },
+    {
+      "name": "Defender365Fix.ps1",
+      "category": "Security & Defender",
+      "description": "Installs Microsoft 365 and Defender PowerShell modules, connects to the services, and applies Defender-related configuration changes.",
+      "tags": [
+        "Admin required",
+        "Microsoft 365",
+        "Changes security settings"
+      ],
+      "path": "Security & Defender/Defender365Fix.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Security%20%26%20Defender/Defender365Fix.ps1"
+    },
+    {
+      "name": "Verify-Harmoniq-gMSA.ps1",
+      "category": "Security & Defender",
+      "description": "Checks whether the Harmoniq group Managed Service Account is ready on the local server or configured remote servers.",
+      "tags": [
+        "Read-only",
+        "Active Directory",
+        "PowerShell remoting"
+      ],
+      "path": "Security & Defender/Verify-Harmoniq-gMSA.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Security%20%26%20Defender/Verify-Harmoniq-gMSA.ps1"
+    },
+    {
+      "name": "Archive-StaleSharePointFiles.ps1",
+      "category": "SharePoint & OneDrive",
+      "description": "Finds stale SharePoint files; dry-run is the default. A live run copies and verifies files before deleting originals or moving them to a pending-delete folder.",
+      "tags": [
+        "SharePoint",
+        "Dry run",
+        "Can delete files"
+      ],
+      "path": "SharePoint & OneDrive/Archive-StaleSharePointFiles.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Archive-StaleSharePointFiles.ps1"
+    },
+    {
+      "name": "Clear-OneDriveCrash.ps1",
+      "category": "SharePoint & OneDrive",
+      "description": "Stops OneDrive and clears local cache and sync database files to help recover from crashes or sync issues.",
+      "tags": [
+        "OneDrive",
+        "Deletes local cache",
+        "Repair"
+      ],
+      "path": "SharePoint & OneDrive/Clear-OneDriveCrash.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Clear-OneDriveCrash.ps1"
+    },
+    {
+      "name": "Get-AllClientSharePointSites.ps1",
+      "category": "SharePoint & OneDrive",
+      "description": "Uses Partner Center and delegated access to enumerate customer SharePoint sites and export site details to CSV.",
+      "tags": [
+        "Read-only",
+        "SharePoint",
+        "Reporting"
+      ],
+      "path": "SharePoint & OneDrive/Get-AllClientSharePointSites.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Get-AllClientSharePointSites.ps1"
+    },
+    {
+      "name": "Get-OneDriveSyncStatus.ps1",
+      "category": "SharePoint & OneDrive",
+      "description": "Checks OneDrive process and sync database status and can report on large SharePoint sites to help diagnose sync issues.",
+      "tags": [
+        "Read-only",
+        "OneDrive",
+        "Diagnostics"
+      ],
+      "path": "SharePoint & OneDrive/Get-OneDriveSyncStatus.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Get-OneDriveSyncStatus.ps1"
+    },
+    {
+      "name": "Remove-OneDriveApps.ps1",
+      "category": "SharePoint & OneDrive",
+      "description": "Uninstalls OneDrive applications and related components from Windows; run elevated for full effect.",
+      "tags": [
+        "Admin required",
+        "Uninstalls software",
+        "OneDrive"
+      ],
+      "path": "SharePoint & OneDrive/Remove-OneDriveApps.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Remove-OneDriveApps.ps1"
+    },
+    {
+      "name": "Archive-SharePointFiles.ps1",
+      "category": "SharePoint & OneDrive · Archive",
+      "description": "Copies older SharePoint files into a dedicated archive site, verifies each copy, and only deletes originals when configuration enables a live run.",
+      "tags": [
+        "SharePoint",
+        "Dry run",
+        "Can delete files"
+      ],
+      "path": "SharePoint & OneDrive/Arc/Archive-SharePointFiles.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Arc/Archive-SharePointFiles.ps1"
+    },
+    {
+      "name": "Archive-ToM365ColdStorage.ps1",
+      "category": "SharePoint & OneDrive · Archive",
+      "description": "Archives older SharePoint files to Microsoft 365 cold storage through Microsoft Graph while keeping their library location and permissions.",
+      "tags": [
+        "SharePoint",
+        "Microsoft Graph",
+        "WhatIf available"
+      ],
+      "path": "SharePoint & OneDrive/Arc/Archive-ToM365ColdStorage.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Arc/Archive-ToM365ColdStorage.ps1"
+    },
+    {
+      "name": "Manage-ArchiveProfiles.ps1",
+      "category": "SharePoint & OneDrive · Archive",
+      "description": "Interactive wizard for client archive profiles and app/certificate records; it can register apps and create, export, or delete certificates.",
+      "tags": [
+        "Interactive",
+        "Credentials and certificates",
+        "Review first"
+      ],
+      "path": "SharePoint & OneDrive/Arc/Manage-ArchiveProfiles.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Arc/Manage-ArchiveProfiles.ps1"
+    },
+    {
+      "name": "Remove-EmptyFolders.ps1",
+      "category": "SharePoint & OneDrive · Archive",
+      "description": "Finds empty SharePoint folders left after archiving; previews by default and sends removed folders to the site recycle bin when executed.",
+      "tags": [
+        "SharePoint",
+        "Dry run",
+        "Recoverable deletion"
+      ],
+      "path": "SharePoint & OneDrive/Arc/Remove-EmptyFolders.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Arc/Remove-EmptyFolders.ps1"
+    },
+    {
+      "name": "Rename-ProblemFiles.ps1",
+      "category": "SharePoint & OneDrive · Archive",
+      "description": "Finds file and folder names likely to break SharePoint copy or sync operations; previews proposed renames by default and applies them only with Execute.",
+      "tags": [
+        "SharePoint",
+        "Dry run",
+        "Renames files"
+      ],
+      "path": "SharePoint & OneDrive/Arc/Rename-ProblemFiles.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Arc/Rename-ProblemFiles.ps1"
+    },
+    {
+      "name": "Verify-ArchiveReconciliation.ps1",
+      "category": "SharePoint & OneDrive · Archive",
+      "description": "Read-only comparison of source and archive libraries that identifies archived, copied-but-not-deleted, and not-yet-archived files.",
+      "tags": [
+        "Read-only",
+        "SharePoint",
+        "Reporting"
+      ],
+      "path": "SharePoint & OneDrive/Arc/Verify-ArchiveReconciliation.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/SharePoint%20%26%20OneDrive/Arc/Verify-ArchiveReconciliation.ps1"
+    },
+    {
+      "name": "Fix-ModulePaths.ps1",
+      "category": "System Troubleshooting",
+      "description": "Reinstalls PowerShell modules found under a OneDrive-redirected path into the system-wide module location, then removes the OneDrive copies.",
+      "tags": [
+        "Admin required",
+        "Changes local files",
+        "PowerShell"
+      ],
+      "path": "System Troubleshooting/Fix-ModulePaths.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/System%20Troubleshooting/Fix-ModulePaths.ps1"
+    },
+    {
+      "name": "Fix-SpellCheck-Win10.ps1",
+      "category": "System Troubleshooting",
+      "description": "Clears Windows 10 spell-check caches and restores spell-check settings changed by privacy or app-removal tools.",
+      "tags": [
+        "Admin required",
+        "Windows 10",
+        "Repair"
+      ],
+      "path": "System Troubleshooting/Fix-SpellCheck-Win10.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/System%20Troubleshooting/Fix-SpellCheck-Win10.ps1"
+    },
+    {
+      "name": "Fix-SpellCheck.ps1",
+      "category": "System Troubleshooting",
+      "description": "Clears Windows 11 spell-check caches and restores spell-check settings changed by privacy or app-removal tools.",
+      "tags": [
+        "Admin required",
+        "Windows 11",
+        "Repair"
+      ],
+      "path": "System Troubleshooting/Fix-SpellCheck.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/System%20Troubleshooting/Fix-SpellCheck.ps1"
+    },
+    {
+      "name": "Reset-Teams.ps1",
+      "category": "System Troubleshooting",
+      "description": "Stops Teams, uninstalls available Teams versions, and removes Teams cache, local data, and registry leftovers to prepare for a fresh install.",
+      "tags": [
+        "Admin recommended",
+        "Uninstalls software",
+        "Deletes local data"
+      ],
+      "path": "System Troubleshooting/Reset-Teams.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/System%20Troubleshooting/Reset-Teams.ps1"
+    },
+    {
+      "name": "ResetCreds.ps1",
+      "category": "System Troubleshooting",
+      "description": "Lists matching Adobe and Microsoft credentials for the current Windows user and deletes them after confirmation; supports preview mode.",
+      "tags": [
+        "Confirmation",
+        "Deletes credentials",
+        "Current user only"
+      ],
+      "path": "System Troubleshooting/ResetCreds.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/System%20Troubleshooting/ResetCreds.ps1"
+    },
+    {
+      "name": "DuplicateFinder.ps1",
+      "category": "Utilities",
+      "description": "Queries Xero for active customers, identifies likely duplicate pairs, and writes them to CSV. The public source contains an apparent hard-coded Xero client secret; rotate it and review the script before use.",
+      "tags": [
+        "Xero API",
+        "Writes CSV",
+        "Credential review required"
+      ],
+      "path": "Utilities/DuplicateFinder.ps1",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/Utilities/DuplicateFinder.ps1"
+    },
+    {
+      "name": "youtube_transcript_downloader.py",
+      "category": "Utilities",
+      "description": "Downloads transcripts for YouTube video or playlist URLs and saves one text file per video.",
+      "tags": [
+        "Python",
+        "Downloads files",
+        "YouTube"
+      ],
+      "path": "youtube_transcript_downloader.py",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/scripts/youtube_transcript_downloader.py"
+    }
+  ]
+}
