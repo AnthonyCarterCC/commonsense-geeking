@@ -1,0 +1,16 @@
+{
+  "Tenant": "velocityairau.onmicrosoft.com",
+  "TenantAdminUrl": "https://velocityairau-admin.sharepoint.com",
+  "SourceSiteUrl": "https://velocityairau.sharepoint.com/sites/VA",
+  "SourceLibrary": "Documents",
+  "ArchiveSiteUrl": "https://velocityairau.sharepoint.com/sites/Velocity5YearArchive",
+  "ArchiveSiteTitle": "Velocity 5 year Archive",
+  "SiteOwner": "admin@velocityairau.onmicrosoft.com",
+  "ArchiveLibrary": "Documents",
+  "ArchiveThresholdYears": 5,
+  "TestFileLimit": 0,
+  "DryRun": false,
+  "LogPath": "./archive-log-VA.csv",
+  "ClientId": "04fde341-9fe5-4286-9744-7e548daea2b0",
+  "Thumbprint": "14AEFC943DCCEBF72E581EEFA5481545AE9B14DE"
+}

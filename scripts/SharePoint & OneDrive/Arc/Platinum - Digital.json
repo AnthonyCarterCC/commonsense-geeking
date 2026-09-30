@@ -1,0 +1,16 @@
+{
+  "TenantAdminUrl": "https://platinummc-admin.sharepoint.com",
+  "SourceSiteUrl": "https://platinummc.sharepoint.com/sites/Digital",
+  "SourceLibrary": "Documents",
+  "ArchiveSiteUrl": "https://platinummc.sharepoint.com/sites/Digital5yrArchive",
+  "ArchiveSiteTitle": "Digital 5yr Archive",
+  "SiteOwner": "admin@platinummc.onmicrosoft.com",
+  "ArchiveLibrary": "Documents",
+  "ArchiveThresholdYears": 5,
+  "TestFileLimit": 0,
+  "ClientId": "6d586e8a-1308-4cd1-aa8e-721b9f5cb16f",
+  "Thumbprint": "044447ECF24E7C804EA33E3FA7DDB8949C42CE0F",
+  "Tenant": "platinummc.onmicrosoft.com",
+  "LogPath": "./archive-log-digital.csv",
+  "DryRun": false
+}

@@ -1,0 +1,240 @@
+Title: Reverse Gamma Scalping 5/10: Alex Mendoza: 05/01/10
+Video ID: ax3i9z1-GEA
+URL: https://www.youtube.com/watch?v=ax3i9z1-GEA
+------------------------------------------------------------
+
+[00:28] As we mentioned earlier, we're not going
+[00:31] to adjust our stock position unless the
+[00:34] stock moves by at least $2.50.
+[00:38] Um
+[00:40] And the interesting thing here is we're
+[00:42] probably going to try to look at
+[00:44] situations during
+[00:46] um at the end of the trading day. In
+[00:48] other words, we don't want to be sitting
+[00:50] uh next to the next to our computer all
+[00:52] day with these things. There's a chance
+[00:54] the stock might move up
+[00:56] $2, $3 intraday. It might revert. If it
+[01:00] does, um we don't want to get carried
+[01:02] away with it. We may just leave the
+[01:03] position as it is. Um but what we want
+[01:06] to do is we we don't want to get carried
+[01:09] away with over-trading during the day.
+[01:12] Um
+[01:14] The good news for this particular
+[01:16] position was that the stock over the
+[01:19] course of 2 weeks
+[01:21] uh it only moved more than $2.50 a day
+[01:25] uh just a handful of times. And remember
+[01:28] that you don't want to make too many
+[01:29] adjustments because you are going to be
+[01:31] buying the stock higher and selling the
+[01:33] stock lower every time you buy and sell
+[01:35] stock. So
+[01:37] we started out with a negative delta. We
+[01:40] know that the stock went up um and we
+[01:43] know that we didn't have an initial
+[01:44] stock position.
+[01:46] Every time the stock goes up $2.50
+[01:50] we're going to buy some shares. We're
+[01:51] going to buy 100 shares. Every time the
+[01:54] stock goes down 250 we're going to sell
+[01:56] shares. So as you can see there are a
+[01:58] couple of points that we're going to go
+[02:00] after. Uh namely this particular day uh
+[02:03] you know, a particular day December uh
+[02:05] November 29th when the stock went down
+[02:08] $4.70
+[02:09] or November 30th. Um the next day when
+[02:12] the stock went up by almost $3, went up
+[02:15] $2.94
+[02:17] and then um a couple days after that
+[02:19] when the stock went up 427.
+[02:22] So we're going to go ahead and address
+[02:23] these particular situations to show you
+[02:25] what we're going to do.
+[02:27] Um
+[02:28] November 28th, the stock opened um
+[02:32] the stock opened higher and uh when it
+[02:34] was up 250
+[02:36] we were supposed to buy 100 shares. So
+[02:41] the stock closed up uh $5.01
+[02:45] and we ended up buying another 100
+[02:47] shares. Uh
+[02:49] so that we were now long a total of 200
+[02:52] shares on the close.
+[02:54] So big position, but we ended up
+[02:56] protecting ourselves and notice what
+[02:58] ended up happening. The stock went up
+[03:00] $5.01.
+[03:02] And as you can see there are two moves
+[03:04] in there of at least $2.50.
+[03:07] So when the stock first moved up 250 we
+[03:10] bought 100 shares. When it moved up
+[03:12] another 250 we bought another 100
+[03:15] shares. So right now we're long 200
+[03:18] shares at the close of the day.
+[03:21] Um
+[03:22] On December 1st
+[03:24] uh the stock opens lower and when it was
+[03:26] down 250
+[03:28] we sold 100 shares. So
+[03:31] in hindsight
+[03:33] you're going to think to yourself, I
+[03:34] wish I hadn't bought the extra 100
+[03:36] shares when the stock was up five bucks.
+[03:39] Well, that's hindsight trading and we
+[03:40] don't do that, okay? Because you don't
+[03:42] know we didn't know whether the stock
+[03:44] was going to go down the next day or
+[03:45] whether it was going to go up. So rather
+[03:48] than try to spend all this time
+[03:50] thinking that we can predict things
+[03:52] we're going to make the right decision
+[03:54] based on the information we have, not on
+[03:56] the information we hope to have.
+[03:59] Um
+[04:00] The stock then um
+[04:02] as the stock went down $5 um
+[04:05] because it went down two $2.50 multiples
+[04:10] we had to sell another 100 shares on the
+[04:12] close, which then flattened out our
+[04:14] position.
+[04:15] So you notice we bought 200 shares and
+[04:18] we sold 200 shares and because of the
+[04:22] nature in which these things were uh
+[04:24] were done um the the there's um
+[04:28] in some of the shares we bought and some
+[04:30] of the shares we sold at the same at
+[04:31] about the same price.
+[04:33] Uh basically we lost about $219
+[04:36] on the stock transactions just the way
+[04:38] it worked out. Um this is going to
+[04:42] happen through gamma scalping. You have
+[04:44] now locked in a guaranteed loss, but
+[04:47] keep in mind that you are willing to
+[04:50] take a guaranteed small loss in order to
+[04:54] avoid the potential big loss. That is
+[04:56] the notion of reverse gamma scalping.
+[04:59] Okay?
+[05:00] Um
+[05:01] On December 2nd the market
+[05:04] rose $2.94.
+[05:07] So just over 250
+[05:09] um and
+[05:11] we decided um
+[05:13] you know, we can go ahead and and the
+[05:16] reason that we looked at this at 294 is
+[05:18] we would have loved to have bought the
+[05:20] stock right at 250 as the stock went up
+[05:22] 250. It's not a perfect science.
+[05:25] Sometimes you're going to have the
+[05:27] stock's going to move away from you by a
+[05:28] little bit more than 250 before you're
+[05:30] able to place the trade to buy the stock
+[05:32] or sell it or whatever you need to do.
+[05:34] That's fine.
+[05:36] So if we didn't get in until 294
+[05:39] we go ahead and address our position and
+[05:41] buy the 100 shares at that point.
+[05:44] Um
+[05:46] Good thing that we did on December 8th
+[05:49] we have another up day in the stock and
+[05:51] when the stock got to 8234
+[05:54] we bought another 100 shares. So we now
+[05:56] have 200 shares in the position.
+[05:59] Since the stock didn't go up a full $5
+[06:02] we didn't buy another 100 shares.
+[06:05] Okay? But one of the things we can do as
+[06:08] it says in the slide, we will do it on
+[06:10] the close. One of the things we can do
+[06:12] is we can decide at the close of the day
+[06:14] if you want you can actually go ahead
+[06:16] and buy whatever residual the residual
+[06:20] 100 shares um if it helps you sleep
+[06:22] better at night.
+[06:24] Okay? So again, some of these things are
+[06:25] going to be judgment calls.
+[06:28] Um
+[06:29] This is the map of the stock trades and
+[06:31] as you can see uh there were times when
+[06:33] we bought stock. Uh we had the first
+[06:35] purchase the first two purchases of
+[06:37] stock followed by the two sales and as
+[06:40] the stock went up we then had to
+[06:42] purchase stock. So we ended up net long
+[06:45] uh 300 shares of stock and because of
+[06:49] where the stock settled we actually
+[06:51] ended up making $506
+[06:54] uh net
+[06:56] uh
+[06:57] on those uh on those on that particular
+[06:59] position.
+[07:00] So again, it's not a lot of money, but
+[07:04] it's a good thing that we made some of
+[07:06] this money in the stock position
+[07:09] um and it doesn't always work out that
+[07:11] way. Sometimes you do have a small loss.
+[07:14] All right? So uh you don't always make
+[07:16] money on the stock position. Sometimes
+[07:18] you do take a hit on it. Typically you
+[07:20] do make you do take a hit on it. What's
+[07:22] been happening here is that because the
+[07:24] stock has been going up and up and up
+[07:26] and up then the purchase of all our
+[07:28] stock has allowed us to make money uh as
+[07:32] the stock goes up. We now have to weigh
+[07:34] that against what's been happening in
+[07:36] the option position in order to see what
+[07:39] we've really made. But if you think
+[07:40] about it, we bought the 75 straddles.
+[07:44] The stock is around $85. So our straddle
+[07:49] has lost
+[07:52] if you hold on if if you're looking at
+[07:54] it, the stock is technically the the
+[07:55] straddle has technically lost about uh
+[07:59] $10
+[08:00] of the 13 that we collected.
+[08:03] Okay? Because the straddle the the the
+[08:05] best we can do right now is buy the
+[08:07] straddle back for about $10
+[08:11] if it closes here at expiration. we can
+[08:14] buy it back as cheaply as maybe 10. So
+[08:17] we're not Again, notice that we're not
+[08:18] getting the full $13 of our straddle.
+[08:21] We're only going to get $10 of um
+[08:25] we're going to have I'm sorry, we're
+[08:26] only going to get $3 in the straddle
+[08:27] because we have to buy it back for at
+[08:29] least 10. So it's a good thing that we
+[08:31] made money through reverse gamma
+[08:34] scalping because otherwise we wouldn't
+[08:36] have had as much to make on the total
+[08:38] position. In fact, um you know, as we
+[08:41] look at our position the straddle
+[08:44] is now worth 1125.
+[08:46] Most of this being real value.
+[08:49] Therefore, we're not terribly hopeful
+[08:52] that this straddle is going to expire
+[08:54] worthless. It's going to expire
+[08:56] somewhere around 10 or $11 and that
+[08:58] being the case as we see our options, we
+[09:01] see that our deltas on just the options
+[09:04] are minus 730. So good thing that we've
+[09:07] been able to buy some stock along the
+[09:09] way uh to minimize those deltas.
+[09:12] Um as we see we sold the straddle at 13.
+[09:16] It's now worth about 1125.
+[09:20] Uh that means that basically we've made
+[09:22] we have about a $2.75
+[09:24] profit on the straddle uh couple that
+[09:28] with about the 500 um you know, about
+[09:30] the $5 profit on the stock, we end up
+[09:33] with about a net $700 gain on the
+[09:36] position. And the reason we ended up
+[09:38] with about a $700 gain as opposed to
+[09:40] about a two and a half dollar two 250
+[09:43] gain is due to the reverse gamma
+[09:45] scalping.
+[10:03] Mhm.

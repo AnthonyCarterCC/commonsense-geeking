@@ -1,0 +1,17 @@
+{
+  "TenantId": "CLIENTTENANT.onmicrosoft.com",
+  "ClientId": "FROM Entra app registration (needs Graph Sites.ReadWrite.All application permission)",
+  "Thumbprint": "FROM the app's certificate",
+  "ArchiveThresholdYears": 5,
+  "LogPath": "./archive-m365-log.csv",
+  "Sites": [
+    {
+      "SiteUrl": "https://CLIENTTENANT.sharepoint.com/sites/SITE1",
+      "Library": "Documents"
+    },
+    {
+      "SiteUrl": "https://CLIENTTENANT.sharepoint.com/sites/SITE2",
+      "Library": "Documents"
+    }
+  ]
+}

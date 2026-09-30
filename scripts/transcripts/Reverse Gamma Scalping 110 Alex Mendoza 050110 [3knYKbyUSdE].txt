@@ -1,0 +1,220 @@
+Title: Reverse Gamma Scalping 1/10: Alex Mendoza: 05/01/10
+Video ID: 3knYKbyUSdE
+URL: https://www.youtube.com/watch?v=3knYKbyUSdE
+------------------------------------------------------------
+
+[00:26] I want to welcome everybody to um to to
+[00:30] this uh to this presentation by random
+[00:32] walk trading uh my name is Alex Mendoza
+[00:34] and uh you've seen uh I guess a lot of
+[00:37] you have read the bio made a few changes
+[00:39] to it um the uh you know the the thing
+[00:42] is yeah I was a Floor Trader for um for
+[00:45] five years and Not only was I a Floor
+[00:47] Trader but uh The Firm for which I for
+[00:50] which I worked was very big on making
+[00:53] sure that we at the end of the trading
+[00:55] day we came in and we taught those who
+[00:58] were going to become Market market
+[01:00] makers for our firm so the success of
+[01:02] the firm rested the educ the education
+[01:05] portion of the success of the firm
+[01:07] rested on our ability to convey uh these
+[01:10] topics to people so we were trained in a
+[01:13] formal environment and at the same time
+[01:16] uh we were trained on how to deliver
+[01:18] that formal training uh to the upcoming
+[01:22] professional Traders so uh not only do I
+[01:24] have experience as a professional Floor
+[01:26] Trader I have experience in educating
+[01:28] other Traders other professional
+[01:30] um which I think is a lost art and
+[01:32] something that's missing from the
+[01:33] industry so today's topic is uh is going
+[01:37] to be on something that some of you may
+[01:39] have heard of some of you may not have
+[01:41] heard of uh it's called reverse gamma
+[01:45] scalping reverse gamma scalping is is a
+[01:49] mouthful so let's go ahead and start
+[01:52] with what exactly does it mean uh what
+[01:55] exactly does reverse gamma scalping mean
+[01:58] uh the key word in all of this is gamma
+[02:01] which is uh one of the option Greeks and
+[02:05] it gamma uh is rough basically defined
+[02:08] as the change in Delta based on the
+[02:12] change in the
+[02:13] stock okay the the Delta is defined as
+[02:16] the change in the option value based on
+[02:19] the change in the stock the gamma
+[02:22] is you know for those of you that are
+[02:24] more math oriented that's second
+[02:25] derivative it's the change in the Delta
+[02:28] over the change in the stock so as the
+[02:30] stock moves the position Delta whatever
+[02:34] your trade is your position Delta is
+[02:36] going is likely it's probably going to
+[02:39] change and it's going to change if you
+[02:40] have I if if you have options so the
+[02:44] gamma helps measure that now the next
+[02:47] word in there is
+[02:48] scalping and scalping refers to the
+[02:53] notion if you go to the New York Stock
+[02:55] Exchange or if you go and you look at
+[02:57] what the New York Stock Exchange
+[02:58] Specialists do the stock specialist what
+[03:01] they do is they buy stock and they sell
+[03:03] stock and they'll try to they put up a
+[03:06] bid and the a bid price and then ask
+[03:09] price and what they try to do all day
+[03:11] really is as long as the or as long as
+[03:13] the market is in Balance what they try
+[03:16] to do is they try to buy on the bid and
+[03:18] sell on the ask and since the bid is a
+[03:21] little bit lower than the ask if you do
+[03:24] that a lot you make quite a bit of money
+[03:27] and all you're trying to do is keep a
+[03:29] market make a market for everybody uh
+[03:31] and you try to buy on the bid and sell
+[03:33] on the ask that action of buying and
+[03:36] selling stock hopefully for a profit and
+[03:40] repeated buying and selling stock that's
+[03:42] what's referred to as scalping
+[03:46] stock okay that's that's where the term
+[03:48] scalping comes from when you buy
+[03:50] something and you sell it the the notion
+[03:53] of your average day trader what they're
+[03:55] doing what they're trying to do is scalp
+[03:57] very few day Traders are trying to uh
+[03:59] put on long-term positions you're trying
+[04:02] to scalp you're trying to get a little
+[04:03] bit here a little bit there um the way
+[04:07] that you're going to scalp stock is
+[04:11] you're going to allow the
+[04:13] gamma okay remember gamma's the change
+[04:16] in Delta you're going to allow the gamma
+[04:18] to change the
+[04:21] Delta and then you're going to trade
+[04:23] stock buy it or sell it according to um
+[04:28] according to what ends up happening in
+[04:31] your position so what I have here if you
+[04:34] look at this slide what I have here is
+[04:36] the picture of a
+[04:37] straddle and if you look at the straddle
+[04:40] a straddle is you know just the purchase
+[04:41] of a call the purchase of a put if you
+[04:44] look at the picture of the straddle
+[04:46] what's going to end up happening is as
+[04:48] the stock goes higher and
+[04:50] higher your call Deltas are going to get
+[04:53] bigger your put Deltas are going to get
+[04:57] smaller uh so you're going to have more
+[05:00] positive Deltas than negative Deltas uh
+[05:02] those of you that you know those of you
+[05:03] that want to review um we have some
+[05:06] information for free on our website uh
+[05:08] on the basics of the option Greeks uh in
+[05:11] case you're interested but I assume at
+[05:13] this point that most of you have a
+[05:15] fairly decent command of Delta and so
+[05:18] I'm not going to spend too much time
+[05:20] explaining it but what ends up happening
+[05:23] is you buy a straddle and as the stock
+[05:26] goes up your Delta gets bigger and
+[05:28] bigger and what this more and more
+[05:30] positive and what this means is that as
+[05:32] the stock continues to go up the rate at
+[05:36] which you make money because the stock
+[05:39] is going up gets bigger and bigger so
+[05:41] basically you make money faster and
+[05:44] faster um as the stock goes down what
+[05:49] ends up happening is the as the stock
+[05:53] drops the Delta gets more and more
+[05:55] negative which means and negative Deltas
+[05:58] allow you to make money as the stock
+[06:00] goes down so the further the stock goes
+[06:02] down the more and more negative your
+[06:04] Delta becomes the more and more money
+[06:06] you make and that is this is what we
+[06:09] call Standard gamma this is a standard
+[06:13] uh long gamma position and what I'm
+[06:15] going to cover now is something called
+[06:17] gamma scalping why am I covering gamma
+[06:19] scalping so that eventually you can
+[06:21] understand what it means to do what's
+[06:22] called reverse gamma scalping so let's
+[06:25] go over the concept of gamma scalping
+[06:28] first uh the as your Deltas get more and
+[06:32] more suppose the stock goes up you buy a
+[06:34] straddle and the stock goes up as your
+[06:36] Deltas get more and more positive you're
+[06:38] going to make more and more
+[06:40] money um on the other hand if the stock
+[06:43] if you buy a straddle and the stock goes
+[06:44] down as your Deltas get more and more
+[06:47] negative and the stock goes further and
+[06:49] further down you're also going to make
+[06:51] money that's the easy part of the
+[06:53] stradle the more difficult part comes in
+[06:59] when the stock goes up but not
+[07:02] enough okay or when the stock goes down
+[07:05] but not enough because what you really
+[07:07] want in a straddle is you want the stock
+[07:10] to pick a direction you put on the trade
+[07:14] it's delta neutral you're
+[07:15] non-directional meaning you don't have a
+[07:18] bias but at the end of the day you want
+[07:21] the stock to pick a direction you want
+[07:23] the stock to go way up or you want it to
+[07:26] go way down because if it goes way up
+[07:28] you make money if it goes way down you
+[07:30] make money the problem comes when the
+[07:32] stock sort of goes up or sort of goes
+[07:36] down or how about this how about if it
+[07:38] goes up and then it comes back down the
+[07:41] next day and then it goes down big but
+[07:44] then it comes back up the next day after
+[07:45] that so what are some of the things you
+[07:48] can do in order to keep that from
+[07:52] happening because remember when you
+[07:53] bought the straddle you bought a call
+[07:55] and you bought a put which means you've
+[07:57] got twice the amount of Daily Time Decay
+[08:01] that you would in a standard position
+[08:04] and that being the case it's going to
+[08:06] cost you every single day to hold on to
+[08:09] this straddle so if the if the stock
+[08:13] doesn't move big and doesn't sustain a
+[08:16] big move in One Direction or another
+[08:19] you're probably going to end up losing
+[08:22] money uh or you're going to give up some
+[08:24] of your profits Through Time Decay and
+[08:26] it's a really frustrating thing to have
+[08:28] happen for those of you that have traded
+[08:30] straddles it's really frustrating to see
+[08:32] that happen so the last thing you want
+[08:35] to do in a straddle have to have happen
+[08:38] in a straddle is the stock goes up you
+[08:40] make some money and then the stock kind
+[08:43] of sits around or retraces a little bit
+[08:45] and you give some of that money back and
+[08:48] you feel kind of helpless because it's
+[08:50] not what you set out to have
+[08:52] happen so gamma scalping refers to the
+[08:57] ability now that for example suppose the
+[08:58] stock goes up if the stock goes up you
+[09:03] have positive Delta and what you can do
+[09:05] is you can now sell stock to get those
+[09:09] Deltas back to zero to neutralize the
+[09:12] Deltas again in case the stock comes
+[09:15] back
+[09:16] down that's what you're trying to do on
+[09:19] the other hand if the stock goes down
+[09:22] you're going to have some negative
+[09:23] Deltas so what do you do you buy stock
+[09:26] so that your Delta gets back to zero so
+[09:29] so the notion of gamma scalping is when
+[09:31] the stock moves you buy or sell stock in
+[09:36] order to get yourself back to a delta
+[09:38] neutral position that is the notion of
+[09:41] standard gamma
+[09:58] scalping

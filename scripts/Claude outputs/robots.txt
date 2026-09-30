@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# This site is not intended for public indexing

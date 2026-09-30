@@ -1,0 +1,39 @@
+# YouTube links scraped from a "squeeze indicator" search (2026-09-18)
+# One URL per line - safe to loop over from the command line, e.g.:
+#   while read -r url; do echo "$url"; done < youtube_links.txt
+#   (or, skipping comment lines: grep -v '^#' youtube_links.txt)
+
+# --- Videos ---
+https://www.youtube.com/watch?v=Xz3l0OSvrVE
+# Most Popular Indicator Ever: Squeeze Momentum Indicator (by Lazybear) - Catching Breakouts Tutorial
+
+https://www.youtube.com/watch?v=inFv7x77bxQ
+# Spot Explosive Trades with the TTM Squeeze Indicator: Ultimate Squeeze Course + Free Scans!
+
+https://www.youtube.com/watch?v=XQh7s7WxJdE
+# The Squeeze Index: How To Catch HUGE Breakouts As They Happen
+
+https://www.youtube.com/watch?v=heIfocdb_KM
+# BEST Squeeze Momentum Indicator Strategy a Buy Sell Indicator On TradingView
+
+https://www.youtube.com/watch?v=l4vneYtkjLM
+# Find Stocks BEFORE they make a BIG MOVE with TTM Squeeze
+
+https://www.youtube.com/watch?v=KXKQlpDz9dk
+# Squeeze Pro vs. Big 3 Squeeze Indicators: The Best Trading Strategy
+
+# --- Shorts ---
+https://www.youtube.com/shorts/fRW61IaZU4M
+# SQUEEZE Indicator was Pinging!
+
+https://www.youtube.com/shorts/YVPEk3Vzs6g
+# Squeeze Momentum Strategy Backtest #daytrading #cryptotrading #tradingview
+
+https://www.youtube.com/shorts/yfOGSxLamVo
+# How to find stocks for SHORT SQUEEZE
+
+https://www.youtube.com/shorts/klrDA06x8hY
+# Using The Squeeze Indicator To Catch Big Moves Trading The Stock Market!
+
+https://www.youtube.com/shorts/CHmif8aehlE
+# Short Squeeze Explained in 60 Seconds

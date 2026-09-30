@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Commonsense Geeking - Central hub for scripts, tools, and applications">
+  <title>Commonsense Geeking</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --primary: #3b82f6;
+      --primary-dark: #1e40af;
+      --accent: #8b5cf6;
+      --accent-dark: #6d28d9;
+      --bg-light: #f8fafc;
+      --bg-dark: #0f172a;
+      --text-light: #1e293b;
+      --text-dark: #f1f5f9;
+      --card-light: #ffffff;
+      --card-dark: #1e293b;
+      --border-light: #e2e8f0;
+      --border-dark: #334155;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--text-light);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    body.dark-mode {
+      background: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .dark-mode-toggle {
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.3s ease;
+    }
+
+    .dark-mode-toggle:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .category-section {
+      margin-bottom: 3rem;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--primary);
+    }
+
+    body.dark-mode .category-header {
+      border-bottom-color: var(--accent);
+    }
+
+    .category-icon {
+      font-size: 2rem;
+    }
+
+    .category-header h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .app-card {
+      background: var(--card-light);
+      border: 1px solid var(--border-light);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    body.dark-mode .app-card {
+      background: var(--card-dark);
+      border-color: var(--border-dark);
+    }
+
+    .app-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      border-color: var(--primary);
+    }
+
+    body.dark-mode .app-card:hover {
+      border-color: var(--accent);
+    }
+
+    .app-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .app-icon {
+      font-size: 2.5rem;
+    }
+
+    .app-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      flex: 1;
+    }
+
+    .app-description {
+      font-size: 0.95rem;
+      opacity: 0.7;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .app-link {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .app-link:hover {
+      background: var(--primary-dark);
+      transform: translateX(2px);
+    }
+
+    body.dark-mode .app-link {
+      background: var(--accent);
+    }
+
+    body.dark-mode .app-link:hover {
+      background: var(--accent-dark);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+      border-top: 1px solid var(--border-light);
+      opacity: 0.7;
+      font-size: 0.9rem;
+    }
+
+    body.dark-mode footer {
+      border-top-color: var(--border-dark);
+    }
+
+    .loading {
+      text-align: center;
+      padding: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .error {
+      background: #fee2e2;
+      color: #991b1b;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin: 1rem;
+    }
+
+    body.dark-mode .error {
+      background: #7f1d1d;
+      color: #fecaca;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .apps-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .category-header h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Commonsense Geeking</h1>
+    <p>Central hub for scripts, tools, and applications</p>
+    <div class="controls">
+      <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="content" class="loading">Loading applications...</div>
+  </main>
+
+  <footer>
+    <p>Last updated: <span id="lastUpdated">Loading...</span></p>
+    <p>Commonsense Geeking © 2026</p>
+  </footer>
+
+  <script>
+    // Dark mode toggle
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    }
+
+    // Load dark mode preference
+    if (localStorage.getItem('darkMode') === 'true') {
+      document.body.classList.add('dark-mode');
+    }
+
+    // Fetch and render apps
+    async function loadApps() {
+      try {
+        const response = await fetch('./data/apps.json');
+        if (!response.ok) throw new Error('Failed to load apps');
+        const data = await response.json();
+        renderApps(data);
+      } catch (error) {
+        document.getElementById('content').innerHTML = `<div class="error">Error loading applications: ${error.message}</div>`;
+      }
+    }
+
+    function renderApps(data) {
+      const contentDiv = document.getElementById('content');
+      contentDiv.innerHTML = '';
+
+      // Update last updated date
+      document.getElementById('lastUpdated').textContent = data.site.lastUpdated;
+
+      // Sort categories by order
+      const sortedCategories = data.categories.sort((a, b) => a.order - b.order);
+
+      sortedCategories.forEach(category => {
+        // Filter apps for this category
+        const categoryApps = data.apps.filter(app => app.category === category.id);
+
+        if (categoryApps.length === 0) return;
+
+        // Create category section
+        const section = document.createElement('div');
+        section.className = 'category-section';
+
+        const header = document.createElement('div');
+        header.className = 'category-header';
+        header.innerHTML = `
+          <span class="category-icon">${category.icon}</span>
+          <h2>${category.name}</h2>
+        `;
+        section.appendChild(header);
+
+        // Create apps grid
+        const grid = document.createElement('div');
+        grid.className = 'apps-grid';
+
+        categoryApps.forEach(app => {
+          const card = document.createElement('div');
+          card.className = 'app-card';
+          card.innerHTML = `
+            <div class="app-header">
+              <span class="app-icon">${app.icon}</span>
+              <h3 class="app-title">${app.title}</h3>
+            </div>
+            <p class="app-description">${app.description}</p>
+            <a href="${app.link}" class="app-link" target="_blank">Open App</a>
+          `;
+          grid.appendChild(card);
+        });
+
+        section.appendChild(grid);
+        contentDiv.appendChild(section);
+      });
+    }
+
+    // Load apps on page load
+    loadApps();
+  </script>
+</body>
+</html>

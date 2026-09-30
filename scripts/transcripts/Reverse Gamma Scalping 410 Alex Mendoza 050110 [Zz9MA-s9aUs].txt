@@ -1,0 +1,259 @@
+Title: Reverse Gamma Scalping 4/10: Alex Mendoza: 05/01/10
+Video ID: Zz9MA-s9aUs
+URL: https://www.youtube.com/watch?v=Zz9MA-s9aUs
+------------------------------------------------------------
+
+[00:27] In a straddle, you are not going to keep
+[00:28] the whole credit. Okay? Because you're
+[00:30] probably not going to get pinned right
+[00:33] at $75, which is the only place where
+[00:35] you get to keep the whole credit.
+[00:37] So, I just wanted to get that out of the
+[00:39] way so that no one's thinking they they
+[00:41] have any chance of keeping the full $13.
+[00:44] You're going to keep a portion of it.
+[00:46] And you're going to try your best not to
+[00:48] lose um not to lose the
+[00:52] a large chunk of it, if not, you know,
+[00:54] in a on a position where you can, you
+[00:56] know, where where it can be worth more
+[00:58] than $13 and you can lose a lot of it.
+[01:00] You can lose a lot more of it. So, I
+[01:01] just want you guys to have the right
+[01:02] perspective in mind when you get into
+[01:04] this type of trade.
+[01:06] Okay?
+[01:07] Um the stock being around $76, uh you
+[01:11] decide to sell 10 of the of the 75
+[01:14] straddles. And
+[01:17] because the stock is not exactly at 75,
+[01:22] the straddle is not going to be exactly
+[01:24] delta neutral. In fact, because the the
+[01:27] stock is above 75, your calls are going
+[01:30] to be slightly in the money, which means
+[01:32] they'll hold the bigger delta. Your puts
+[01:34] are going to be slightly out of the
+[01:36] money, so they'll have a smaller delta.
+[01:38] So, this position will take on the delta
+[01:40] of the calls, but remember that you sold
+[01:42] the calls.
+[01:43] So, your straddle, it's going to have a
+[01:45] slight short delta.
+[01:48] Okay? Well, at inception, it's going to
+[01:50] have a slight short delta.
+[01:51] This is okay. This is fine. It's It's
+[01:54] okay to have a slight short delta, as
+[01:55] you'll see when we move forward in the
+[01:57] presentation.
+[01:59] We know that being short gamma, if the
+[02:02] market goes up, our delta is going to
+[02:04] get shorter. We're going to get more and
+[02:06] more negative.
+[02:08] Okay? Um
+[02:10] if the if the if the market goes down,
+[02:14] we're going to get longer deltas. In
+[02:15] other words, our deltas are going to get
+[02:16] more and more positive. That's the
+[02:18] nature of being short a straddle. And
+[02:21] again, I'm using a short straddle for
+[02:23] the purpose of simplicity. Most of
+[02:25] you're probably going to use something
+[02:26] like an iron butterfly uh to enter such
+[02:30] uh uh to look at such a position.
+[02:32] Okay?
+[02:33] Um
+[02:34] So, on November 19th, the stock price is
+[02:37] 75.97.
+[02:39] Volatility is about 79%.
+[02:41] We think that the volatility is going to
+[02:43] come in.
+[02:44] Uh as you look at the delta, we go to
+[02:46] your we go to our broker's site to get
+[02:48] the Greeks to get the option Greeks. And
+[02:50] we see that the delta of the call is
+[02:52] slightly above 50.
+[02:54] It's actually 56. And remember that
+[02:56] since we sold the calls, uh we have a
+[02:58] negative delta. Um
+[03:01] the 75 puts have a delta of 44. And
+[03:04] since we sold those puts, uh
+[03:07] we're going to have a positive delta of
+[03:09] uh we're going to have a positive 44
+[03:11] delta. So, the net delta of the of the
+[03:14] position is 12 deltas.
+[03:17] Okay? 12 deltas per straddle. If we sell
+[03:20] 10 straddles, since deltas are additive,
+[03:23] um we just have a position that is short
+[03:26] 120 delta.
+[03:28] And that's fine.
+[03:30] Okay? That's That's That's a That's
+[03:32] fine. It's fine to have that kind of a
+[03:33] position. Being short 100 deltas isn't
+[03:36] really going to kill you. So, we just
+[03:38] have to be cognizant of what our
+[03:39] position's going to do. We're not trying
+[03:41] to make money through the delta. We're
+[03:43] trying to make money through the vol
+[03:45] through a volatility crush and through
+[03:47] time decay. Okay? A delta just happens
+[03:50] to be a consequence of the trade. And if
+[03:53] the stock stays at 76 the whole time, it
+[03:56] doesn't matter how big the delta is,
+[03:58] it's not going to be a factor. Deltas
+[03:59] are only a factor if a stock moves.
+[04:02] Okay? So, you know, I think everybody's
+[04:05] everybody's aware of that. So, once we
+[04:07] know what the Greeks to our position is,
+[04:10] and we have our original uh net delta
+[04:13] and gamma, um
+[04:15] we can move on with our trade. As you
+[04:17] get more advanced or as your positions
+[04:19] get bigger,
+[04:21] you're going to want to know your Vega
+[04:22] and Theta.
+[04:24] Okay? You're going to want to know um
+[04:26] how much you can expect to make or lose
+[04:29] as the volatility changes, and you're
+[04:31] going to want to know how much you can
+[04:32] expect to make on any given day uh just
+[04:35] through the passing of time. The one
+[04:37] thing we're sure of is that time moves
+[04:39] forward. Uh so, therefore, um that's a
+[04:43] number that you're basically going to be
+[04:44] able to rely on every any day. You can
+[04:47] still lose money through the other
+[04:49] Greeks.
+[04:50] But, it's one of those things that
+[04:51] eventually, as you get more and more
+[04:53] sophisticated in your trading, you're
+[04:55] going to want to know your Vega and
+[04:56] Theta as well as your delta and gamma.
+[04:59] For right now, we're just going to
+[05:00] concentrate on the delta and gamma. And
+[05:03] our current delta is that we're short
+[05:05] 120 deltas.
+[05:07] And we are short 40 gamma.
+[05:12] Okay?
+[05:14] We know a few things. We We have an idea
+[05:16] of a few things. Typically, when the
+[05:18] market collapses,
+[05:21] volatility levels tend to increase, and
+[05:23] that is not to our advantage. In fact,
+[05:26] it is to our disadvantage. As stocks go
+[05:28] down, volatility tends to go up.
+[05:30] And as the market goes up,
+[05:33] volatility levels tend to come down,
+[05:36] which would be to our benefit. So,
+[05:39] therefore, maybe since we have that
+[05:42] slant in the way that volatility is
+[05:44] going to affect us, maybe it makes sense
+[05:48] to keep a slight short delta, if
+[05:50] possible, kind of like the one that we
+[05:51] have,
+[05:52] even if the market's running higher,
+[05:54] because as the market goes higher, we're
+[05:56] going to lose money on our delta,
+[05:58] but we're going to make it back, or
+[06:01] we're going to we're going to make some,
+[06:03] if not all of it back, through the crush
+[06:05] the vol of the volatility, as you can
+[06:07] see from the curve.
+[06:08] If the market goes down,
+[06:11] the volatility's going to the rise in
+[06:13] volatility's going to hurt us, and we
+[06:15] can hedge ourselves a little bit by
+[06:17] holding a slightly uh short delta
+[06:20] position.
+[06:22] Okay? This is something that when we had
+[06:24] a short gamma position on the trading
+[06:26] floor, uh sometimes we were advised to
+[06:29] keep a slight short delta precisely for
+[06:31] this reason.
+[06:32] Okay? So, these these techniques
+[06:34] actually come from um come from the
+[06:36] trading floor, where you have to manage
+[06:38] these positions even if you don't want
+[06:40] them.
+[06:41] Okay?
+[06:42] Um
+[06:44] Step number six, uh we're we're deciding
+[06:47] to be constantly short the
+[06:50] equivalent of 100 shares of stock.
+[06:52] That's, you know, based on this position
+[06:54] of 10 straddles,
+[06:55] we feel that 100 shares is, you know,
+[06:59] which is 10%
+[07:00] of the total stock, if you look at it on
+[07:02] the standpoint of 10 straddles, uh 10
+[07:04] contracts is equivalent to 1,000 shares.
+[07:07] So, if you're going to remain short 100
+[07:10] shares of stock, you're really looking
+[07:12] at being short at leaning short by about
+[07:15] 10% of your total potential position.
+[07:18] And it's a reasonable rule of thumb to
+[07:20] have in a short in a in a position where
+[07:23] you're looking to make money through
+[07:24] short gamma.
+[07:26] Um
+[07:27] Obviously, it's not practical to have
+[07:30] exactly 100 shares of stock all the
+[07:32] time, because it would require trading
+[07:36] small quantities of stock over and over
+[07:39] and over again. And that's just
+[07:40] commission and execution intensive, and
+[07:43] it's not what you want to be doing in
+[07:45] these positions. So,
+[07:48] we make a couple of assumptions here. We
+[07:50] know that our net gamma
+[07:53] our net short gamma is 40.
+[07:56] Okay? And what that means is as the
+[07:58] stock moves a dollar, our delta is going
+[08:01] to change by 40.
+[08:03] Okay? By basically 40 shares.
+[08:06] We're looking to make adjustments about
+[08:07] every 100 shares.
+[08:10] And so, the question is how many dollars
+[08:13] does the stock have to move for our
+[08:15] delta to change by 100? And the answer
+[08:18] is, if our gamma is 40,
+[08:22] then if you take 100 shares and you
+[08:25] divide by the 40 and you divide by 40
+[08:27] gamma, you come out with a number that's
+[08:30] two and a half. What that means is that
+[08:32] you're going to be making an adjustment
+[08:35] of buying or selling 100 shares of stock
+[08:38] roughly every two and a half dollars
+[08:40] that the stock moves. Okay? So, this is
+[08:43] one of those important slides that you
+[08:45] want to make sure that you when you get
+[08:46] the copy of the slides, you want to make
+[08:47] sure you pay attention to this one. Um
+[08:51] you if you want to hedge 100 shares at a
+[08:54] time, then what you do is you say to
+[08:56] yourselves, in order for this position
+[08:58] to get more than 100 shares away from
+[09:00] me, uh the stock's going to have to move
+[09:02] on average two and a half bucks
+[09:05] uh either higher or lower than where it
+[09:07] is.
+[09:08] Okay? So, that's This is just This is
+[09:10] where you get your calculation for when
+[09:12] and how often you're going to hedge.
+[09:14] Um
+[09:15] Step number eight.
+[09:17] As if we have permission as as if we're
+[09:20] in charge of its permission, we now
+[09:21] allow the stock to move.
+[09:24] Okay? Um
+[09:27] Notice that uh the stock uh did start a
+[09:30] little bit higher once we sold the
+[09:32] straddle. Uh we're leaning slightly
+[09:34] short delta, so this is not good from a
+[09:37] delta standpoint, but it is good from
+[09:39] the standpoint of volatility um and the
+[09:42] volatility crush that's going to come
+[09:44] in. So, even though we're going to lose
+[09:45] some money on the delta,
+[09:47] we're going to make some of that money
+[09:49] back on uh the volatility effect.
+[10:09] Mhm.

@@ -1,0 +1,321 @@
+Title: SPX Gamma Trading: Risk $30 to Make $800? (The Strategy Explained!)
+Video ID: d1cD0ieUroM
+URL: https://www.youtube.com/watch?v=d1cD0ieUroM
+------------------------------------------------------------
+
+[00:00] good afternoon everyone in this video
+[00:02] we're going to build some SPX trades for
+[00:05] monthly expiration pins and we're going
+[00:07] to do so by analyzing gamma exposure and
+[00:11] dealer flows by the end of this video
+[00:14] we'll craft two different trade ideas
+[00:17] each one is going to be a lowrisk trade
+[00:20] idea one is risking $30 the other is
+[00:23] risking $80 and in both cases we're
+[00:26] looking to make more than
+[00:28] $800 the whole idea of this lowrisk High
+[00:32] reward trade is to analyze what is the
+[00:34] Market's underlying gamma exposure for
+[00:37] this February's monthly expiration and
+[00:40] take advantage of that information by
+[00:43] putting on some lowrisk trades where
+[00:45] you're okay losing if the trade doesn't
+[00:47] work out but if you win you get a
+[00:49] disproportionate reward for taking on
+[00:51] this risk now to understand gamma
+[00:54] exposure we need to First understand the
+[00:57] gamma piece of this here's a quick
+[01:00] overview of what gamma is but I would
+[01:02] recommend doing a deeper dive if this is
+[01:04] something you find interesting now You'
+[01:07] probably heard of the concept of Delta
+[01:08] if you trade options you've most
+[01:10] definitely heard of Delta because you're
+[01:11] purchasing whatever Delta strike price
+[01:14] option that you typically tend to
+[01:15] purchase and you've heard it measured in
+[01:17] Deltas Delta measures the change in the
+[01:20] actual options price for each plus or
+[01:22] minus $1 move in the underly so say you
+[01:25] have apple for example for each plus or
+[01:28] minus $1 move move that Apple moves the
+[01:31] Delta tells you how much that option
+[01:33] will move so say a Delta 50 options will
+[01:36] move $50 for every plus or minus $1 move
+[01:40] now in this case you also have to
+[01:42] measure that the Delta today is not
+[01:44] going to be the same as the Delta
+[01:46] tomorrow you have this concept called
+[01:48] Delta Decay and the Delta changes now
+[01:51] the rate at which this Delta changes is
+[01:54] measured through gamma gamma measures
+[01:57] the change in the options Delta for each
+[01:59] plus or minus $1 stock now once you
+[02:03] aggregate this uh gamma data across the
+[02:06] same strike but the different
+[02:07] expirations you can then create this
+[02:10] concept called gamma exposure you're
+[02:12] essentially summing up all of the data
+[02:14] and you're then trying to figure out is
+[02:16] this gamma exposure the net gamma
+[02:17] exposure positive or is the net gamma
+[02:20] exposure negative now a net gamma
+[02:22] exposure me uh being positive would
+[02:25] imply the following if the net gamma
+[02:27] exposure is positive then we know that
+[02:30] we should expect less volatility market
+[02:33] makers options market makers have sold
+[02:35] options at whatever those strike prices
+[02:37] are and it's in their best interest to
+[02:39] essentially keep price fluctuating and
+[02:41] to be able to collect all of this
+[02:43] premium that they've sold to retail
+[02:45] traders who have purchase these options
+[02:47] this is your typical scenario that
+[02:49] you've
+[02:49] seen in periods like this at near these
+[02:52] strike prices it's trades like the mean
+[02:54] reversion trades a lot of the choppy
+[02:56] Market trades that work exceptionally
+[02:58] well and if you keep trying to trade
+[03:00] Trends during uh when price is near
+[03:02] these strikes you'll find that those
+[03:04] Trend following trades fail a lot more
+[03:06] frequently now on the flip side if net
+[03:09] gamma exposure is negative then we
+[03:11] should be expecting a lot more
+[03:12] volatility as price gravitates towards
+[03:15] that particular strike price and a lot
+[03:17] more directional moves the reason for
+[03:20] this is if our net gamma exposure is
+[03:22] negative then a lot of the retail
+[03:24] Traders have sold the options and we
+[03:26] actually have the options market makers
+[03:28] who have purchased those options options
+[03:30] it's in their best interest to keep
+[03:32] price away from whatever that strike is
+[03:35] in which they've purchased these options
+[03:37] so say that strike might be let's just
+[03:39] use an example of
+[03:40] $60 then if price came exactly to $60
+[03:44] all of that premium that they have
+[03:46] purchased would be eradicated instead
+[03:48] they want to get price away from $60 as
+[03:51] quickly as they can so this option is
+[03:53] actually worth something to them so
+[03:55] that's how gamma exposure can start to
+[03:57] become useful and this is a very high
+[03:59] level overview but you'll see how this
+[04:01] all ties in now I tried to sum this up
+[04:04] in a easy to read table maybe you find
+[04:06] this useful if the net gamma exposure is
+[04:09] positive then we know that dealers are
+[04:12] incentivized to reduce the volatility
+[04:14] it's periods in this where you'll see a
+[04:16] lot of choppy and range-bound price
+[04:18] action and as a result you want to take
+[04:21] advantage of these sorts of setups mean
+[04:23] reversion setups uh volatility box
+[04:25] reversal setups the fade setup works
+[04:28] really well here that's because your
+[04:29] you're taking advantage of not just a
+[04:31] volatility Edge but you also have gamma
+[04:33] exposure and really big money on your
+[04:36] side here as well selling spreads and
+[04:38] Condors in this joining the options
+[04:40] market makers and selling the premium is
+[04:43] usually a good strategy on the flip side
+[04:45] if you have NE negative gamma exposure
+[04:48] then you're looking for a lot more
+[04:49] volatility and greater swings as price
+[04:51] approaches whatever that strike price is
+[04:53] because dealers want to get price way
+[04:56] the heck away from whatever that
+[04:57] negative volatility is in periods like
+[05:00] this buying mispriced inexpensive
+[05:02] options think out of the money calls for
+[05:05] example make a lot of sense because you
+[05:07] start to actually see a lot of these
+[05:09] crazy directional moves also during this
+[05:12] period the opening range breakout setup
+[05:14] works really well because you start to
+[05:16] see the crazy movements momentum base
+[05:19] setups so this is a quick way of how you
+[05:22] can use gamma and Gamma exposure to make
+[05:24] slightly smarter options decisions but
+[05:26] now let's try and actually apply this on
+[05:30] SPX this Friday is monthly expiration
+[05:33] and I want to try and see where does Big
+[05:35] Money have their interests uh in the
+[05:38] underlying Market where do they want the
+[05:39] market to go where do they want to take
+[05:41] the flow now this is a chart of the
+[05:43] gamma exposure by strike and this is a
+[05:45] free resource uh I've left the resource
+[05:47] uh Link in the description box below
+[05:49] it's barchart.com in the free version I
+[05:52] think they choose the strikes where you
+[05:54] get to see just a near- DAT month so
+[05:55] right now you get to see February which
+[05:57] works out perfectly because that's 4
+[05:59] days from now so with February and
+[06:02] they've aggregated the data for us let's
+[06:04] take a look at where we see the larger
+[06:06] spikes here so let me remove the
+[06:09] expiration and let's start to analyze
+[06:11] each strike so I see three spikes the
+[06:14] first at the 6100 strike where we have
+[06:17] positive net gamma exposure we can see
+[06:19] that here positive plus
+[06:22] 4.61 second strike 6150 positive uh net
+[06:26] gamma exposure here as well and then the
+[06:28] 6200 strike positive net gamma exposure
+[06:31] here as well so with all three of these
+[06:33] strikes 6150 is the one that seems to be
+[06:36] the biggest than 6100 and then 6200
+[06:39] current price is at 6114 so we're right
+[06:42] in between these two periods of our high
+[06:45] gamma exposure areas now take a look at
+[06:48] where this gamma exposure goes negative
+[06:50] and that's near the 6050 price Mark
+[06:53] which tells us that as price gets closer
+[06:55] and closer to 6050 we would expect to
+[06:58] see dealers start to get a little bit
+[07:00] more aggressive in getting price back up
+[07:03] towards the 6100 Mark so 6050 is a place
+[07:07] where I would expect to see near-term
+[07:09] support that's the first place where our
+[07:10] net gamma goes negative and if you were
+[07:12] to load in the full chart here you would
+[07:14] be able to see uh the 6,000 strike
+[07:17] excuse me which is also the large
+[07:19] negative gamma exposure strike where I
+[07:21] would expect to see a lot of support but
+[07:22] 6050 is where it first goes negative so
+[07:26] before I move to the next slide let me
+[07:27] sum that up so six th000 which is not
+[07:30] even on this chart is where we have a
+[07:33] large negative gamma exposure strike bar
+[07:35] just like we see here 6050 where we
+[07:38] start to see this go negative then we
+[07:40] have 6100 6150 and
+[07:44] 6200 out of these three 6150 is the
+[07:47] strike with the greatest gamma exposure
+[07:49] all three are positive then we have 6100
+[07:52] and then we have
+[07:53] 6200 now let's bring this together on a
+[07:55] chart of SPX I've drawn out all four
+[07:59] levels
+[08:00] price currently 6114 we have that 6100
+[08:03] 6150 and 6200 all three of these are
+[08:07] positive gamma exposures suggesting that
+[08:10] as we're in this we would expect to see
+[08:11] choppy price action which is what I
+[08:13] think we're likely to see 6050 is down
+[08:17] here which is the first place that gamma
+[08:19] exposure goes negative so as we approach
+[08:21] there I would expect to see dealers very
+[08:23] aggressively picking price action back
+[08:25] up so a place of support So 6050 if we
+[08:28] get there looking to aggressively buy
+[08:30] maybe even some out of the money calls
+[08:32] expiring this week monthly expiration is
+[08:35] this week and now we bring back in the
+[08:37] gamma so we have 6100 6150 both are
+[08:41] potential pins 6100 is closer more in
+[08:44] the money to where prices 6150 would be
+[08:47] a new high but still just a ston throw
+[08:49] away now let's use all of this to
+[08:52] analyze the options chain and craft some
+[08:54] trades this is where it starts to get a
+[08:56] little bit more fun and we get our hands
+[08:58] a little bit dirty
+[09:00] now we had the 60 uh 6100 strike excuse
+[09:03] me and if we take a look at the open
+[09:05] interest here notice how the open
+[09:07] interest stands out this is the largest
+[09:08] open interest for our Feb expiration
+[09:11] series and the sum of the open interest
+[09:14] there almost 53,000 contracts the next
+[09:16] strike we have 6150 and we take a look
+[09:19] at the open interest here almost 30,000
+[09:21] contracts so a lot of open interest but
+[09:24] not as much as
+[09:26] 6,100 now we take this information and
+[09:29] let let's come into the analyze tab in
+[09:31] the analyze tab I've built in two
+[09:34] separate trades here and both of these
+[09:36] trades are butterflies now before we
+[09:39] take a look at anything more with these
+[09:41] butterflies notice the middle strikes
+[09:44] the middle strikes are the two prices
+[09:46] that we've been looking at where we have
+[09:47] the greatest gamma exposure and it's
+[09:49] also where we're looking to sell that
+[09:51] premium positive gamma exposure we're
+[09:54] looking to join the option market makers
+[09:57] who have sold options near near that
+[09:59] strike price so 6100
+[10:02] 6150 now I've made these butterflies
+[10:04] very narrow they're just $10 wide which
+[10:07] is how we're able to keep the cost so
+[10:09] low the 6,100 is $30 the 6150 is
+[10:13] currently
+[10:14] $80 in both cases your reward is greater
+[10:18] than $800 take a look at the box down
+[10:20] here if you were to get the pin at the
+[10:22] exact prices which is why we're putting
+[10:24] on these trades in the first place now
+[10:27] if price does dip below uh to 6050 then
+[10:31] you might consider buying the 6100 call
+[10:34] as the out ofth money call where you're
+[10:36] looking for price to gravitate towards
+[10:38] but if you do buy that call keep in mind
+[10:39] you're going against what is really the
+[10:42] big money position here so all I'm
+[10:44] looking to do is take advantage of that
+[10:45] quick burst and very quickly get out
+[10:47] before expiration it's just 6100 is
+[10:50] where there's a lot of
+[10:51] liquidity so these two butterflies are
+[10:54] my two favorite trades and they're the
+[10:56] ones that look a little bit more
+[10:58] practical if we get closer to that 6050
+[11:00] 65 uh 6055 Mark excuse me then I'm
+[11:04] looking to aggressively use this as a
+[11:06] support Zone and try and use that 6100
+[11:09] which is where I still think there's a
+[11:10] lot of open interest where price is
+[11:12] likely to gravitate towards into the
+[11:16] expiration so now if we summarize
+[11:19] everything that we covered in this video
+[11:21] we started our conversation by first
+[11:23] understanding what is gamma and
+[11:25] understanding why gamma exposure is
+[11:27] useful then we moved on on to taking a
+[11:30] look at this free graph of the SPX gamma
+[11:32] exposure for this Friday's expiration it
+[11:35] includes uh two other expiration dates
+[11:37] as well and we made note of all of the
+[11:39] key levels where we thought price was
+[11:41] likely to react around and we then
+[11:44] plotted those on our chart and once we
+[11:46] plotted that we used the option chain to
+[11:48] build two separate butterfly positions
+[11:51] Each of which is fairly low risk but has
+[11:54] a disproportionately high reward
+[11:56] associated with it and all of these stem
+[11:58] from where we think big money has their
+[12:00] interest for expiration 3 days from now
+[12:03] and for all volatility box Traders I'm
+[12:06] looking at those mean reversion fade
+[12:07] setups this week maybe I might make a
+[12:10] video talking about a few of those
+[12:11] setups this week I'll also be curious if
+[12:13] you create your own options butterfly
+[12:15] position or maybe a different position
+[12:16] using all the information that might be
+[12:18] even better than the trades that I've
+[12:20] discussed in this video take care
+[12:22] everyone and I'll see you in our next
+[12:24] update

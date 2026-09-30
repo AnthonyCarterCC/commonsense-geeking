@@ -1,0 +1,750 @@
+Title: How to Use Gamma Exposure to Trade | SPY GEX Analysis
+Video ID: KRKouXNtOD0
+URL: https://www.youtube.com/watch?v=KRKouXNtOD0
+------------------------------------------------------------
+
+[00:00] what's going on guys brian's here today
+[00:01] is thursday june 23 2022 and the market
+[00:04] has not opened yet as i'm recording this
+[00:06] during the pre-market session now gamma
+[00:09] exposure or gex as it's often referred
+[00:11] to is in a tremendous edge to have
+[00:14] whenever you're trading so i'm going to
+[00:15] show you guys how i'm using it as well
+[00:16] as how you can use it for confluence
+[00:18] for your day trading for your scalping
+[00:21] for your swing trading what we have
+[00:22] right here is the spy and the reason i'm
+[00:24] recording this pre-market is because i
+[00:26] want to show you guys certain levels as
+[00:27] gamma exposure changes as the stock
+[00:30] price changes and as the market opens
+[00:32] and you know today i can't wait until
+[00:33] the end of day to record this video
+[00:34] because the information would be a
+[00:36] little bit different but what we have
+[00:37] right here is yesterday's price action i
+[00:39] have uh this yellow line gold line on my
+[00:42] chart is just a value a virgin point of
+[00:44] control which if you've seen any of my
+[00:45] previous videos you would be aware of
+[00:47] that's straight from the volume profile
+[00:49] some of you refer to it as a naked point
+[00:50] of control virgin point of control it
+[00:52] pretty much means the same thing it's
+[00:53] just a point of control from a previous
+[00:55] session which has not been touched yet
+[00:56] as we can see yesterday it was touch so
+[00:59] the 378 level was a key area of interest
+[01:02] and if we were to jump back to uh this
+[01:04] trade this um chart right here this is
+[01:06] the 15 minute 10 day chart but we're
+[01:07] just looking at the past couple weeks
+[01:08] worth of price action the market was
+[01:10] closed on monday so we started this week
+[01:12] at uh on a tuesday right here and then
+[01:14] this blue line or all the levels in
+[01:16] which you see on my line on my chart
+[01:17] except for this yellow line is from the
+[01:18] quant trading app algo details on quant
+[01:20] trading app is in the description down
+[01:21] below but i will be talking about that
+[01:23] full disclosure i am the lead developer
+[01:24] at quant trading app but that aside this
+[01:27] blue level that you see on the line
+[01:28] right here 378 is what's referred to as
+[01:30] max payne for this upcoming opex opex
+[01:33] just means options expiration which
+[01:34] means tomorrow's expiration which would
+[01:36] be friday this is the strike price in
+[01:38] which option sellers would pocket the
+[01:40] most amount of premium so there's kind
+[01:41] of an incentive for market makers to
+[01:44] have price pin around this level because
+[01:46] that's where the most amount of options
+[01:48] premium would be sucked out of the
+[01:49] market which means if you're a buyer of
+[01:50] an option you're going to experience the
+[01:52] most amount of pain in other words if
+[01:53] you bought the 385 call if the market
+[01:56] was to close here you're pretty much
+[01:57] going to lose all of your money and if
+[01:58] you bought something like the 370 put
+[02:00] and the market closes around here you're
+[02:01] pretty much going to lose all your money
+[02:03] so having the market close in between uh
+[02:05] strike prices that have a lot of premium
+[02:07] or extrinsic value in them meaning
+[02:08] they're not worth anything unless they
+[02:09] go in the money it is a strong incentive
+[02:11] for the market makers right so we have a
+[02:13] couple levels we have a virgin point of
+[02:14] control and then we have this uh max
+[02:16] payne right here so yesterday as the
+[02:17] markets was rallying into this level we
+[02:19] can see that there was rejection as we
+[02:20] had these levels from yesterday for the
+[02:23] crown trading app members if we were to
+[02:24] come up with the quantity out website
+[02:25] and actually looked at the gamma
+[02:27] exposure tab right here this right here
+[02:29] this chart is showing the this is up to
+[02:31] date so this is as of this morning right
+[02:33] here as this page was refreshed but it's
+[02:35] using the information from yesterday's
+[02:37] close the spot prices with the last
+[02:38] traded price for the spy currently and
+[02:40] then max payne as you can see has
+[02:42] changed overnight it has now dropped to
+[02:44] 376. so the market is kind of already
+[02:46] pinning around its uh max payne right
+[02:49] here we have what's referred to as p1
+[02:50] this is a term and quantity up it just
+[02:52] means we it just means the positive the
+[02:54] highest positive gamma exposure level
+[02:56] and then n1 is the highest negative
+[02:58] gamma exposure level as you can see
+[03:00] right here the gex for this level is
+[03:02] negative 36 million and then the exodus
+[03:04] level is plus uh 30 29 million we can
+[03:07] see the open interest and the volume on
+[03:08] the chart again the market has not yet
+[03:10] opened so we don't have the volume yet
+[03:11] as you can't trade options pre-market on
+[03:13] an instrument such as the spy we look at
+[03:15] this right here we see that the purple
+[03:17] is highlighting what's the absolute gak
+[03:18] so this is the highest strike price that
+[03:20] has the highest absolute gex so that's
+[03:23] just combining the negative and positive
+[03:26] and then turning the the negative into
+[03:27] an absolute integer an absolute number
+[03:29] is a number that must be positive so
+[03:31] after it does all the math it's just
+[03:32] saying this is the highest absolute gex
+[03:34] strike so that's something that's
+[03:35] important to know since i close this
+[03:36] right here we can scroll down here and
+[03:38] see the same information on this graph
+[03:39] so this is showing us the 380 strike and
+[03:42] this is showing us the 370 strike and
+[03:44] then again that's what's showing right
+[03:45] here here's 370 and here's 380. so the
+[03:47] market is currently in between those two
+[03:49] strikes right as we come down here let's
+[03:51] turn on the open interest and actually
+[03:52] see what does this look like on a chart
+[03:54] so this is the open interest for calls
+[03:56] at this strike price and we can see that
+[03:57] there's 28 000 open interest in the
+[04:00] calls and only 7 000 or about 8 000 in
+[04:02] the put side and let's actually turn on
+[04:04] the puts and see the highest open
+[04:05] interest put that's relative to strike
+[04:07] price the the current price so this is
+[04:09] the spot this would be the closest
+[04:11] highest
+[04:12] peak in open interest for puts and this
+[04:14] is the highest open interest peak uh in
+[04:16] in on the calls as we scroll to the top
+[04:18] right here the market is in collectively
+[04:20] a negative gamma environment or gamma
+[04:22] negative gamma state this is the
+[04:24] negative gamma for this current strike
+[04:26] price uh expiration which is tomorrow's
+[04:28] expiration we can see that the total
+[04:29] weight of this expiration right now is
+[04:31] roughly 18 percent we can see that the
+[04:34] incomplete options chain where the most
+[04:35] amount of gamma exposure is right now it
+[04:38] is actually for the july monthlies as
+[04:40] well as we have next week uh expiration
+[04:42] which is the quarterly options so bulk
+[04:45] of the options uh gam exposure is for
+[04:47] these two expirations but there's always
+[04:49] going to be a lot of weight for the
+[04:51] upcoming expiration because gamma is
+[04:53] most sensitive at the at the money
+[04:55] strike as well as the closest expiration
+[04:59] that's just the way uh gamma works now
+[05:00] this video is not an introduction to
+[05:02] gamma so i'm going to operate under the
+[05:03] assumption that you do know what gamma
+[05:05] is but to briefly explain gamma is the
+[05:08] rate and change for delta on and uh and
+[05:11] on an option for every point that the
+[05:12] underlying moves so if i pull this over
+[05:14] here
+[05:15] we can see that say for example this
+[05:17] call option this 377 call it has a delta
+[05:20] of 0.47 let's just say the gamma is
+[05:24] 0.03 right now it means if the spy was
+[05:26] to go up
+[05:28] the delta for this would go up by the
+[05:30] amount that the gamma is showing so
+[05:32] that's the brief introduction i would
+[05:34] highly encourage you guys to check out
+[05:35] some videos on just gamma to begin with
+[05:37] but if you understand what a radio gamma
+[05:39] is the gamma exposure is just saying you
+[05:41] can think of it this way it's
+[05:42] essentially how much the market makers
+[05:44] or the option sellers are going to need
+[05:46] to offset their delta for every point
+[05:49] that the underlying moves so as we
+[05:51] continue right along again i'm trying to
+[05:52] make this video pretty brief so i'm not
+[05:54] going as in depth in a lot of my videos
+[05:55] that i really explain a lot of the
+[05:57] nuanced things i will be coming out with
+[05:59] a lot more videos pertaining to gamma
+[06:01] exposure but i will be doing some
+[06:02] introductory videos on gamma so if you
+[06:04] are interested in content like that in
+[06:06] the future make sure to subscribe and
+[06:08] turn on the notifications for this video
+[06:10] and then let me know in the comment
+[06:11] section down below if you would like to
+[06:12] see more content on this i'm going to
+[06:14] show you guys how i'm using the
+[06:15] information so we come to the current
+[06:16] expiration right let's actually go to
+[06:18] the absolute gex panel here this is
+[06:20] telling us that the the absolute gamma
+[06:22] strike which is 370 is currently below
+[06:25] the spot price and
+[06:27] price is generally going to want to
+[06:28] gravitate towards these high gamma
+[06:30] exposure strikes now when we are stuck
+[06:32] in between two of the high gamma
+[06:34] exposure strikes we can see that the
+[06:35] absolute um gamma exposure between these
+[06:37] two is not that far off it's only about
+[06:40] 10 million or so 12 13 million or so and
+[06:43] price being in between the two is
+[06:44] essentially you can think of it like a
+[06:45] pull a tug of war where price is just
+[06:47] going to be kind of bouncing between the
+[06:49] two and we can look at these two levels
+[06:51] as a strong resistance or a strong
+[06:53] support but understanding that price
+[06:55] wants to go towards one of them if both
+[06:57] of these are pointing in the same
+[06:58] direction which is what it's saying
+[07:00] right here if number one and two is
+[07:01] pointing in the same direction it's
+[07:03] stronger for the trend to go in that
+[07:05] direction so if they were both green
+[07:07] we'd be more than likely going to
+[07:09] gravitate up
+[07:10] if they were both red we'd more than
+[07:12] likely kind of gravitate down so using
+[07:14] the absolute gamma exposure we can kind
+[07:16] of form a trade idea but what do you do
+[07:19] when price is just stuck in between and
+[07:21] we have two high absolute gamma strikes
+[07:23] this is how i essentially trade as i
+[07:25] love taking non-directional income-based
+[07:27] trades but i'll show you guys my trade
+[07:28] structure in a second as i scroll down
+[07:30] here and let's actually just turn off
+[07:32] the absolute um the gamma exposure and
+[07:34] just take a look at this chart so we can
+[07:36] kind of see it on from an open interest
+[07:37] perspective towards the beginning of the
+[07:39] week if we just look at the um
+[07:42] the
+[07:43] call open interest this number was
+[07:44] significantly higher so it's only 28 000
+[07:46] now let's actually scroll over to the as
+[07:49] we scroll over to the quant trading app
+[07:50] discord let's take a look so this is
+[07:51] early in the week right here as i
+[07:52] mentioned that the 380 should act as a
+[07:54] magnet for this week this was just after
+[07:56] the market had um
+[07:58] opened up here and we started rallying
+[08:00] at the start of this week look at the
+[08:02] open interest it was about 53 000 and it
+[08:04] was and max payne at that time was at
+[08:06] 379 so it was very apparent that the
+[08:08] market was going to make some sort of a
+[08:10] rally going into that level on top of
+[08:12] that if i believe in the uh discord area
+[08:14] i highlighted this the gamma exposure
+[08:16] for this week had turned positive so
+[08:18] this is what's referred to as for this
+[08:20] week we should not really get much
+[08:21] volatility in which we've been happening
+[08:23] even though the entire options chain or
+[08:25] the the next three months worth of
+[08:27] options gamma exposure was negative we
+[08:30] are still in a very volatile environment
+[08:31] now using gex necessarily for direction
+[08:34] is not the way you want to go i'm
+[08:35] showing you guys how you can use it as a
+[08:37] directionality when you're looking at
+[08:38] the absolute gamma strike prices but for
+[08:40] the most part gex is used as a measure
+[08:42] for volatility so when everything is in
+[08:44] a negative gamma state so you can expect
+[08:46] long-term volatility and that's just the
+[08:48] dynamic that the dynamics for how the
+[08:51] option seller is referred to as the
+[08:52] dealers or the market makers are going
+[08:54] to have to offset their um their books a
+[08:56] little bit more of a complicated subject
+[08:57] matter but again i will go into more
+[08:59] detailed explanation if you are
+[09:00] interested right now you can't wait i
+[09:02] did do a video previously the one that
+[09:04] was uploaded on a webinar and which i
+[09:06] recorded over the weekend for the
+[09:07] upcoming week kind of highlighting
+[09:09] things in which was not um
+[09:11] identified in the gamma exposure so
+[09:13] that's a two hour long video but it was
+[09:14] a webinar so i'm going over a lot and it
+[09:16] explains a little bit more in a little
+[09:18] in a more nuanced uh in a more nuanced
+[09:20] manner but this one again is a very
+[09:22] brief one as i'm trying to get myself
+[09:23] prepared for the trading day right here
+[09:25] and it's now 9 00 a.m eastern time so if
+[09:27] we look at this here this is earlier in
+[09:28] the week understanding that the we were
+[09:30] likely going to chop around this week
+[09:32] meaning if the market if the market went
+[09:34] up we'd probably come back down if the
+[09:35] market went down we'd probably go back
+[09:37] up it's going to be more of a reversion
+[09:38] to the mean type of environment because
+[09:40] these two are conflicting with each
+[09:41] other but we know for this uh short term
+[09:44] this was that on
+[09:45] that expiration on tuesday so the day of
+[09:48] the zero days
+[09:49] we were expecting a little bit more of a
+[09:52] passive trading to the upside here and
+[09:55] we can see it on the on the gex now as
+[09:57] you continue to scroll right along this
+[09:59] is where i had also highlighted so that
+[10:00] was tesla so let's just keep this moving
+[10:02] right here and we have this is the open
+[10:04] interest we can see 26 000 so it
+[10:06] actually drops about half so it's just
+[10:07] highlighting that the open interest kind
+[10:09] of came down early in the week but at
+[10:11] the same time we can see 370 was still
+[10:13] the highest negative gamma strike and
+[10:15] 380 was still the highest positive gamma
+[10:17] strike so knowing that information if we
+[10:18] come to the chart here and let's take a
+[10:21] look at different trade ideas this is
+[10:22] what's referred to as an iron condor for
+[10:24] this week so if you know that 380 is a
+[10:27] strike price that the market might
+[10:28] gravitate towards to but it might
+[10:29] struggle to go higher and you know 370
+[10:32] is a strike price that the market might
+[10:34] gravitate to but it was likely to not go
+[10:36] lower you can run something that's
+[10:38] referred to as an iron condor which
+[10:39] means you short those two options and
+[10:41] then you can buy two options further out
+[10:43] as protection and then essentially you
+[10:45] profit as the market just hovers in
+[10:47] between there capitalize on what's
+[10:49] referred to as time decay so this is
+[10:50] theta so this is essentially how much
+[10:52] the spread is making per day 78
+[10:54] now if we were to review we come back to
+[10:55] the historical chart we can see on the
+[10:57] 21st right here so this is about 30
+[11:00] minutes after the market opened if you
+[11:02] sold this iron condor because when you
+[11:03] open up an iron condor you're actually
+[11:04] selling it and then you're looking to
+[11:06] buy it back at a lower price which is
+[11:07] why it has a credit received you're not
+[11:09] paying to open this trade you're
+[11:10] actually receiving a credit to open the
+[11:12] trade if we look at this right here you
+[11:14] would receive about two dollars and
+[11:15] seventy cents in credit and at
+[11:17] yesterday's close it was going for about
+[11:18] two dollars so in other words you would
+[11:19] have made seventy dollars with one lot
+[11:22] of this which means if we're just
+[11:22] looking at one if you did ten of these
+[11:24] obviously you would have made about
+[11:25] seven hundred bucks because again if we
+[11:27] come back to the historical chart from
+[11:28] 270 down to a dollar that means the
+[11:31] value of this iron condor dropped by 70
+[11:34] dollars which is good for you because
+[11:36] you're looking to buy it back at a
+[11:37] cheaper price so assuming you bought
+[11:39] about it bought it back at yesterday's
+[11:40] close you would have profited 70 if you
+[11:42] sold 10 of those that means you would
+[11:44] have profited 700 just using the gamma
+[11:46] exposure levels and essentially letting
+[11:48] time decay do its work identifying that
+[11:50] the market is likely just going to
+[11:52] bounce around 370 and 380 and just kind
+[11:54] of chop in this area if we continue
+[11:56] right along here's another trade idea
+[11:57] this is what's referred to as a double
+[11:59] diagonal it's the same thing but you're
+[12:01] shorting
+[12:02] the the two strike price in which you
+[12:04] understand have high gamma exposure and
+[12:05] then you're just buying these uh further
+[12:07] out wings here and then essentially
+[12:09] you're profiting the same way the
+[12:10] difference between these two is a double
+[12:12] diagonal is positive vega which means
+[12:14] you're not going to be hurt if
+[12:16] volatility increases and iron condor is
+[12:19] negative vega which means you want uh
+[12:21] volatility to decrease so that's that's
+[12:23] the difference between these two spreads
+[12:24] which is why i'm just highlighting two
+[12:25] options it all depends on what um what
+[12:28] you're expecting maybe for volatility as
+[12:30] well as your account size but if we
+[12:31] looked at this right here we can see
+[12:33] earlier in this week it was going for a
+[12:35] dollar 60 or so the same time frame so
+[12:37] right down here at 10 a.m it was going
+[12:39] for a dollar sixty we'll say and then it
+[12:41] closed yesterday at
+[12:43] 94 cents so roughly about the same we'll
+[12:45] just estimate and round things off we'll
+[12:46] say about 70 cents this would have um
+[12:49] changed if we were to
+[12:51] look at the max loss so this is how much
+[12:53] it would require you but at that time it
+[12:55] would have required you less because you
+[12:56] would have received more credit so let's
+[12:58] just say we're opening this up now we
+[13:00] can see that the difference between the
+[13:02] max loss the um the iron condo requires
+[13:04] a little bit less capital than something
+[13:05] like a diagonal of the same strikes now
+[13:08] if we were to i'm i'm not um i'm just
+[13:10] using this week's expirations i'm not
+[13:12] adjusting term structure and bouncing
+[13:14] around because obviously you can
+[13:15] customize these types of spreads i'm
+[13:17] just keeping it very simple for this
+[13:19] video as we move right along if you
+[13:20] trade the spx this is an example of the
+[13:23] iron condor on the spy so right here so
+[13:25] 370 uh using 3700 on the spx the spx is
+[13:29] just 10 times the size of the spy and
+[13:31] whenever i run iron condors i mostly run
+[13:33] them on the sbx as it's cash settled you
+[13:36] don't have to worry about the assignment
+[13:37] risk it's much cleaner taxes are much
+[13:39] better when you trade indexes and as we
+[13:41] pull this up right here we can see
+[13:44] if we go to the
+[13:45] 21st right here at 10 a.m would have
+[13:49] been right about here so about 27 you
+[13:52] would have received in credit and it's
+[13:53] now going for uh 20 so the same here
+[13:56] goes to 700 just running one of these
+[13:58] now if you ran two of these you get the
+[14:00] point that's against essentially
+[14:01] fourteen hundred dollars just
+[14:02] identifying high gamma levels and then
+[14:05] letting time do its work you can use
+[14:07] this information to structure your
+[14:09] trades now if you're a day trader and
+[14:11] you're a scalper as price got up to this
+[14:13] level yesterday this was a high gamma
+[14:17] strike live because this page gamma is
+[14:19] going to change so you can refresh this
+[14:21] page and kind of check it as the market
+[14:22] is trading and these levels will adjust
+[14:24] on the chart right here so if you're
+[14:25] someone that's a little bit more visual
+[14:27] we have the reference right here and we
+[14:28] can see as this market as the market
+[14:30] progresses today these levels will most
+[14:31] likely get closer and closer and they
+[14:33] would shrink for friday there's still a
+[14:35] little bit of time left in these but for
+[14:37] the most part these absolute gex strikes
+[14:39] should not really move that much and
+[14:41] then tomorrow around the same time it
+[14:43] would have looked differently and maybe
+[14:44] by midday tomorrow the gamma exposure is
+[14:46] going to start clumping around a certain
+[14:48] level whatever the spot price is so
+[14:50] you'll generally see as we close out the
+[14:53] open interest all this is going to
+[14:55] contract so these are going to kind of
+[14:56] come here and these are going to kind of
+[14:57] come here and then the curve is going to
+[14:59] look something like there's going to be
+[15:00] high levels all around here and that's
+[15:02] just the way gamma works so again total
+[15:04] market right now is in a negative gamma
+[15:06] state but we have negative gamma also
+[15:09] for this week it was not this way
+[15:11] earlier in the week that kind of changed
+[15:13] and hopefully this if this is your
+[15:14] introduction to gex i would highly
+[15:16] encourage you guys to um get very
+[15:18] familiar with it especially on this
+[15:19] channel as i'm going to be talking a lot
+[15:21] more about it the levels in which you
+[15:23] see here is straight from the quant
+[15:24] trading app algorithm so if i were to
+[15:26] switch over to
+[15:27] the um say for example let's look at the
+[15:29] queues
+[15:30] and
+[15:32] these levels are generated from the algo
+[15:34] from a sunday as it's aggregating a lot
+[15:36] of information and data gex levels will
+[15:38] be included on the tos script to show it
+[15:40] on our charts also that is coming pretty
+[15:42] soon but we can see right here this
+[15:44] level from sunday the qta algo was
+[15:46] saying that the qs should struggle to
+[15:48] pass 285 this week we got up to 285 we
+[15:52] were rejected right there if we were to
+[15:53] come to look at the gex for the qs we
+[15:55] can see 285 was a high gamma strike as
+[15:58] we come down right here we can see a 285
+[16:00] right here on the chart so the gamma is
+[16:02] it's showing how strong that level is of
+[16:05] resistance because inherently that's the
+[16:06] way the gex is going to work as well as
+[16:09] in conjunction with the um
+[16:11] high open interest levels as we turn
+[16:12] this on right here we can see that
+[16:14] there's a strong
+[16:15] uh
+[16:16] level here by using open interest as a
+[16:18] measure for the strength in conjunction
+[16:21] with how strong is the level with gamma
+[16:23] exposure and now adds an extra element
+[16:25] to to the chart and i i explain this
+[16:27] whenever i do one-on-one sessions with
+[16:29] uh traders you can think of gex gamma
+[16:31] exposure in the options market as kind
+[16:32] of like an x-ray vision so if you're a
+[16:34] doctor and you're looking at this right
+[16:35] here or let's go back to the spy and
+[16:37] you're telling yourself hey the um
+[16:40] the spy looks it doesn't really look
+[16:41] that good if you want to use the analogy
+[16:44] of health and we say like it doesn't
+[16:45] necessarily look pretty healthy up here
+[16:47] because of the the v-poc because of the
+[16:50] max pain and because of the sharp
+[16:52] projections and maybe you're looking at
+[16:53] the tape maybe you're using bookmap or
+[16:55] any other tool of that kind you can see
+[16:57] that it's pretty weak but then you can
+[16:59] take an x-ray vision the x-ray would be
+[17:01] looking at the options chain and and
+[17:03] seeing what is it saying here what is
+[17:06] the sentiments behind is there higher
+[17:08] open interest past that strike price in
+[17:10] which the market is trying to go higher
+[17:11] if there's not a lot of open interest or
+[17:13] volume the market's not necessarily
+[17:15] going to go much higher because it's
+[17:16] showing there's not a lot of
+[17:17] participants that are interested in
+[17:19] thinking that it goes higher and then
+[17:21] from the market maker's perspective
+[17:22] which is showing us when we look at the
+[17:24] gex is letting us know that the market
+[17:25] makers they don't really need to
+[17:27] they're incentivized to keep price below
+[17:29] a certain level also now inherently of
+[17:31] course you know you have to say
+[17:33] everything with a grain of salt because
+[17:34] if breaking news came out or if we enter
+[17:36] in a gamma squeeze or price was to just
+[17:37] break past a certain level let's just
+[17:39] say we gapped up over 380 today the
+[17:41] market would have been very likely to
+[17:42] enter some sort of gamma squeeze and we
+[17:44] would probably come up to at least this
+[17:45] level or the two sigma level up here if
+[17:48] we come to the chart that's where we
+[17:49] would just look at where's the next
+[17:50] highest gamma exposure level we can see
+[17:52] that it there's a there's a big spike at
+[17:54] 385 on the spy so one can make the
+[17:56] assumption that we might head up to
+[17:58] there if we were to gap up over 380. but
+[18:00] we can see within this area there's a
+[18:02] lot of gamma exposure so the market
+[18:03] would probably be a little bit choppy
+[18:05] it's not like whenever we see let's just
+[18:06] say the market gapped up over this level
+[18:08] and the next big spike was here and you
+[18:10] see there's a lot of low gamma exposure
+[18:11] the market will probably move through
+[18:13] that level very quickly because there
+[18:15] isn't much that the option sellers or
+[18:16] the dealers need to do to adjust their
+[18:18] positions also when it comes to
+[18:20] confluence if we were to scroll back for
+[18:22] a second here and look at the es to
+[18:25] start off the week another reason why
+[18:27] that area was of key interest we can see
+[18:29] here was the week to date volume profile
+[18:30] from last week this was the uh a lot of
+[18:33] high volume notes as i was highlighting
+[18:34] this was the qta algo was just saying
+[18:36] that we have a
+[18:38] resist we should likely meet resistance
+[18:39] up here but we can see a lot of supply
+[18:41] in this area when the with the market
+[18:43] gapping up and as bullish as it was
+[18:44] looking it only made sense for us to
+[18:46] gravitate towards this high liquidity
+[18:48] zone right here the es ended up tapping
+[18:50] 3 800 so we did go to exactly we're the
+[18:53] spy naturally so there's a little bit of
+[18:54] a point difference about maybe 10 points
+[18:56] or so between the es and the spy but the
+[18:59] es actually hit its 3800 and then to
+[19:02] conclude this video actually let's jump
+[19:04] over to the es because i want to show
+[19:05] you guys this is how one of the the
+[19:07] trades in which i'm actually one of
+[19:10] if we jump over to the es let's actually
+[19:12] just clean up this chart for you guys
+[19:13] right here and then let's zoom in and
+[19:16] then i want to turn on the uh the same
+[19:18] thing just so you guys can see it live
+[19:20] and then i'm going to show you guys a
+[19:22] trade in which i'm actually in if you're
+[19:23] using the tos scripts that i provided on
+[19:27] the volume profile you guys should know
+[19:28] that there's an update now where you can
+[19:30] change it to show the weekly um
+[19:32] volume profile but we can see these are
+[19:33] all the high volume nodes that
+[19:34] screenshot was taken when the market i
+[19:36] believe was somewhere down here and we
+[19:37] can see we've come up to this level and
+[19:38] then we can see right that's where this
+[19:40] this week's point of control has formed
+[19:42] right in this high volume notes here we
+[19:44] can see that we tapped 3800 which was to
+[19:46] be expected so i've been still holding
+[19:48] longs from since over all the way down
+[19:50] here from since last week because i'm in
+[19:51] some com some call diagonals i still
+[19:53] have four weeks till expiration or so i
+[19:55] still have plenty time on them expecting
+[19:57] the markets to be at this level and then
+[19:59] letting theta do its uh thing
+[20:01] this is the trade in which i'm currently
+[20:03] now in for the es as you guys can see
+[20:05] i'm in uh two butterflies so i'm in an
+[20:07] iron butterfly and then a long call
+[20:09] butterfly right here i have these slice
+[20:11] prices right here so this is 3800 and
+[20:13] then this is 3700 so this is the current
+[20:15] spot price of the es this is my current
+[20:17] p l so as we can see the market is
+[20:19] starting to push higher and higher if we
+[20:21] were to close the the green is my
+[20:24] current p l this line right here is
+[20:25] what's referred to as the zero line so
+[20:27] we can see if the market was to pull
+[20:29] back to this area my piano will actually
+[20:31] turn green
+[20:32] the uh scion level right here is my p l
+[20:36] at close tomorrow so if the market was
+[20:38] too close let's say for example 37.50 my
+[20:40] p l would be this right here which would
+[20:42] be 500 bucks if it was to close at
+[20:45] exactly 3 700 this would be my p l
+[20:47] around a thousand and if we close around
+[20:49] uh 3 800 or so right within here
+[20:51] anywhere from a thousand to 1 500 is
+[20:53] what i stand to gain now i'm giving a
+[20:54] trade like this if i make no adjustments
+[20:56] about 500 dollars in risk so i'm
+[20:58] essentially looking to make either 500 a
+[21:00] thousand dollars or hundred dollars and
+[21:02] my my range is all the way from down
+[21:04] here from 36.90 all the way up to 38 uh
+[21:08] 30 and that's that's accounting for you
+[21:11] know looking at the gamma strikes now if
+[21:13] we break past 3 800 i'll probably get
+[21:15] long the futures and just try to scalp
+[21:17] it up a little bit and try to bring in
+[21:18] some cash flow from day trading but in
+[21:20] terms of the trade you can as i showed
+[21:22] you guys earlier the double the double
+[21:24] diagonal there was the iron condor you
+[21:27] can also run butterflies and i'm trading
+[21:28] it on the futures just so i can make an
+[21:30] adjustments overnight if i need to or
+[21:32] pre-market and things like that there's
+[21:33] a huge benefit to being able to trade
+[21:35] spreads on the futures
+[21:37] the trade initially started off like
+[21:38] this and the markets pushed uh much
+[21:41] higher as i was expecting us to
+[21:43] consolidate a little bit down here and
+[21:44] once we pushed higher i just went in and
+[21:46] added this uh call long call butterfly
+[21:50] right here with the assumption that then
+[21:51] the market is going to hover within this
+[21:53] area now and if we were to turn these
+[21:55] off it creates this structure which you
+[21:57] see right here now if we go really high
+[21:59] i will probably just close out this one
+[22:01] and then light price consolidate in the
+[22:03] upper tent here or add another one if i
+[22:05] need to now these expire tomorrow so i'm
+[22:07] kind of playing a little bit with fire
+[22:09] as i am sensitive to gamma which is why
+[22:11] my slope is pretty uh
+[22:13] pretty sloppy as we would say there's
+[22:15] there's a wide slope to the upside and
+[22:16] downside i'm just looking for a little
+[22:18] bit more time decay and if we jump to
+[22:20] tomorrow's expiration as you can see my
+[22:21] p l will then jump up a little bit more
+[22:23] and then the closer and closer we get to
+[22:25] expiration i'll decide how much you know
+[22:27] it's a risk reward game if it am i
+[22:29] risking too much to make a little bit
+[22:30] more or so but if i hit 500 i'd more
+[22:32] than likely probably be happy with the
+[22:35] trade and again this is a trading which
+[22:36] i entered and i haven't really done
+[22:37] anything with so far um as we jump back
+[22:40] to the chart here
+[22:42] actually i think that's good enough i
+[22:43] need to prepare the market opens in 15
+[22:45] minutes so if this was a great
+[22:47] introduction for you guys let me know in
+[22:48] the comment down below in the comment
+[22:49] section down below if you'd like to know
+[22:50] a little bit more uh also leave a
+[22:52] comment and make sure to like this video
+[22:55] share it if you learned something and
+[22:56] link to the quantity app discarders in
+[22:58] the link below as well as how you can
+[23:00] become a member of contracting app and
+[23:01] actually start using some of these tools
+[23:02] and information take care guys and good
+[23:04] luck trading

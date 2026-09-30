@@ -1,0 +1,250 @@
+Title: Reverse Gamma Scalping 6/10: Alex Mendoza: 05/01/10
+Video ID: V_CWDql3l4I
+URL: https://www.youtube.com/watch?v=V_CWDql3l4I
+------------------------------------------------------------
+
+[00:27] So, as it turns out
+[00:30] um
+[00:31] because of the number of trades that we
+[00:34] had, we ended up making about $175
+[00:37] on the position. I'm sorry, I said 275.
+[00:39] I meant to say 175.
+[00:42] Um
+[00:43] So, we made 175.
+[00:45] Um you know, the straddle, we sold it at
+[00:47] 13. It's now trading at 11 and a
+[00:49] quarter.
+[00:50] Uh we make 175. Not exactly a home run,
+[00:54] but considering the big run we had in
+[00:57] the stock, we made $175 a contract or
+[01:00] 1750 on that trade. We also made $506
+[01:05] on the stock. Again, not a home run, but
+[01:08] it's a good thing that we decided to be
+[01:10] defensive
+[01:12] and buy stock as the market kept going
+[01:14] up so that we had So, that in
+[01:16] combination uh the position ends up
+[01:19] making just over $5,000 on the stock.
+[01:22] Um I'm sorry, $506 on the stock, 1750 on
+[01:26] the option. We end up having a pretty
+[01:28] decent um
+[01:29] a pretty decent run on our position. So,
+[01:32] it helps add uh to uh the position that
+[01:35] we had
+[01:36] um
+[01:38] based on the fact that we we were able
+[01:40] to take action and do things as the
+[01:43] market was getting away from us. Very
+[01:45] few traders know what to do when the
+[01:47] market gets away from them. These are
+[01:49] the kind of things that we specialize
+[01:51] in. What are the things that we can do
+[01:53] as the market refuses to collaborate?
+[01:56] Um
+[01:57] You know, what we do in our seminars is
+[02:00] we focus specifically on the what ifs,
+[02:05] on the stuff that people tend to shy
+[02:06] away from. Um if the market gets away
+[02:09] from you
+[02:10] on the one hand, it is too bad. Um
+[02:13] rather than helping you predict where
+[02:15] the market's going next, which is
+[02:16] difficult
+[02:18] we go ahead and actually show you
+[02:20] techniques like reverse gamma scalping
+[02:21] to show you what to do in case the
+[02:24] market gets away from you. It's actually
+[02:26] easier to learn what to do when the
+[02:28] market gets away from you than it is to
+[02:30] learn to predict the market. Okay? Um
+[02:33] mo- I And I And I know this because I've
+[02:36] had a lot of experience with a lot of
+[02:38] people teaching techniques on how to
+[02:39] predict the market. Most of those
+[02:41] techniques are really easy.
+[02:43] Um they just don't work.
+[02:45] And um that's why nobody's been able to
+[02:48] put them into some sort of a black box.
+[02:50] Uh there are very few programs that
+[02:52] computer programs that have a black box
+[02:54] with uh you know, four lines of code.
+[02:56] So, you know, all these simple things
+[02:58] that people do to help predict the
+[02:59] market, they don't really work. So,
+[03:01] rather than spend rack our brain trying
+[03:03] to make them work, let's go ahead and
+[03:05] actually work uh learn how to how to um
+[03:09] how to be defensive and how to protect
+[03:11] ourselves as the market goes against us.
+[03:13] That's what gamma scalping is all about.
+[03:15] So,
+[03:16] there are some tricks that we've learned
+[03:18] over the years to help you stay uh
+[03:20] safer. Um one of the things is
+[03:24] um and we wrote an article on this in
+[03:26] Futures Magazine as well. We wrote a
+[03:28] couple of articles on gamma scalping and
+[03:29] reverse gamma scalping. But some of the
+[03:31] things um
+[03:33] you know, we have a book Option Greeks
+[03:34] for Profit. Some of the things that we
+[03:36] we actually teach people is if you are
+[03:39] in a position where you cannot buy or
+[03:42] sell stock aggressively, then
+[03:46] um
+[03:46] then you can use uh options to hedge. In
+[03:49] other words, as the stock goes up, you
+[03:52] buy call options.
+[03:54] As the stock goes down, you buy put
+[03:56] options. Or as the stock goes down, you
+[03:58] sell calls. As the stock goes up, you
+[04:00] buy puts. There are ways to use options
+[04:02] and you know, through our seminars, we
+[04:04] actually show people what kind of
+[04:06] options
+[04:07] uh you would use. It's If it's, you
+[04:09] know, it would be great if we could
+[04:10] explain it in 30 seconds, but it gets a
+[04:13] little bit involved because of the
+[04:15] nature of options. So,
+[04:18] because of that, we wanted to we wanted
+[04:20] to make sure that we started with the
+[04:21] simplest way to address the deltas in a
+[04:24] position, which is through the purchase
+[04:26] and sale of stock. But we wanted to let
+[04:28] you know that another possibility is to
+[04:31] actually go ahead and use uh options in
+[04:33] order to hedge your deltas. Uh because
+[04:36] options have other Greeks like gamma,
+[04:38] theta, and Vega
+[04:39] it's a little bit more involved to get
+[04:41] into that whole situation and it's it
+[04:43] requires a whole other discussion
+[04:46] but it's there.
+[04:48] Um but it's available for your use if
+[04:50] you feel comfortable or if you learn
+[04:52] enough about it. Um
+[04:54] number two, do you do you want to keep
+[04:56] short deltas in a bullish market if you
+[04:59] have a short gamma position?
+[05:01] This one's up to you.
+[05:03] The consensus
+[05:06] has been and as best I recall it and as
+[05:08] best I because, you know, we don't check
+[05:10] the consensus every day. Well, yeah, you
+[05:12] know, it's like holding survey surveys
+[05:14] out there all day. Um
+[05:16] we
+[05:17] tend to like we tend to prefer to keep
+[05:20] short deltas, slight short deltas even
+[05:22] in a bullish market
+[05:24] uh because the amount of money you're
+[05:25] going to lose based on delta is uh
+[05:29] largely offset through a volatility
+[05:31] crush. In fact, in our position, the
+[05:33] stock went up $10.
+[05:35] Had the stock gone down $10, the profits
+[05:38] would not have been as great and hence
+[05:41] being able to lean that extra 100 share
+[05:44] uh that being able to lean short 100
+[05:47] shares
+[05:48] um would have been great would have been
+[05:50] a smart thing to do had the market gone
+[05:53] down $10 instead of up in the IBM
+[05:55] example. Because it went up
+[05:58] uh you notice that even though we
+[05:59] started with short deltas, we still
+[06:01] ended up making money on the option
+[06:03] portion of the position because of the
+[06:05] combined effect of time decay and the
+[06:08] volatility crush.
+[06:10] Okay? So,
+[06:12] again, uh
+[06:14] how many short deltas is the right
+[06:16] amount to carry in your position? I
+[06:18] caution people with these types of
+[06:20] questions because what you're looking
+[06:21] for is certainty and certainty does not
+[06:24] exist in trading.
+[06:26] All right, we're going to cover this in
+[06:28] the manual, but we're going to go ahead
+[06:30] and give you some idea um some general
+[06:33] rules of thumb as to how many deltas are
+[06:36] considered {quote} {unquote} the right
+[06:38] amount. And there's a scientific way of
+[06:41] doing this. It takes a lot It's an
+[06:42] unbelievable amount of work. Um and when
+[06:45] the markets are zipping around, no one
+[06:47] is holding out calculators. Okay? No one
+[06:50] is doing the tricky math when the
+[06:52] markets are whipping around. Uh you have
+[06:54] to make quick decisions. So, here's what
+[06:56] we're going to do. Step one,
+[06:58] find the range in the stock
+[07:01] and the range in the volatility over a
+[07:04] couple of months. Okay? And if you want,
+[07:07] you can also find what their range is
+[07:09] for the in the stock and in volatility
+[07:11] for a year just to have a second number
+[07:14] which can be averaged with the first.
+[07:16] Whether you do the second step or not,
+[07:18] it's up to you if you want a little bit
+[07:20] better indication. But
+[07:23] find out how much the stock fluctuates
+[07:25] and find out how much the volatility
+[07:28] fluctuates and your broker should have
+[07:30] these numbers for you. Then here's what
+[07:32] you're going to do.
+[07:33] You're going to divide the range of the
+[07:36] volatility
+[07:38] by the dollar range in the stock. So,
+[07:41] here's the way it's going to work.
+[07:42] Suppose that you have the following
+[07:43] information. Over two months
+[07:46] the stock has had a has had a $20 range.
+[07:49] In other words, it's been ranging
+[07:51] between
+[07:52] $70 and $90 a share.
+[07:55] So, it's had a $20 range. The volatility
+[07:58] has ranged between 60% and 70%. So, from
+[08:02] a
+[08:03] from a uh from a gross percentage point
+[08:07] level, we have a 10% range in
+[08:09] volatility.
+[08:10] So, the way the math is going to work is
+[08:12] take the 10% range, divide by the $20
+[08:15] range in the stock, and get your ratio.
+[08:18] And what that's going to give you is a
+[08:19] ratio of 0.5.
+[08:22] Okay?
+[08:23] Uh 10% in the volatility,
+[08:25] uh just take the actual 10 divide by 20
+[08:28] and you get 0.5. What does that 0.5
+[08:30] mean? You know, what did we just do all
+[08:32] this work for? Uh this means
+[08:35] that this gives you an indication that
+[08:37] for every dollar move in the stock
+[08:40] you can expect volatility on average and
+[08:44] very generally speaking to increase or
+[08:47] decrease by half a percentage point.
+[08:50] Okay? That's what it means. If
+[08:52] volatility is 70, what it basically
+[08:55] tells you is that if the stock goes to
+[08:57] 71, I'm sorry, if the if the volatility
+[09:00] is at 70
+[09:02] and the stock is at say
+[09:05] let's just call it 70 as well. Okay?
+[09:06] Just to keep the numbers simple. Uh what
+[09:09] we're basically saying is if the stock
+[09:10] goes up to 71, you can expect the
+[09:12] volatility to drop to 69 and a half.
+[09:16] Okay?
+[09:17] So,
+[09:18] based on that, um now you have an idea
+[09:21] of how the volatility moves based on how
+[09:23] the stock moves. Okay? Just a a good
+[09:26] average guess.
+[09:28] And that's all we're really looking for
+[09:30] right now. We're trying to do this
+[09:31] quickly.
+[09:32] Um

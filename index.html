@@ -179,11 +179,15 @@
         <div class="apps-grid" id="trading-grid"></div>
 
         <div class="section-title"><span>📊</span> Trading Indicators</div>
+
+        <div class="section-title"><span>&#x1F4A1;</span> Scripts Library</div>
+        <div class="apps-grid" id="scripts-grid"></div>
         <div class="apps-grid" id="indicators-grid"></div>
     </div>
 
     <script>
         // Load apps from apps.json
+                populateSection('scripts-grid', data.scripts);
         fetch('apps.json')
             .then(res => res.json())
             .then(data => {

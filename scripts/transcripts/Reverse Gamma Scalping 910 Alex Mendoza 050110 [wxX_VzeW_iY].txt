@@ -1,0 +1,267 @@
+Title: Reverse Gamma Scalping 9/10: Alex Mendoza: 05/01/10
+Video ID: wxX_VzeW_iY
+URL: https://www.youtube.com/watch?v=wxX_VzeW_iY
+------------------------------------------------------------
+
+[00:28] Yeah, I have a question online, Ali.
+[00:30] Uh
+[00:31] Please address
+[00:32] why that position, I guess the IBM
+[00:35] position wound up with a minus 700
+[00:37] delta.
+[00:39] Uh okay.
+[00:41] Sure. The reason that the position ended
+[00:43] up with a minus 700 delta is we ended up
+[00:46] with um
+[00:48] and and I'll actually uh correct that.
+[00:50] The option position ended up with a
+[00:52] minus 700 delta. Uh we ended up net long
+[00:56] 300 shares of stock and therefore the
+[00:59] the overall position was actually closer
+[01:01] to minus 400 short deltas. But getting
+[01:05] back to why the position had a the
+[01:06] option position had a minus 700 delta.
+[01:10] We started off fairly close to zero.
+[01:13] Um
+[01:14] fair you know, short up with short about
+[01:15] 100 deltas. Um as the stock went up,
+[01:20] uh remember that we started with 10
+[01:21] straddles and therefore
+[01:24] at the extremes, if the stock went way
+[01:26] up or way down, uh at the extremes, the
+[01:29] maximum our delta could have ever been
+[01:32] is 1,000.
+[01:34] Okay, because we have 10 contracts,
+[01:36] which is equivalent to 1,000 shares of
+[01:38] stock. So we would have actually we
+[01:40] would have either had 1,000 long shares
+[01:42] if the stock went to zero or 1,000 short
+[01:46] shares if the stock went up infinitely.
+[01:48] Um we went up $10 and therefore
+[01:52] the put option started, you know, being
+[01:55] $10 out of the money was pretty close to
+[01:57] worthless. I think it closed out at
+[01:58] about $0.75.
+[02:01] Um the call option, which was $10 in the
+[02:04] money,
+[02:05] uh was the one that had the majority of
+[02:07] the deltas. And that, um being $10 in
+[02:11] the money at the time,
+[02:14] um it actually um
+[02:17] you know, it was it wasn't a four it
+[02:19] wasn't completely uh the time value
+[02:21] hadn't completely eroded, so it wasn't a
+[02:23] perfect 100 delta option. Um it was
+[02:27] probably about an 80 delta option. Um
+[02:30] and if you think about that, or it was
+[02:32] maybe about an 85 delta option, and the
+[02:34] put was maybe then a 15 delta option.
+[02:37] So, you see that the net would have been
+[02:39] um the net between the two would have
+[02:40] been about a 70 delta, which over 10
+[02:43] contracts would have been 700 deltas.
+[02:45] And remember that you're short these
+[02:47] calls.
+[02:48] And when when you're short the calls, as
+[02:50] the delta gets bigger, the deltas get
+[02:52] bigger and bigger in a negative manner.
+[02:54] And so, if the stock increased and got
+[02:56] these calls pretty close to, you know,
+[02:59] fairly you know, $10 deep in the money,
+[03:01] uh these calls started to really pick up
+[03:03] a um
+[03:04] you know, started started to really pick
+[03:06] up the
+[03:07] uh uh a negative delta. So, that's how
+[03:10] we ended up with the 700
+[03:13] uh net short deltas on the position is
+[03:15] because the stock went up, the calls
+[03:17] went um more and more in the money.
+[03:22] All right. Um if the stock goes up, you
+[03:24] end up with a negative delta position.
+[03:26] So, to compensate, you would go buy
+[03:28] stock.
+[03:29] On the other hand, if it uh stock price
+[03:31] goes down, would you short the stock if
+[03:33] you
+[03:34] you ended up in a positive delta?
+[03:36] Yeah, if the stock went up
+[03:38] Yeah, yeah, if the stock went down, um
+[03:41] we would uh
+[03:43] if the stock went down instead of up, we
+[03:45] would have sold we would have sold off
+[03:47] deltas. We would have we would have
+[03:48] shorted deltas because what would have
+[03:50] happened is if the stock goes down below
+[03:53] 75, let's just take it one option at a
+[03:56] time to make it kind of simpler. Take
+[03:58] the option that ends up in the money,
+[04:00] which in this case would have been the
+[04:01] put.
+[04:02] If the stock goes below 75, you have an
+[04:04] in-the-money put.
+[04:06] And the in-the-money put gets more and
+[04:08] more and more. It picks up more and more
+[04:11] deltas
+[04:12] the further it gets in the money.
+[04:14] And
+[04:16] these are going to be at the end of the
+[04:18] day because you're short the puts.
+[04:21] And puts have a negative delta, but
+[04:22] because you're short the puts, you're
+[04:24] going to end up with a bigger and bigger
+[04:25] positive delta. And so if you just let
+[04:28] the short straddle position continue on,
+[04:31] what you're going to end up doing is
+[04:33] you're going to end up getting longer
+[04:34] and longer and longer deltas even though
+[04:37] the market's going down. So the further
+[04:39] the market goes down, the more and more
+[04:41] money you're losing. So not only are you
+[04:43] losing money, but you're losing money at
+[04:45] an increasing rate.
+[04:47] And so in order to get away from that,
+[04:50] in order to minimize that loss of money,
+[04:53] we would have to um
+[04:55] we would have to sell stock short
+[04:58] in order to
+[05:00] in in order to minimize that effect. In
+[05:01] order you know, as the market starts
+[05:03] collapsing, we need to sell stock short
+[05:05] to keep our deltas under control.
+[05:07] Because we might be willing to lose some
+[05:09] money, but remember, there's a
+[05:10] difference between losing
+[05:13] on your small delta
+[05:14] or versus losing when your delta gets
+[05:16] bigger and bigger as the stock goes
+[05:18] lower and lower. So in order to control
+[05:20] that element, yes, we would short stock,
+[05:24] which for a lot of you may lead to a
+[05:26] margin
+[05:27] situation where you know, and most of
+[05:29] you have a margin account, but unless
+[05:31] you're trading with new margin rules,
+[05:34] and you have portfolio margining,
+[05:36] you're going to run into the notion that
+[05:38] you're going to have to put up some
+[05:39] money for the stock. That being the
+[05:41] case, you might have you will have to
+[05:43] likely explore the notion of hedging
+[05:46] with options rather than hedging with
+[05:48] stock.
+[05:53] Anyone else?
+[05:54] Yeah, does it make any sense to try and
+[05:56] uh
+[05:57] manage a whole portfolio that way?
+[05:59] Does it make any sense to try to manage
+[06:01] a whole portfolio that way? That's a
+[06:03] good question. Um
+[06:05] the
+[06:06] when you know, it's from and again, I'll
+[06:09] go ahead and just put put in the
+[06:11] disclaimer from my experience.
+[06:13] Um
+[06:14] from you know, what I would do is I
+[06:16] would handle my when I was a when I was
+[06:19] because again, and the reason I'm doing
+[06:20] this is because I did handle over 40
+[06:23] simultaneous positions um
+[06:25] as a floor trader. So, I figure that's
+[06:27] at least relevant enough to look at.
+[06:30] Um
+[06:31] what we would do is yeah, from each one
+[06:34] of those positions um
+[06:36] if all you really you never once you
+[06:38] trade it when you trade on the floor,
+[06:40] it's impossible. I mean, I restate
+[06:42] impossible to remember every trade
+[06:44] you're going to have on.
+[06:46] Um the biggest reason is you have so
+[06:48] many. The second reason is they weren't
+[06:50] your idea in the first place. They were
+[06:52] someone else's idea and you took the
+[06:53] other side.
+[06:55] Uh so, it's impossible to keep track of
+[06:57] any one trade. So, what do we do? We we
+[06:59] can't. We have to keep track of the
+[07:01] Greeks. So, the only thing we look at is
+[07:03] the Greeks. And we look at the delta and
+[07:06] the biggest thing that the one you know,
+[07:08] Vega, theta, gamma, those things are
+[07:11] difficult
+[07:13] to
+[07:14] assess to to really react to. But, delta
+[07:18] one of the rules one of the cardinal
+[07:20] rules of of trading is that delta is the
+[07:22] easiest risk to hedge.
+[07:24] One of the cardinal rules of options
+[07:26] trading, delta is the easiest risk to
+[07:28] hedge. Why? Cuz you can always go out
+[07:30] and buy or sell stock to get yourself
+[07:32] back to a level of comfort. So, the one
+[07:35] thing that we could do if a position got
+[07:38] too big one way or the other, the one
+[07:40] thing that we could quickly do to
+[07:42] address that
+[07:43] uh was to hedge the delta.
+[07:46] And and so that's what we would do. And
+[07:48] so we would do it for individual stocks
+[07:50] based on these huge positions. I I
+[07:53] happen to be fortunate enough to work
+[07:55] for a big firm. Now, the firm as a whole
+[08:00] even though we hedged our own positions
+[08:02] there was still a lot of stuff that we
+[08:04] couldn't possibly hedge on the trading
+[08:06] floor. And therefore the firm had an
+[08:09] aggregate portfolio of all of our
+[08:12] positions and they would also go ahead
+[08:15] and actually hedge off those positions.
+[08:18] In
+[08:19] they they would go ahead and hedge the
+[08:21] aggregate position in a portfolio type
+[08:24] of manner. And sometimes you would say,
+[08:26] "You know what?
+[08:28] We're net long as a firm. We need and
+[08:31] basically since we're trading over a
+[08:33] thousand stocks, you got to figure that
+[08:36] if you're trading over a thousand
+[08:37] independent stocks then you basically
+[08:39] are trading the market. And if that that
+[08:42] being the case, you can hedge that
+[08:44] aggregate position by buying or selling
+[08:46] S&P futures.
+[08:48] And so yes, the answer to the long
+[08:50] convoluted answer is yes, you can do
+[08:52] that.
+[08:53] The the follow-up question to that is
+[08:56] can you do something similar with just
+[08:58] options? In other words, if you find
+[09:00] that you're getting as a your portfolio
+[09:02] is getting long volatility or short
+[09:04] volatility, can you trade options to
+[09:07] hedge that volatility? Can you you know,
+[09:10] if you have a lot of equities, can you
+[09:12] trade index options to hedge the
+[09:13] volatility?
+[09:15] The answer is yes, you have to become
+[09:17] familiar with something that you know,
+[09:19] you can always do Google search on this.
+[09:21] It's called dispersion theory.
+[09:24] In one of our classes we did a really
+[09:27] excellent basic write-up of what
+[09:29] dispersion theory is so that you
+[09:31] understand why
+[09:33] certain elements happen in um, you know,
+[09:36] I spent a little bit of time on the
+[09:37] index desk at Susquehanna when I was
+[09:39] training, and one of the things I picked
+[09:41] up was, uh, the notion of dispersion
+[09:44] theory and how we would use that, uh, to
+[09:47] hedge
+[09:48] a multiple stock position with, uh,
+[09:52] index options.
+[09:54] Uh, and what were the risks that we were
+[09:56] taking when we did that because it's not
+[09:58] a perfect hedge because of this element
+[10:01] called the dispersion.

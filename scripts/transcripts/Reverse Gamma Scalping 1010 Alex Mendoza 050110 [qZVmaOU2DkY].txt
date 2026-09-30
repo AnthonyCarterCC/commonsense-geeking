@@ -1,0 +1,140 @@
+Title: Reverse Gamma Scalping 10/10: Alex Mendoza: 05/01/10
+Video ID: qZVmaOU2DkY
+URL: https://www.youtube.com/watch?v=qZVmaOU2DkY
+------------------------------------------------------------
+
+[00:26] So um it's if you if you want to get
+[00:28] into it, it's a very it's a heavy
+[00:30] mathematical thing. Um there is a there
+[00:34] is a um one of the uh one of the people
+[00:37] that's going to be at the um at the at
+[00:39] the at the practical seminar that's
+[00:41] going to be uh presenting for us is
+[00:43] actually uh he actually has a doctorate
+[00:46] in applied math and I'm sure that we
+[00:48] could get together and accommodate a
+[00:50] brief session on dispersion theory uh if
+[00:52] that's your cup of tea. Again uh I know
+[00:55] enough to describe the basics to you.
+[00:56] I've seen the basics in action. uh I
+[00:59] would not feel comfortable going
+[01:01] full-fledged uh giving you the full
+[01:02] discussion on it and therefore I would
+[01:04] appeal to a higher source to do that uh
+[01:06] one of the things that we do uh to keep
+[01:08] the education consistent. So just you
+[01:11] know that's the long- winded answer to
+[01:13] your question. Yes, you can.
+[01:21] I don't think so. Yeah. Do you carry
+[01:23] those uh trades reverse gamma scalping
+[01:26] trades right into expiration?
+[01:29] Um the the question is do you carry the
+[01:31] trades the reverse gamma scalping trades
+[01:33] into expiration? Um you good question.
+[01:37] You treat the trade as you would any
+[01:38] other trade. Um in the money options way
+[01:42] in the money options way out of the
+[01:43] money options provided you don't care
+[01:46] about assignment. Uh which as your
+[01:49] portfolio gets bigger you really won't
+[01:50] care.
+[01:52] Um, if that being the case, um, you're
+[01:55] probably at some point, if you think
+[01:57] about it, on a reverse gamma scalp or on
+[01:59] a standard gamma scalp, if the options
+[02:01] are deep in the money, then your long
+[02:03] puts are going to be offset by your long
+[02:05] stock. Your long calls are going to be
+[02:07] offset by your short stock. Everybody's
+[02:09] happy. If the option is out of the
+[02:10] money, then it expires worthless. It's
+[02:14] when you get close to at the money,
+[02:17] which ironically is when you're making
+[02:19] the most money on your trade. That's the
+[02:23] that's when you actually do need to take
+[02:25] action because the worst thing that can
+[02:27] happen in one of these positions is that
+[02:28] you get pinned at the strike. Okay? And
+[02:32] um you know, we talk a lot about this
+[02:34] stuff in our classes about how to avoid
+[02:36] getting pinned at the strike and you
+[02:38] start introducing the notion of
+[02:40] techniques called reversals and
+[02:41] conversions. uh to show people how to
+[02:44] avoid getting pinned at expiration.
+[02:46] Pinned means that the stock is going to,
+[02:48] for example, if you sell the 75
+[02:50] straddle, uh the stock ends up right at
+[02:53] 75. Okay? If you bought the straddle and
+[02:56] it's still at 75, we hope you've done
+[02:58] something along the way to get out of it
+[03:00] because that's the worst thing that can
+[03:01] happen to you is having the stock at 75
+[03:04] if you're long the straddle. Um, if
+[03:06] you're short the straddle on the other
+[03:08] hand, a it's the best thing that can
+[03:10] happen to you, but b you don't want to
+[03:12] get stuck there for expiration because
+[03:14] it leads to pin risk. It leads to not
+[03:16] knowing what your stock position will be
+[03:19] um the, you know, will be the next um
+[03:22] the next morning. Uh the beautiful thing
+[03:24] about options as you'll see as you'll
+[03:26] get to
+[03:28] um as you start approaching options
+[03:31] expiration, okay, as you start really
+[03:33] approaching options expiration is
+[03:36] that that's that very split second
+[03:40] before options expire. If the option is
+[03:44] 1 cent in the money, it's got a 100
+[03:46] delta, positive or negative, depending
+[03:48] on whether it's a call or a put. If the
+[03:50] option is 1 cent out of the money, it's
+[03:52] got a zero delta. So what does that mean
+[03:54] for your position? Well, it means that
+[03:57] you're if you have options that are in
+[03:59] the money at expiration, they're
+[04:00] probably going to settle to long or
+[04:01] short stock. And you have to be able to
+[04:05] count your option
+[04:07] units versus your stock units to make
+[04:10] sure that you're balanced going into
+[04:12] expiration if you have in the money
+[04:14] options um to deal with. So, at the end
+[04:17] of at the end of time, uh the at the
+[04:20] money position, you're going to have to
+[04:21] address and you're going to have to
+[04:22] exit. Uh something that's in the money,
+[04:25] all you have to do is make sure that if
+[04:27] you're long 10 options that you have
+[04:30] short, thousand shares to cover that.
+[04:32] Okay? So, again, it's really easy when
+[04:35] you're when you have in the money
+[04:37] options. Uh you really should exit the
+[04:40] position uh at some point when you have
+[04:43] uh at the money options. And um the the
+[04:46] the neat thing is that typically uh when
+[04:49] you're sitting right at the money,
+[04:50] chances are whatever gamma scalping or
+[04:52] reverse gamma scalping you're done, your
+[04:54] stock position is probably pretty close
+[04:56] to net zero uh or pretty close to it. Uh
+[05:00] so therefore, there's minimal management
+[05:02] that has to be done at that time. So
+[05:04] just that's that's the way to address
+[05:06] these positions uh is on whether your
+[05:08] options are going to and especially on a
+[05:10] straddle type situation. Are they going
+[05:12] to expire in the money or are they not
+[05:13] going to expire in the uh or are they
+[05:15] going to expire at the money and at the
+[05:17] money is where you really even though
+[05:19] that's where you make the most money
+[05:20] that's where you really need to be
+[05:21] concerned about exiting the position to
+[05:23] make sure you don't get pinned and
+[05:25] surprised on Monday morning. Thank you
+[05:27] so much guys. I really appreciate and
+[05:29] again Matthew I really appreciate you
+[05:30] having us on and uh you know we'll hope
+[05:33] to see you

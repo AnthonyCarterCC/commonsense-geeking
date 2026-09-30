@@ -1,0 +1,412 @@
+Title: Live Trading My Simple Gamma Trading Strategy (MUST WATCH)
+Video ID: P41FT-kqSOA
+URL: https://www.youtube.com/watch?v=P41FT-kqSOA
+------------------------------------------------------------
+
+[00:00] So, if you guys have never used gamma in
+[00:01] your trading strategy, I encourage you
+[00:04] to watch this video through and see how
+[00:06] much of a difference it can make in your
+[00:08] trading. Because what's cool about
+[00:10] reading the gamma in the options market,
+[00:12] and again, I trade futures, right? I
+[00:14] don't even trade options. But use the
+[00:16] levels from the gamma to trade Nasdaq
+[00:18] futures. Now, what the gamma's going to
+[00:20] tell you is it's not only going to tell
+[00:22] you where price is going to be defended,
+[00:25] it's also going to tell you where price
+[00:26] will accelerate and where price will
+[00:28] consolidate. When you know these three
+[00:30] things, it's going to make trading a lot
+[00:32] easier. So, I want to show you guys that
+[00:34] in this video and also a trade I took
+[00:36] live this morning using that exact
+[00:38] strategy. All right, guys. So, as you
+[00:40] can see, today I'm up around $1,300
+[00:43] on the day in total P&L. This is trading
+[00:45] my live personal account. And we can see
+[00:48] if we go to this week, it's Thursday
+[00:49] right now, so we have one trading day
+[00:51] left of the week.
+[00:53] Um we can see I'm up around $3,000 on
+[00:55] the week. Now, this week has been a
+[00:57] little tough. You know, I pretty much
+[00:58] had two break-even days, one winning
+[01:00] day, and then another winning day today,
+[01:02] which is how I got that $1,400 P&L.
+[01:05] Anyways, I want to go over my strategy,
+[01:07] right? So, like I said, I use gamma as
+[01:10] my levels in my trading, and I want to
+[01:13] show you exactly what that looks like.
+[01:15] So, anyways, there's a couple of
+[01:16] different places you can look at to read
+[01:17] gamma. I personally use this software
+[01:19] here. Uh if you guys want to check it
+[01:21] out, there will be a link in the
+[01:23] description. Keep in mind, it does cost
+[01:25] money, but it's a tool I use, and uh for
+[01:28] me it's worth it, obviously, right? So,
+[01:30] anyways, with that being said, let me
+[01:32] actually show you what the market looked
+[01:34] like this morning and kind of how to
+[01:35] read this. And the coolest thing about
+[01:37] this software is they have a backtesting
+[01:38] feature. So, anyways, if I go back to
+[01:40] today, September 18th, day after FOMC,
+[01:44] I'm going to go to where the market
+[01:45] first opened at 9:32 Eastern time. So,
+[01:48] as we can see, if we actually move
+[01:50] myself,
+[01:52] okay, you want to pay attention to gamma
+[01:53] right here.
+[01:55] Okay, and what we can see here is we
+[01:57] have a couple different things going on,
+[01:59] right? Market opened up at 595 on QQQ.
+[02:03] Now, keep in mind, I trade Nasdaq
+[02:06] futures, but I use QQQ as my levels, and
+[02:09] on NQ, I just use a price converter.
+[02:12] Okay, so you can see I have all my
+[02:13] levels labeled, 595, 594. Um, if you
+[02:17] want to learn how to do that, all you
+[02:18] have to do is type in this indicator,
+[02:20] it's called map multiple QQQ levels to
+[02:22] NQ. Go to the settings and you can put
+[02:24] in your QQQ levels and it'll show up on
+[02:28] your Nasdaq chart, okay?
+[02:30] So, anyways, that's how you convert the
+[02:32] prices. If you don't know, QQQ mirrors
+[02:34] Nasdaq, so they'll trade the same way.
+[02:37] Anyways, going into the market open, we
+[02:39] can see we have this 596 as our biggest
+[02:42] gamma target. Okay, so this area will
+[02:44] act as a magnet. Price will naturally
+[02:47] want to pull to this area, and once we
+[02:50] get to 596,
+[02:51] right, we can see we have a huge
+[02:53] drop-off in gamma at 597, 598, and then
+[02:56] a huge drop-off at 599, meaning we're
+[03:00] probably going to consolidate around
+[03:02] this area once we get up to 596. Okay,
+[03:06] so market first opens up, it's 9:32
+[03:09] Eastern Time right now, right? And since
+[03:11] we have a target of 596, meaning at some
+[03:14] point today, there's a very high chance
+[03:16] we're going to get to 596. If we end up
+[03:19] pulling back, which a lot of times we
+[03:21] do, market opens up, we pull back, I'm
+[03:24] going to look to see if we, for one,
+[03:26] hold 595,
+[03:28] for two, hold 594. You can see after
+[03:30] 594, there's a big drop-off to 593.
+[03:34] If we do not hold 594,
+[03:37] then I'll be looking to get long at 592.
+[03:40] As you can see, after 592, we have a big
+[03:42] drop-off and then we turn negative. So,
+[03:45] these are kind of my pullback levels.
+[03:47] Basically, 594 or 592 and even 595,
+[03:51] because I know at some point today we're
+[03:53] going to gravitate towards this gamma
+[03:56] level at 596. That's our magnet, okay?
+[03:58] So, that's what you want to think of it.
+[04:00] You can also look at the delta. Um the
+[04:02] delta will basically show you whether
+[04:05] there's more buyers or sellers in the
+[04:06] market, right? And what liquidity
+[04:08] providers have to do. So, as you can
+[04:10] see,
+[04:11] we pretty much have all positive delta,
+[04:14] meaning there's almost no sellers, okay?
+[04:17] The market is 5% selling, 90% buying.
+[04:21] This confirms our target at 596 because
+[04:25] we're going to want to pull up to it. If
+[04:27] we do pull back, right? To 594,
+[04:31] I want to get long because not only is
+[04:32] there
+[04:33] delta buying, right? But also we know
+[04:36] we're going to get to this 596 target at
+[04:38] some point today. There's a very high
+[04:39] chance. So, that's kind of my trade
+[04:42] thesis, right? And obviously every day
+[04:44] it's going to look a little bit
+[04:45] different, and you guys can watch my
+[04:47] other videos to kind of see how I
+[04:49] navigate each day, but this is the
+[04:51] strategy. I'm looking for a target based
+[04:53] on the gamma, and I'm looking for
+[04:54] pullbacks that are likely to hold,
+[04:57] right? So, if we open up the chart, as
+[04:59] you can see, market opens up right here
+[05:01] at 7:30 my time. We get close to 596.
+[05:05] Uh 596 was right here on this green
+[05:07] line. As you can see, it's labeled on
+[05:09] the right.
+[05:10] Okay, we didn't quite get to it, which
+[05:11] is a good sign, because if we got to
+[05:13] 596,
+[05:15] I don't really know what to do, right?
+[05:16] Like it's probably just going to
+[05:17] consolidate after 596.
+[05:20] I'm going to be less likely to take a
+[05:21] trade.
+[05:22] Now, as you can see, what happens? We
+[05:25] pull back to 595. We do not hold it. We
+[05:28] pull back to 594. We act like we're
+[05:31] trying to hold it, and then we dip down
+[05:33] one more time, right? Price quickly gets
+[05:36] bought up. We don't get quite to 592.
+[05:39] And what happens? We close back above
+[05:41] 594.
+[05:43] I get a buy signal from my OTS
+[05:45] indicator. Again, I just use this as an
+[05:47] entry confirmation, but I'm mainly
+[05:50] looking at the levels, right? Once we
+[05:52] got to 594, this is at like 7:49 my
+[05:55] time. So, if we go to it's going to be
+[05:58] 9:49 Eastern time. Let's go to 9:40
+[06:02] 8 9:49. As you can see, what happens
+[06:05] here, right? We're pretty much just
+[06:07] barely holding uh this level. If we go
+[06:10] into this, we're barely just holding
+[06:12] 594. As you can see, we pretty much have
+[06:15] no interest at 593 592. So, there's a
+[06:18] very high chance that we're going to
+[06:20] hold this level, right? And we still, as
+[06:23] you can see, we have increasing interest
+[06:24] straight to 596, which is our main
+[06:27] target. Right? And we can also see,
+[06:29] okay, what is the delta saying? Okay,
+[06:31] delta is still showing us we mainly have
+[06:34] buyers.
+[06:35] Right? We have a little bit of sellers
+[06:37] here,
+[06:38] but as long as we hold 94, we should
+[06:41] continue up to this 96 target on the
+[06:44] gamma.
+[06:45] Okay?
+[06:46] So, as you can see, what happens here?
+[06:47] We get this buy signal. Now, by the time
+[06:50] this closes and I get my entry
+[06:52] confirmation,
+[06:53] we're already getting pretty damn close
+[06:55] to 596, which again is the gamma target,
+[06:58] right? This big green bar.
+[07:01] So, I actually waited for a pullback. Um
+[07:03] I got in I actually entered one contract
+[07:06] right away at like 80 or almost 90.
+[07:10] Then we actually pulled back to 594,
+[07:13] right? As you can see, we pulled back
+[07:15] here at 7:56. So, let's get forward to
+[07:18] 7:56.
+[07:20] And as we can see, we're still holding
+[07:23] this area. Delta looks good.
+[07:25] Everything's fine. And then what happens
+[07:27] is we get another green candle. I added
+[07:29] another contract to my position right
+[07:32] when we got this first green candle
+[07:34] right here.
+[07:35] Uh so, now I'm basically in two
+[07:37] contracts, two minis,
+[07:39] right? And now my average price is
+[07:41] around 80 or so.
+[07:44] So, essentially I just put my stop below
+[07:46] the lows, and obviously we're riding it
+[07:48] to this target, right? The target I've
+[07:50] been talking about all day, which is
+[07:52] 596, right? That was my whole focus for
+[07:55] the day because this is what the gamma's
+[07:57] telling me. We're going to get to 596.
+[08:00] This is the biggest bar. This will act
+[08:02] as a magnet.
+[08:03] So, anyways, we got in here. I only got
+[08:05] a one-to-one risk reward because I got
+[08:07] kind of a late entry. Um I was able to
+[08:10] bring my average down a little bit as I
+[08:12] added right here.
+[08:13] But, some days, you know, maybe the
+[08:15] target will be at 598, and I'll have a
+[08:18] way bigger risk reward, right? So,
+[08:20] again, I can't control where that target
+[08:23] is and where I actually enter. The only
+[08:25] thing I can control is, you know, am I
+[08:27] getting in before the target? Um am I
+[08:30] getting in at a level that has a high
+[08:32] chance of holding based on, you know,
+[08:35] the drop-off? As you can see, at 594, we
+[08:38] have a huge drop-off to 592, meaning
+[08:40] there's less interest down here,
+[08:42] right? And delta confirms that, you
+[08:45] know, people are buying today. The
+[08:47] market makers are going to be buying.
+[08:49] So, again, some days the risk reward
+[08:50] will be a lot higher. Today, it was
+[08:51] around a one-to-one, which is completely
+[08:53] fine. So, as you can see, once we got to
+[08:55] 596,
+[08:57] uh we pretty much just chopped around.
+[08:59] As you can see, we got Yeah, we're at
+[09:01] 596 now.
+[09:03] We had pretty, you know, declining
+[09:05] interest, so we did have some gamma here
+[09:08] at 597, and then dropped off at 598. As
+[09:12] you can see, what happens after 598? Let
+[09:14] me zoom in on this, right? What happens
+[09:16] after 598? There's a huge drop-off,
+[09:18] right? To 599. So, what this means is,
+[09:21] you know, we're very unlikely
+[09:24] to go to 599.
+[09:26] Okay, we do have 600 peaking a little
+[09:28] bit, but we will have to see if we break
+[09:30] above 598. It's going to be super hard
+[09:33] to break above 598, right? That's kind
+[09:35] of what it's saying here. And we can
+[09:36] look at the chart. What actually
+[09:38] happened? Okay, let's actually go to QQQ
+[09:40] so you guys can see.
+[09:42] Um, you know, we got to 596 right here.
+[09:46] And where is 598, right? We can see 598
+[09:49] is literally right here. And what
+[09:51] happens? Okay, we literally ticked it to
+[09:54] an absolute T. And then what happens? We
+[09:57] fall back to the magnet zone, which is
+[09:59] 596. This shows how accurate gamma is.
+[10:03] As you can see, we literally ticked it
+[10:05] to a T, right? Not cuz it was random,
+[10:07] but because market makers had no reason
+[10:10] to buy after 598. There's no interest at
+[10:13] 599. Right? So, obviously we're going to
+[10:16] see a pullback and we're going to have
+[10:17] gravitate back towards
+[10:20] what?
+[10:22] Back towards the magnet, right? Which is
+[10:24] 596. This is going to act as a magnet
+[10:27] place where price consolidates. Okay,
+[10:30] obviously today was super volatile
+[10:32] because
+[10:33] of, you know, FOMC yesterday. So, we're
+[10:35] going to, you know, bounce between
+[10:37] levels, but we're going to have
+[10:39] consolidation back to the magnet. That's
+[10:41] just a rule with gamma. So, anyways,
+[10:45] that was my trade for the day. After
+[10:47] that, again, we're just consolidating in
+[10:49] between this range, in between, you
+[10:51] know, the big drop off 98. As you can
+[10:53] see, we went to it again perfectly and
+[10:56] then we fell back down to 96, right? So,
+[10:59] a lot of traders might be wondering
+[11:01] like, "Why are we just consolidating
+[11:02] here?" Right? If you ever wondering
+[11:04] that, look at the gamma and it's going
+[11:07] to tell you why. Okay, it's going to
+[11:09] tell you why. So, anyways, guys, that
+[11:11] was my trade for the day. Like I said, I
+[11:13] did take this trade live, so I'm going
+[11:14] to roll that replay in just a second so
+[11:16] you can actually see the live price
+[11:18] action. I did want to let you guys know
+[11:20] that if you guys want to learn more
+[11:22] about how to read the Greeks, everything
+[11:24] I'm showing here with the gamma, I'm
+[11:25] doing a full webinar because it is kind
+[11:28] of confusing, especially cuz there's a
+[11:30] different scenario a little bit every
+[11:32] day. So, I'm going to be doing a full
+[11:34] live webinar on September 25th next week
+[11:38] at 7:00 p.m. Eastern time. If you guys
+[11:40] want to learn how to read this in-depth,
+[11:42] see multiple trade examples over the
+[11:45] past month. Like I said, that's going to
+[11:46] take place on this free live webinar I'm
+[11:49] going to be doing next week. So, if you
+[11:50] guys want to reserve your spots, um I'm
+[11:53] going to be doing it live on Zoom. They
+[11:55] only allow 500 spots max on the call.
+[11:58] So, if you guys do want to secure your
+[11:59] spot like I said, just go over to
+[12:01] marketminutes.co/webinar
+[12:04] or just hit that first link in the
+[12:05] description below this video. So,
+[12:06] anyways, like I said, I'm going to roll
+[12:08] the replay from the trade I took live
+[12:10] this morning. So, give that a watch. You
+[12:12] can see my live breakdown and I'll see
+[12:13] you guys tomorrow morning inside our
+[12:15] Discord community.
+[12:16] >> Basically, what I was saying is we have
+[12:18] this 96 target increasing interest to
+[12:22] it. But, yeah, I was saying whether we
+[12:24] pull back to 94 or 95 or even 92, I'd be
+[12:28] interested in getting long. I do not
+[12:30] want to short at 96 because we have this
+[12:34] spike at 600. So, we'll have to see if
+[12:37] we can actually find a way to get long.
+[12:40] If 95 doesn't hold, then we can look at
+[12:42] 94 and we can see
+[12:44] it drops off again pretty good
+[12:47] before 93. If 94 could hold and then we
+[12:50] can trade it back up to this 96 area. If
+[12:53] 94 doesn't hold, we're going to push
+[12:55] straight into 92 and you can see it kind
+[12:58] of turns negative after 92. So, this
+[13:01] level
+[13:03] can act as a pullback area as well. Uh
+[13:05] let's see if we hold this 94.
+[13:07] We are looking pretty volatile today. I
+[13:10] mean, we're basically one candle is the
+[13:12] size of
+[13:14] 40 points. So, 40-point candle on a
+[13:17] 1-minute. So, I'm probably going to have
+[13:19] to deal with late entries. So, it looks
+[13:21] like we're going to get a super late
+[13:23] signal unfortunately due to this
+[13:25] volatility. So, it's probably going to
+[13:28] be above 60. Yeah, I'm going to have to
+[13:31] size down.
+[13:33] Risk reward is going to suck. We might
+[13:35] be able to get a one to one. Slow down,
+[13:38] dude. Oh my god.
+[13:42] Chill.
+[13:43] Well, guys, we got one more point to
+[13:45] work with.
+[13:49] Oh, I entered early.
+[13:52] That's all right.
+[13:55] Um yeah, don't have much to work with.
+[13:59] I would just take this up to like 720.
+[14:02] My stop will be under 594. So, risk
+[14:05] reward is horrible on this trade, but
+[14:08] it's high probability. We'll pull into
+[14:09] 96 now. I can't really justify taking
+[14:12] two contracts because the risk.
+[14:15] Um unless we like pull back again. My
+[14:17] stop's right below this candle at 633.
+[14:20] So, I could try to add another contract.
+[14:24] See how far we want to pull back.
+[14:28] Oh, I'm seeing if we hold this 94 now.
+[14:38] What the hell?
+[14:39] What was that?
+[14:43] Okay, I'm going to be adding a contract
+[14:45] and now I
+[14:46] still my stop at like 33.
+[14:58] First target 720.
+[15:19] All right, nice push up.
+[15:22] Getting close.
+[15:25] Got to 714.
+[15:27] Like six points off.
+[15:29] Looks like 600 died a lot.
+[15:33] Which means we're
+[15:34] We're going to struggle getting past 96
+[15:37] at all. So, I will be taking all of it
+[15:39] off up here.
+[15:41] Um I just got to find where to exit, but
+[15:43] I'm probably going to trim one here as
+[15:46] we're at 705 right now near high day.
+[15:48] This could act as resistance. I don't
+[15:50] know if we're getting it past 96
+[15:52] anymore. I'm going to move stops to
+[15:56] like break even at 69. It's my average
+[15:59] entry for this.
+[16:05] And let's just see if we can get up to
+[16:07] 25 or so and I'll take it off.
+[16:26] There we go.
+[16:28] Wow.

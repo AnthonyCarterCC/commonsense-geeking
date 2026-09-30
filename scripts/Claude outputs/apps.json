@@ -1,0 +1,123 @@
+{
+  "site": {
+    "title": "Commonsense Geeking",
+    "description": "Central hub for scripts, tools, and applications",
+    "lastUpdated": "2026-09-30"
+  },
+  "categories": [
+    {
+      "id": "solar",
+      "name": "Solar & Energy",
+      "icon": "⚡",
+      "order": 1
+    },
+    {
+      "id": "trading-apps",
+      "name": "Trading Apps",
+      "icon": "📈",
+      "order": 2
+    },
+    {
+      "id": "trading-indicators",
+      "name": "Trading Indicators",
+      "icon": "📊",
+      "order": 3
+    },
+    {
+      "id": "scripts",
+      "name": "Scripts & Tools",
+      "icon": "⚙️",
+      "order": 4
+    }
+  ],
+  "apps": [
+    {
+      "id": "amber-monitor",
+      "title": "Amber Battery Monitor",
+      "category": "solar",
+      "link": "http://192.168.1.200:8080",
+      "icon": "🔋",
+      "description": "Real-time battery charge levels and Amber Electric pricing integration"
+    },
+    {
+      "id": "foxess-inverter",
+      "title": "FoxESS Inverter Status",
+      "category": "solar",
+      "link": "http://192.168.1.200:8081",
+      "icon": "☀️",
+      "description": "Solar generation and inverter performance monitoring"
+    },
+    {
+      "id": "carter-dashboard",
+      "title": "Carter Dashboard",
+      "category": "trading-apps",
+      "link": "http://192.168.1.200:8787",
+      "icon": "📊",
+      "description": "SPX options portfolio management and position tracking dashboard"
+    },
+    {
+      "id": "sheridan-dashboard",
+      "title": "Sheridan Dashboard v3",
+      "category": "trading-apps",
+      "link": "http://192.168.1.200:8181",
+      "icon": "🎯",
+      "description": "Trading strategy monitoring and Discord trade signal tracking"
+    },
+    {
+      "id": "carter-vol-profile",
+      "title": "ACarter-VolProfile",
+      "category": "trading-indicators",
+      "link": "http://tos.mx/ITgduUyo4",
+      "icon": "📍",
+      "description": "thinkorSwim volume profile indicator for price action analysis"
+    },
+    {
+      "id": "carter-volume-study",
+      "title": "ACarter-VolumStudy-Daytrade",
+      "category": "trading-indicators",
+      "link": "http://tos.mx/INvVO1t0F",
+      "icon": "📈",
+      "description": "thinkorSwim volume study optimized for day trading strategy execution"
+    },
+    {
+      "id": "duplicate-finder",
+      "title": "DuplicateFinder.ps1",
+      "category": "scripts",
+      "link": "https://github.com/commonsense-geeking/scripts/raw/main/DuplicateFinder.ps1",
+      "icon": "🔍",
+      "description": "Identifies and manages duplicate files across your system"
+    },
+    {
+      "id": "fix-module-paths",
+      "title": "Fix-ModulePaths.ps1",
+      "category": "scripts",
+      "link": "https://github.com/commonsense-geeking/scripts/raw/main/Fix-ModulePaths.ps1",
+      "icon": "🔧",
+      "description": "Repairs PowerShell module path configuration issues"
+    },
+    {
+      "id": "audit-entra-security",
+      "title": "Audit-EntraSecurity.ps1",
+      "category": "scripts",
+      "link": "https://github.com/commonsense-geeking/scripts/raw/main/Audit-EntraSecurity.ps1",
+      "icon": "🔐",
+      "description": "Audits Azure Entra security settings and compliance"
+    },
+    {
+      "id": "promote-local-admin",
+      "title": "Promote-CurrentUserToLocalAdmin.ps1",
+      "category": "scripts",
+      "link": "https://github.com/commonsense-geeking/scripts/raw/main/Promote-CurrentUserToLocalAdmin.ps1",
+      "icon": "👤",
+      "description": "Elevates the current user to local administrator privileges"
+    },
+    {
+      "id": "reset-teams",
+      "title": "Reset-Teams.ps1",
+      "category": "scripts",
+      "link": "https://github.com/commonsense-geeking/scripts/raw/main/Reset-Teams.ps1",
+      "icon": "💬",
+      "description": "Resets Microsoft Teams to resolve common application issues"
+    }
+  ]
+}

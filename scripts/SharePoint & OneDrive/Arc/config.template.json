@@ -1,0 +1,16 @@
+{
+  "TenantAdminUrl": "https://CLIENTTENANT-admin.sharepoint.com",
+  "SourceSiteUrl": "https://CLIENTTENANT.sharepoint.com/sites/SOURCE_SITE",
+  "SourceLibrary": "Documents",
+  "ArchiveSiteUrl": "https://CLIENTTENANT.sharepoint.com/sites/ARCHIVE_SITE",
+  "ArchiveSiteTitle": "ARCHIVE SITE TITLE",
+  "SiteOwner": "admin@CLIENTTENANT.onmicrosoft.com",
+  "ArchiveLibrary": "Documents",
+  "ArchiveThresholdYears": 10,
+  "TestFileLimit": 100,
+  "ClientId": "FROM Register-PnPEntraIDApp OUTPUT",
+  "Thumbprint": "FROM Register-PnPEntraIDApp OUTPUT",
+  "Tenant": "CLIENTTENANT.onmicrosoft.com",
+  "LogPath": "./archive-log.csv",
+  "DryRun": true
+}

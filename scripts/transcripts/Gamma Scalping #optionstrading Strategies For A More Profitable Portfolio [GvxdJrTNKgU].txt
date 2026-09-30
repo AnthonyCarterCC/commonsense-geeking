@@ -1,0 +1,204 @@
+Title: Gamma Scalping: #optionstrading Strategies For A More Profitable Portfolio
+Video ID: GvxdJrTNKgU
+URL: https://www.youtube.com/watch?v=GvxdJrTNKgU
+------------------------------------------------------------
+
+[00:05] - What's up everybody?
+[00:07] It's Jonathan, today we're going
+to talk about scalping gamma.
+[00:11] I'm going to walk you through
+an example in KEM, K-E-M.
+[00:15] Now, in my opinion,
+learning how to scalp gamma,
+[00:20] learning how to manage your position,
+[00:22] is probably the most important thing
+[00:24] for any trader learning
+how to trade stock options.
+[00:29] It's an absolute necessity.
+[00:32] So let me walk you through an example
+[00:34] of a trade that we shared June 11th.
+[00:37] Today, July 2nd.
+[00:39] So June 11th we shared
+an idea in KEM, K-E-M.
+[00:44] Here is the date.
+[00:46] The trade that was shared was buying one
+[00:48] July 24th Strike Call:
+[00:51] $.60; let's use the example
+of a 1 lot, it's $60.
+[00:55] You can never lose more than 60 bucks.
+[00:58] We're also buying one
+July 21st Strike Put:
+[01:02] $.50, risk $50, you can never lose more.
+[01:06] So, if you do both sides of the trade,
+[01:08] if you do a 1 lot, it's $110.
+[01:11] If you do a 10 lot, it's $1,100.
+[01:14] But let's use the example of a 1 lot.
+[01:17] I highlighted the area of the trade,
+[01:19] but I also made a line on the 24th strike.
+[01:22] Now, I probably could do the
+same thing on the 21 strike,
+[01:25] but the stock never traded down there,
+[01:27] so don't worry about it, okay?
+[01:29] Buying one July 21 Strike Put allows you
+[01:33] to be short at 21 if
+the market's under 21.
+[01:38] The market's not under
+21, so it doesn't matter,
+[01:41] they're worthless.
+[01:43] We have the option to be short.
+[01:45] We're going to choose not to be short
+[01:47] because the price of the
+stock right now is $25.67.
+[01:51] So let's just worry
+about the 24 Strike Call.
+[01:54] And I'm going to show you
+how professional traders
+[01:57] would manage this trade.
+[01:59] Again, we have $110 of risk, right now,
+[02:03] when we put the position on.
+[02:06] So here we go.
+[02:08] Right away, there's volatility,
+[02:11] but it's not really helping us very much
+[02:13] because it's not moving
+away from our strike.
+[02:16] But, all of a sudden, we start to rally.
+[02:18] So now the 24 strikes are in the money.
+[02:21] Now, again, the 21 strikes,
+ignore 'em, we're nowhere close.
+[02:25] The 24 strikes are in the
+money, fine; they're doing well.
+[02:29] What I suggest, what I teach, 25,
+[02:33] we're up a dollar, where we
+have a dollar of intrinsic value
+[02:37] in those 24 strikes, so what
+I'm always going to suggest
+[02:41] that people do:
+[02:44] sell 30 shares of stock.
+[02:46] Sell 30 shares of the
+underlying stock of KEM.
+[02:50] If you sell them for
+$25, at the price of $25,
+[02:55] your position, you're still long one,
+[02:58] you never touched your options.
+[03:01] Now you're short 30 shares
+of the underlying stock.
+[03:04] The reason we do this is because
+[03:08] being long one of a 24 Strike
+Calls, it's the same thing
+[03:12] as being long 100 shares of
+KEM once we're in the money.
+[03:16] So, if I sell 30 right
+here, we're long one call,
+[03:20] short 30 shares of stock, okay?
+[03:22] Let's just trade whole
+numbers for this example.
+[03:25] So now we just hold,
+we're not doing anything.
+[03:27] It looks like it's coming off.
+[03:29] We didn't get filled, fine,
+it still doesn't do anything,
+[03:32] doesn't do anything,
+comes back down to 24,
+[03:34] we make a dollar on
+this trade, let's cover.
+[03:41] Sold 30, let's buy 30 shares
+back, so we make a dollar.
+[03:45] So we just made 30 bucks.
+[03:47] So, if we go back to our original trade,
+[03:49] we risked $110, we've
+taken 30 off the table,
+[03:54] so now we have $80 of risk, okay?
+[03:58] Rallies again to 25, hey,
+let's sell 30 shares again.
+[04:03] We're scalping gamma;
+that's what we're doing.
+[04:06] Wow, it keeps on rallying to 26.
+[04:08] Okay, great, let's sell 30 shares again.
+[04:12] So we sell 30, we sell 30.
+[04:16] If it keeps going higher,
+great problem to have, right?
+[04:19] Because we're long one
+call, the equivalent
+[04:22] of 100 shares, we sold 30, we sold 30,
+[04:26] so we're still long, in
+essence, 40 shares of stock.
+[04:30] As the market turns and comes back off,
+[04:35] buy 60 back, buy 'em all back.
+[04:39] Okay, so what do we do now?
+[04:42] We buy 60 back,
+[04:45] sell 30, sell 30,
+[04:47] so we make $2 on 30 of
+them, right, that's 60.
+[04:52] And we made 30 on these,
+so we just made $90.
+[04:57] Put that in our coffer.
+[05:00] We made 30 on this trade,
+now we just made 90.
+[05:04] We're up 120, so now we
+have zero risk on our trade.
+[05:08] We're actually up $10; we're up about 10%.
+[05:12] We still have about, at this point,
+[05:15] 25 days to go until expiration,
+we're up $10 on this trade.
+[05:20] We can never lose that money;
+we're up money on the trade.
+[05:26] Comes off, it rallies
+again, oh, it came down.
+[05:30] We really couldn't do anything here
+[05:31] because, remember, we're long
+at 21s, so forget about that.
+[05:35] Rallies back up, 25s, sell 30.
+[05:39] Keeps on rallying, you
+know what to do: sell 30.
+[05:45] Comes back off, put a bid
+in there to buy 30 back.
+[05:51] What you'll notice is we are
+never touching our options.
+[05:56] We are never giving up
+the most powerful thing
+[05:58] that we own, which is our optionality.
+[06:01] We're up good money on this trade
+[06:03] because we're up 10 bucks, but, of course,
+[06:05] as we're rallying here, we
+just locked in another $30
+[06:09] on the options because
+we're long the 24 strike.
+[06:14] Now it rallies to 26, you
+make $2 on the options here.
+[06:18] If it comes back off,
+we can buy the stock.
+[06:20] And if it keeps running,
+stay long the call
+[06:24] and get short 30 shares,
+30 shares, maybe 40 shares.
+[06:29] At expiration, you're long one call
+[06:33] and you're short 100 shares of stock.
+[06:35] You are flat, you are up money.
+[06:38] This, folks, is how professionals
+manage an options trade.
+[06:42] Why do we manage an
+options trade like this?
+[06:45] Well, when you're long
+options, what's your risk?
+[06:49] Your risk is premium
+coming out of your options.
+[06:52] Theta, decaying.
+[06:53] What's the opposite of theta?
+[06:55] Glad you asked; it's gamma.
+[06:58] Why do we scalp gamma?
+[07:00] We scalp gamma to make back that theta.
+[07:04] Okay?
+[07:05] We need to know this
+if you're risking money
+[07:07] in the options market and
+you haven't learned this yet.
+[07:11] You're learning the wrong thing.
+[07:13] This is the stuff that we
+need you to learn, okay?
+[07:16] Hey, if you have any questions,
+support @activedaytrader.
+[07:20] You like this video, give it a thumbs up.
+[07:23] Subscribe, share; it really helps.
+[07:25] Thanks a lot guys.
+[07:26] My name's Jonathan Rose,
+owner of Active Day Trader.

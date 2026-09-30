@@ -1,0 +1,254 @@
+Title: Identify Bullish 0DTE Trading Opportunities Using Gamma Exposure 
+Video ID: 14Ol0frXxrQ
+URL: https://www.youtube.com/watch?v=14Ol0frXxrQ
+------------------------------------------------------------
+
+[00:00] Hi, I'm Jack Sloum with Option Alpha.
+[00:02] Today I'm going to be going through a
+[00:04] strategy that has quickly become one of
+[00:06] my absolute favorite strategies. It's a
+[00:08] strategy that involves trading gamma
+[00:10] exposure. This strategy uses insights
+[00:14] provided by gamma exposure in order to
+[00:17] find places where there's a good chance
+[00:19] that the price is going to reverse and
+[00:22] move back the other direction. So, what
+[00:24] we're looking at here is a community
+[00:26] topic. And what I shared in this topic
+[00:28] is what it is that I look for for this
+[00:31] exact trading scenario. Now, there's
+[00:33] many different types of trades you can
+[00:35] make with gamma exposure. Some have been
+[00:36] more successful than others, but this
+[00:39] particular trading opportunity is one
+[00:41] that has quickly become my favorite
+[00:42] because it has been the most consistent.
+[00:45] And before I jump in and break down the
+[00:47] different things that I'm looking for, I
+[00:49] just want to be completely transparent
+[00:50] and show that my gamma exposure trading.
+[00:53] This is the bot I have selected are my
+[00:54] gamma exposure bots is not always
+[00:57] winning every time. As you can see,
+[00:59] there's significant losses here along
+[01:01] with significant wins and same thing
+[01:03] every day, most days. There's some wins,
+[01:07] some losses. But the one that I'm going
+[01:09] to share with you today has been the one
+[01:11] that has been most consistent and most
+[01:13] profitable. And what it has to do is
+[01:15] there's scenarios in the market where uh
+[01:18] and this chart is the chart that we have
+[01:20] within option alpha that you can see
+[01:22] where the current gamma exposures are. I
+[01:25] have it selected for call verse put
+[01:27] here. And that's where I typically keep
+[01:29] it most of the time. And on this
+[01:31] particular day, the spread that I've
+[01:33] been trading is the 68.95 long call and
+[01:36] the 6900
+[01:38] short call. And if you look here, all of
+[01:41] the gamma is concentrated on this 6T900
+[01:45] strike. So if you look here, what you
+[01:47] can see is over the last two days, this
+[01:49] here is the last two days, there's been
+[01:51] a lot of action around this 6900 strike
+[01:54] with the price bouncing back and forth.
+[01:56] And what I'm looking for actually over
+[01:58] the course of the day is for it to drop
+[01:59] back down here where that long call
+[02:02] spread from the 68.95
+[02:05] to the 6900 starts to go out of the
+[02:08] money and then I immediately get into a
+[02:10] long call spread where I can get
+[02:12] somewhere between 80% and 100% reward
+[02:15] risk ratio. And then I hold it until it
+[02:17] comes back up to this range and I get
+[02:19] out really quickly with a nice sizable
+[02:21] profit. And that's what I've been doing.
+[02:24] So, if we jump back over here to this
+[02:26] community post, here are the things that
+[02:28] I specifically look for. One is I'm
+[02:31] looking for this red put gamut exposure
+[02:34] bar here to be the biggest of all and
+[02:37] for it to be outsized as far as the
+[02:39] other ones, which we call an outlier.
+[02:41] So, if it is a major outlier, in this
+[02:43] case, it looks like it's about two times
+[02:44] the size of any other bar. And the
+[02:47] second thing I'm looking for is this put
+[02:49] volume for the day is also concentrated.
+[02:52] the highs at the 6,900 strike. Both of
+[02:55] these suggest that the 6900 strike is
+[02:58] going to be a point of support and if
+[03:00] the price moves down below it, there's
+[03:02] an opportunity to get in a trade for a
+[03:04] quick rebound and the price starts to
+[03:05] move back the other direction. The other
+[03:07] thing that I'm seeing here is the gamma
+[03:09] exposure on the call side. This is also
+[03:11] the highest strike. And so what that
+[03:13] suggests to me is there's a chance that
+[03:15] when it goes above that strike, it's
+[03:17] going to move back down. And that's why
+[03:19] this is an opportunity to get in and get
+[03:21] out. get in and get out as the price
+[03:23] oscillates back and forth. Now, I'm not
+[03:26] going to bet in this particular scenario
+[03:28] that the price is not going to go above
+[03:30] 6,900. So, a lot of people call this the
+[03:33] call wall. Some of those days that I
+[03:35] showed you with my personal trading
+[03:37] results here with losses, big losses in
+[03:40] particular, were days where these ones
+[03:42] right here were days where there was
+[03:44] something that suggested that we had a
+[03:46] call wall and I made trades that it was
+[03:49] not going to go above those particular
+[03:52] prices and it did. So in my case when
+[03:54] I'm looking at this, the thing that I
+[03:56] really love to trade is this point of
+[03:58] support um and not the call side which
+[04:01] is a point of resistance. It doesn't
+[04:03] mean that that strategy isn't good. It
+[04:06] just means that in my personal
+[04:07] experience, I haven't had as much
+[04:08] success with it. The next thing that I'm
+[04:11] looking at here is if you look this
+[04:12] absolute gamma, which is basically
+[04:14] summing these two bars together and
+[04:16] comparing them with all of the neighbor
+[04:18] strikes, you can see it's a major
+[04:20] outlier. So most of the put and call
+[04:22] gamma exposure is concentrated on this
+[04:26] 6900 strike. The next thing that I'm
+[04:29] looking at as well, and this is a a very
+[04:31] important one for me, is the put open
+[04:33] interest. And so if you look here, it's
+[04:35] 5600. And if you compare that with the
+[04:38] other strikes that are nearby, and I'll
+[04:40] jump over here and show you, you can see
+[04:42] it's 5600,500,
+[04:45] 21,00,00
+[04:48] 2,000,
+[04:50] 1700, 1300. So none of the strikes that
+[04:53] are nearby are anywhere near the level
+[04:55] of open interest that this 6900 strike
+[04:58] has. So this is the best point of
+[05:00] support that there is. The next thing,
+[05:02] and this one is actually really
+[05:04] important to determine whether or not
+[05:05] I'm going to make trades later in the
+[05:07] day. Just because this gamut exposure
+[05:09] strategy is suggesting that there's
+[05:11] going to be support earlier in the day
+[05:13] on the 6900 strike does not mean that's
+[05:16] going to last all the way until the end
+[05:18] of the day because people can be
+[05:20] unwinding positions and you if the next
+[05:23] day's gamma exposure profile is
+[05:24] different towards the end of the day
+[05:26] things might start moving towards where
+[05:28] it is tomorrow. But in this particular
+[05:30] case today, if you look, the gamma
+[05:32] exposure profile for tomorrow is very
+[05:34] similar to today with it concentrated on
+[05:38] this 6T00 strike. What that suggests to
+[05:40] me is that there's a chance, again, it's
+[05:43] not guaranteed. This is not a crystal
+[05:45] ball, but that there's a chance that the
+[05:46] 6900 strike could hold into the close.
+[05:50] And so that's where I'm going to go
+[05:51] ahead and make trades later on in the
+[05:53] day around the 6900 strike as well. So
+[05:56] if we look at the actual chart though
+[05:58] over the last two days, you can see that
+[06:00] it's been hovering around this 6900
+[06:02] strike over the past two days. So if I
+[06:05] come here to my positions and we look on
+[06:08] my closed positions, let me select the
+[06:10] gamma exposure trades. If you look
+[06:12] yesterday, I also made a significant
+[06:15] number of trades around this 6900 strike
+[06:18] two. So the price opened yesterday up
+[06:21] here in this higher range and I was I
+[06:24] was basically trading that it was going
+[06:25] to be above the 60 6925
+[06:30] I think is where I was trading here.
+[06:32] Let's take a look. We can see yeah the
+[06:34] 6925 6930 had a lot of put open interest
+[06:38] and I thought it was going to stall
+[06:39] there. It did not. And so earlier in the
+[06:42] day, my my trade sizes were a bit
+[06:44] smaller and my goal that I was going
+[06:46] after was also a bit smaller. But as the
+[06:49] day progressed, what happened is the
+[06:51] price continued to move down. And when
+[06:53] it got down near this 6,900 mark, I
+[06:57] immediately saw an opportunity similar
+[06:59] to what we see today. So if we look at
+[07:01] yesterday, this is 1229 around noon,
+[07:04] which is when I started making those
+[07:06] trades. As you can see, we were in a
+[07:08] very similar scenario as we are today.
+[07:11] So, there was this humongous gex put bar
+[07:13] here with 4,600 open interest. The call
+[07:16] bar was also the highest. The price was
+[07:18] a little bit below those and the put
+[07:21] volume for the day was concentrated on
+[07:24] the 6,900 strike as well. As soon as I
+[07:27] saw that, I levered up and started
+[07:28] making a few trades. And you can see
+[07:30] here those trades were highly successful
+[07:33] and had the ability to counter all the
+[07:35] rest of these losing trades that I made
+[07:37] earlier in the day. And if you're seeing
+[07:38] these overrides here, just so you know,
+[07:40] what happened is this is a total of 20
+[07:42] contracts. I made three trades to get
+[07:44] into them at 270, 270, and 265. And the
+[07:48] average price was 268. And what I did
+[07:50] was override these three and import the
+[07:53] two 10 contracts one at a time so I
+[07:55] could close them separately. this one
+[07:57] with a $1,000 profit target and this one
+[08:00] I closed manually at 1670.
+[08:03] So these two trades were also based on
+[08:06] this exact same strategy that I traded
+[08:08] yesterday. So if we return back over to
+[08:10] this chart, you can see the 6900 price
+[08:13] point. It was oscillating back and forth
+[08:15] yesterday. I made those trades. If we
+[08:17] look at when I actually made them, you
+[08:20] can see the price fell to 68.96. I got
+[08:23] in. The price fell to 68.97. I got in
+[08:27] again. The price fell to 68.97 again. I
+[08:30] got in again. And all three of those I
+[08:32] ended up getting out here at 6905. So
+[08:36] the price only went up eight points and
+[08:38] I made 1,600 bucks. Uh same thing with
+[08:41] this one right here. The price actually
+[08:43] only went up to 6902. Made $1,000 off
+[08:46] those trades. So that point where it
+[08:48] goes out of the money and then back in
+[08:51] the money is a critical point where the
+[08:53] value increases pretty rapidly and you
+[08:55] can make a quick return, especially as
+[08:57] you get closer to expiration. Today's
+[08:59] trades were similar. If you look, the
+[09:01] price fell to 68.97.
+[09:04] It went up to 6908.
+[09:06] I made a total of 450 off this trade.
+[09:09] This one was a little bit bigger. I
+[09:11] actually traded 10 contracts. This was a
+[09:13] lot more risky as you can see. 2500 I
+[09:16] risk. This was even money though, 100%
+[09:19] reward risk ratio. So I put in 2500 for
+[09:22] a chance to win 2500. The price was at
+[09:25] 68.95 when I got in. It only moved up
+[09:28] six points to 6901 and I took a quick
+[09:31] $800 profit. So that's my favorite gamut
+[09:34] exposure scenario. I will be trading
+[09:36] more scenarios in the near future. Hope
+[09:38] everyone has a happy new year. Stay
+[09:40] blessed. Stay close to God.

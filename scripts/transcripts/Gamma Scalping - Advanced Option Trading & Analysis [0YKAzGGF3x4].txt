@@ -1,0 +1,854 @@
+Title: Gamma Scalping - Advanced Option Trading & Analysis
+Video ID: 0YKAzGGF3x4
+URL: https://www.youtube.com/watch?v=0YKAzGGF3x4
+------------------------------------------------------------
+
+[00:01] [Music]
+[00:08] hello maverick traders welcome out to
+[00:10] this gamma scalping class i hope you're
+[00:12] excited about it while it's not a bread
+[00:15] and butter strategy the
+[00:17] basic concepts and understanding of what
+[00:19] gamma is and how it relates to delta
+[00:22] and even the possibility of scalping
+[00:25] using stock to hedge doing different
+[00:27] things like that it's important
+[00:29] educationally even though some of the
+[00:32] concepts that we'll teach here are not
+[00:34] again kind of bread and butter things
+[00:36] that you're going to be doing every day
+[00:37] so let's dive into it when we talk about
+[00:40] gamma scalping we need to understand the
+[00:43] greeks and
+[00:45] really gamma relates to delta those two
+[00:48] are
+[00:49] very much connected now delta is the big
+[00:53] important impactful
+[00:56] greek
+[00:57] and then gamma is basically the rate of
+[01:00] change of the delta so here's the way
+[01:02] that i like to teach it
+[01:04] when you're looking at this you'll
+[01:06] notice delta's a big number like 77 on
+[01:09] the delta and then gamma's this smaller
+[01:12] number five cents on the gamma so gamma
+[01:15] is less impactful but what it really is
+[01:18] is like a car
+[01:20] so if we have a vehicle delta is
+[01:23] basically the speed it's the rate of
+[01:25] change
+[01:26] it's how fast you're going
+[01:29] the
+[01:30] gamma
+[01:31] then is going to be
+[01:33] the brake
+[01:35] and the gas
+[01:36] it's going to be the acceleration
+[01:39] or the slowing down so we'll say gas and
+[01:43] break and you could push either one
+[01:46] right you can speed up or you can slow
+[01:48] down
+[01:49] the delta is the current speed so let's
+[01:52] say that the delta is at 80.
+[01:55] well that means that delta represents
+[01:58] the rate of change of
+[02:00] the option
+[02:02] compared to a one-point move in the
+[02:04] stock so if the stock moves one dollar
+[02:06] per share
+[02:07] this option will change
+[02:09] 80 cents in value right it's the speed
+[02:13] it's the amount that it's going to move
+[02:15] a 50 delta would move 50 cents in value
+[02:18] for a one point movements in the stock a
+[02:21] 30 delta
+[02:22] would move 30 cents in value for a one
+[02:25] point move in the stock so we understand
+[02:26] what delta is well gamma is how much it
+[02:30] increases or decreases right accelerates
+[02:34] or slows down so it depends on whether
+[02:37] you're using calls or puts but let's say
+[02:40] that a stock is at eighty dollars per
+[02:42] share
+[02:43] if that stock goes up one dollar
+[02:47] or goes down one dollar what is going to
+[02:50] be the impact
+[02:52] well we'll start with calls
+[02:54] for a call option
+[02:56] the delta would increase as the stock
+[02:59] goes up so let's say that the gamma was
+[03:02] 5 cents
+[03:04] okay
+[03:05] 5 cents here
+[03:07] in the gamma
+[03:09] the delta of that call if the stock goes
+[03:11] up a point
+[03:13] the delta would now become 85. so for
+[03:16] calls
+[03:18] stock going up will increase
+[03:22] the delta
+[03:23] by the gamma amount so now the calls
+[03:25] have gone to 85. if the stock had gone
+[03:28] down
+[03:29] then that would be a break that would be
+[03:31] a deceleration that would be a slow down
+[03:34] in the delta the delta would have gone
+[03:36] to 75
+[03:39] if the stock had went down well guess
+[03:41] what for the puts it's the exact
+[03:42] opposite
+[03:44] for the put options if the stock went up
+[03:47] the delta would slow down so let's say
+[03:49] that the put had a delta of like
+[03:52] negative 50
+[03:54] for the puts we'll change it up we'll
+[03:56] give it a different number let's say the
+[03:58] gamma is still 5 cents increase decrease
+[04:01] right
+[04:02] if the puts had a 50 delta if the stock
+[04:05] goes up a point
+[04:07] the delta becomes
+[04:10] 45.
+[04:12] it goes down puts go down calls go up in
+[04:16] the delta as the stock goes up but if
+[04:19] the stock went down a dollar
+[04:21] that delta would now go to
+[04:24] 55 it would be
+[04:26] more impactful the calls would lose
+[04:30] some of their impact the puts would
+[04:32] increase in their impact okay so it's
+[04:35] important you understand how that
+[04:37] relates the gamma
+[04:40] represents the rate of change of delta
+[04:43] stock price moving up
+[04:45] calls are going to increase in delta
+[04:47] puts are going to decrease if the
+[04:49] stock's going down vice versa puts will
+[04:52] go higher deltas calls will go to lower
+[04:55] deltas accordingly
+[04:57] now that brings us to this concept of
+[05:00] gamma scalping
+[05:02] basically
+[05:03] as we look at this concept let's build a
+[05:06] hypothetical strategy and the easiest
+[05:09] way to teach this concept would be
+[05:11] through long options specifically a
+[05:14] volatility trade probably so i'm gonna
+[05:17] do
+[05:17] a long strangle
+[05:20] what is a long strangle it consists of
+[05:23] buying both calls and puts
+[05:26] which are kind of contrarian positions
+[05:29] right if the calls go up the puts lose
+[05:31] if the puts go up the calls lose we know
+[05:33] that one side is going to lose the other
+[05:35] side is going to make money the idea is
+[05:37] that you get an overwhelming move that
+[05:40] you get a big move that goes so far it
+[05:43] pays off the whole cost and then some
+[05:45] right and then some profit so in a long
+[05:48] strangle let's say that you know the
+[05:50] stock is trading at
+[05:52] whatever
+[05:54] 55 dollars per share
+[05:57] we could go out
+[05:59] and buy
+[06:01] and usually you buy out of the money a
+[06:03] little bit on a strangle so let's say
+[06:05] that we buy the 57 let's say they have a
+[06:08] strike at every dollar we buy the 57
+[06:11] strike call
+[06:13] and we buy the 53 strike puts
+[06:16] we have created a long strangle
+[06:20] now maybe this trade costs us three
+[06:23] dollars debit
+[06:25] so we have three hundred dollars of max
+[06:28] risk
+[06:30] that is the most we can lose as this
+[06:32] trade is built okay we've got 300 bucks
+[06:35] max loss what does our risk graph look
+[06:38] like it's important that you get to
+[06:40] where you can draw these risk graphs by
+[06:43] hand and think through the concepts so
+[06:46] if we were to draw this by hand we'd
+[06:48] have a break even over here in a risk
+[06:50] graph
+[06:51] we'd have our profit up here we'd have
+[06:53] our losses down here we'd have our stock
+[06:56] prices down at the bottom
+[06:58] and they would relate
+[07:00] to the price of the stock so if the
+[07:02] stock's at 55
+[07:04] let's do a
+[07:05] 45
+[07:07] 50
+[07:09] 55
+[07:11] 60
+[07:12] 65 and so forth as the stock prices and
+[07:15] the stock is at 55 right now what would
+[07:19] our risk graph look like well these two
+[07:21] points would be max losses so 53
+[07:26] and 57 would be bottoming points if you
+[07:30] finish between 53 and 57
+[07:33] you would have a max loss which this
+[07:36] loss would be minus
+[07:38] three dollars right at those points
+[07:41] your break even at expiration
+[07:43] would be
+[07:44] 53 minus the three bucks so you need to
+[07:47] get to 50
+[07:48] just to break even
+[07:50] and 57 plus three so you'd need to get
+[07:53] to 60 just to break even so your wrist
+[07:56] graph would look like this
+[07:59] and that's on the bad side of things so
+[08:02] between 50 to 60 you're going to lose
+[08:04] money now outside of that
+[08:07] you have unlimited profit potential
+[08:11] these would go on and on and on
+[08:13] unlimited potential so what this trade
+[08:17] this is a long volatility trade
+[08:20] and what this trade really bets on is a
+[08:23] huge move one way or the other right we
+[08:26] don't care if it goes up we don't care
+[08:27] if it goes down we just need a big
+[08:31] massive explosive volatility move
+[08:34] because if the stock gets up here in the
+[08:36] 60s 70s whatever the call is going to be
+[08:39] worth so much it's going to have paid
+[08:41] off the cost of both options and then
+[08:44] some or vice versa if there's such a big
+[08:46] move down this trade would have a nice
+[08:49] payoff
+[08:50] the problem and the damnable misery of
+[08:53] these types of strategies is that
+[08:56] sometimes you'll you'll go this way but
+[08:58] you'll just be choppy and then you'll
+[08:59] come back in the range or you'll go this
+[09:01] way and you'll be choppy and you'll come
+[09:02] back in the range and you can end up at
+[09:05] a loss you could end up at a max loss if
+[09:08] it gets really bad
+[09:10] but you need to to try to maneuver these
+[09:13] and manage these and if you hold them
+[09:15] all the way to expiration well there's
+[09:18] time decay and there's other factors
+[09:20] so gamma scalping can be a way to kind
+[09:26] of try to combat some of those things
+[09:29] and chisel away at your max risk
+[09:32] by utilizing stock trades
+[09:35] and the basic component here is is that
+[09:37] if it goes one way
+[09:40] you're going to ignore the other side
+[09:42] and focus on
+[09:44] scalping
+[09:46] on this side if it goes this way you're
+[09:49] going to ignore the other side and
+[09:50] you're going to focus on scalping on
+[09:52] this other side
+[09:54] so what is the scalp
+[09:56] well basically
+[09:58] you already own a long call
+[10:01] so if that one moves in the money over
+[10:04] here you would add
+[10:06] short stock trades to the mix
+[10:09] to start to scalp to start to try to
+[10:12] take advantage
+[10:14] of
+[10:15] little price moves up here
+[10:17] if it went this way you already own the
+[10:19] long put
+[10:21] so what would be the gamma scalping
+[10:24] the gamma scalping would be to add long
+[10:27] stock positions you'd be buying the
+[10:29] stock
+[10:30] and then selling it off and then buying
+[10:32] the stock and selling it off so you're
+[10:34] going to add and this is important that
+[10:37] you understand this concept
+[10:39] you're going to add this type of stock
+[10:41] trade
+[10:42] to the long calls
+[10:44] or this type of stock trade against your
+[10:47] long puts
+[10:48] as a means of scalping
+[10:50] and it won't add additional risks if
+[10:54] you're beyond the strike price
+[10:56] now if you do it prior to the strike
+[10:58] price and and so forth it's when i say
+[11:01] it's not adding additional risks it does
+[11:03] run the risk of missing out but it's not
+[11:06] going to exceed this three dollar debit
+[11:08] you're going to stay at this loss
+[11:11] or lower
+[11:12] by doing this scalping by adding these
+[11:15] stock positions let me demonstrate
+[11:18] how this works
+[11:20] let's say for example we're going to
+[11:22] deal with the call side first let's say
+[11:23] that the stock blasts up to the upside
+[11:27] now your hedging could come in
+[11:30] once we've crossed the strike price is
+[11:34] where you'd kind of think about doing
+[11:36] this
+[11:37] let's say that just for simplicity sake
+[11:40] the stock gets to
+[11:41] to 60 bucks per share
+[11:44] now forget about the fact that you'd
+[11:45] only be break even at expiration if the
+[11:47] stock gets to 60 early you're probably
+[11:50] already profitable in this net position
+[11:53] but as it gets up to 60 let's say that
+[11:56] you go ahead and short
+[11:58] so trade number one was to buy the the
+[12:00] strangle
+[12:02] which gave you
+[12:04] three dollars of risk 300 bucks of
+[12:07] of risk let's write that down
+[12:11] the second trade and you can't really do
+[12:13] it until it's beyond the strike would be
+[12:15] to do some form of hedging so let's say
+[12:18] that we short
+[12:20] and let's say that we short 30 shares
+[12:24] at 60.
+[12:27] now what is that done
+[12:29] well we have the right to buy the stock
+[12:30] at 57 and now we've just shorted 30
+[12:33] shares at 60.
+[12:35] let's say that we're not trying to make
+[12:37] too much if it goes down to 59 just one
+[12:41] dollar lower
+[12:42] we cover it
+[12:44] you know pretty quick
+[12:47] we cover those 30 shares
+[12:49] at
+[12:50] 59. we just made
+[12:53] 30 bucks
+[12:55] right one dollar per share times 30
+[12:58] shares it's not that much
+[13:00] you know it's not that exciting but you
+[13:03] reduced your risk from 300 to 270.
+[13:06] okay
+[13:07] trade number three stock goes up again
+[13:10] and it hits
+[13:12] 60
+[13:13] and we do it again we decide hey let's
+[13:15] go ahead and short 30 more shares
+[13:18] at 60.
+[13:20] okay
+[13:21] and this time the stock doesn't go back
+[13:24] down if it went down to 59 maybe we'd
+[13:26] have scalped that quick profit again but
+[13:28] it doesn't it keeps going up 61 62 at 62
+[13:33] we decide
+[13:35] to short another 30 shares
+[13:39] now remember
+[13:40] we're not doing something that's adding
+[13:43] risk because
+[13:44] we have the right when you own a call
+[13:46] you have the right to buy a hundred
+[13:48] shares at expiration at 57. so we're
+[13:51] shorting stock against it we're making
+[13:54] basically we're doing the sell side of
+[13:56] this
+[13:58] and we do these at 62.
+[14:02] now the in this case
+[14:04] the stock does tip back down and it goes
+[14:07] back to
+[14:08] to 61 and we cover
+[14:11] we cover
+[14:12] at 61
+[14:14] and we made 30 bucks
+[14:17] okay
+[14:18] then it goes back up again and it goes
+[14:20] right back up to 62
+[14:23] and we short another 30 shares
+[14:27] and it keeps going
+[14:29] and
+[14:31] you know so now we're short we already
+[14:33] are still short 30 at 60 we just shorted
+[14:36] another 30 at 62. it keeps going higher
+[14:39] and higher and higher let's say that at
+[14:41] 64
+[14:43] we do another 30 shares
+[14:46] okay and i hope you can see my writing
+[14:48] we're running out of space
+[14:49] at 64. and now we're kind of out of
+[14:52] bullets to a large extent
+[14:54] we're now short
+[14:56] let's write it over here we're now short
+[15:00] 90 shares and let's say the stock keeps
+[15:02] going up
+[15:04] but we're sort of out of bullets it
+[15:06] didn't keep coming down we didn't take
+[15:08] profits on them we didn't have a chance
+[15:10] to scalp we did take profits on a couple
+[15:13] along the way but we shorted 30 more at
+[15:15] 60 we shorted 30 at 62 that were never
+[15:18] covered and we shorted 30 at 64. so
+[15:21] what's your average price well 60 62 and
+[15:25] 64
+[15:26] averages out to 62.
+[15:29] so we're now short 90 shares
+[15:33] at a 62 dollar
+[15:35] per share
+[15:37] average
+[15:39] let's say we get to expiration
+[15:42] and the stock is at 65 okay
+[15:45] i'd go ahead and short
+[15:47] 10 more shares to make it
+[15:50] the even
+[15:51] 100
+[15:53] and those we do at 65
+[15:56] per share
+[15:58] okay
+[15:59] so
+[16:00] let's think about the math here on this
+[16:03] position
+[16:04] now if we think about what has
+[16:06] transpired we pretty much ignored
+[16:09] the puts they never the stock never went
+[16:12] this way so we never
+[16:14] did any gamma scalping against them they
+[16:16] basically just eroded away and expired
+[16:18] worthless but our calls moved in the
+[16:20] money and they're still in the money
+[16:23] right
+[16:24] and we have the right to buy the stock
+[16:26] at 57.
+[16:28] we're short
+[16:30] at 62 on 90 shares so we have made a
+[16:35] profit
+[16:36] of five dollars per share
+[16:38] times 90 shares
+[16:40] you have the right
+[16:42] to buy at 57 100 and sell 90 of those at
+[16:46] 62. that's a five dollar per share
+[16:49] profit times
+[16:51] the the 90
+[16:53] that's 90 shares times the five dollar
+[16:56] per share profit is 450.
+[16:59] so this
+[17:01] part of the trade
+[17:04] is 450 in value
+[17:07] that exercising against that
+[17:10] the other 10 shares will exercise
+[17:13] and let's figure out how much that is
+[17:15] well
+[17:16] 57 is where we get to buy those 10
+[17:19] shares 65 is where we sold them short
+[17:22] that's an eight dollar per share profit
+[17:25] times 10 shares that's 80 bucks
+[17:28] okay
+[17:29] that's 80 dollars
+[17:32] and then don't forget you've made 30
+[17:35] over here and you made 30 over here so
+[17:37] that's another
+[17:39] 60
+[17:40] in scalps and scalping
+[17:44] so you've brought back in now these are
+[17:46] not all profits right because we outlaid
+[17:49] some money we paid 300 bucks for this
+[17:52] but we
+[17:53] we scalped some money we did some other
+[17:55] things to kind of hedge and lock in and
+[17:58] 450 plus 80 is 530 plus 60 590 if i'm
+[18:04] doing that right in my head
+[18:06] we brought back in 590 dollars of value
+[18:10] in this trade
+[18:12] and we had paid out 300
+[18:14] we have a 290 dollar profit which is
+[18:17] almost
+[18:18] just shy of a 100
+[18:20] return on invested capital
+[18:23] we never increased our risk higher than
+[18:26] this because of the way we did it
+[18:29] now here's where people go wrong
+[18:32] they do this
+[18:33] when you're below strike price when
+[18:35] you're this when you're that
+[18:38] you can get into a bad situation where
+[18:42] your risk actually increases if you're
+[18:44] not doing this
+[18:46] beyond the strike let me give an example
+[18:48] let's just do a a quick and easy example
+[18:51] say you buy this 57 call and buy the 53
+[18:55] put and the stock starts going up
+[18:57] remember it's at 55 right now let's say
+[19:00] it goes to 58
+[19:02] and you short 100 shares so you short
+[19:06] 100 shares at 58
+[19:10] now you have the right to buy at 57 and
+[19:12] the stock just keeps going boom boom
+[19:14] boom boom boom and takes off
+[19:17] guess what's gonna happen at expiration
+[19:19] you'll get to buy a hundred shares at 57
+[19:22] you already sold them short at 58 you're
+[19:25] gonna get a hundred bucks back in your
+[19:27] account you paid 300 you just lost 200
+[19:30] bucks right you just lost 200 by being
+[19:34] hedged you missed out on the upside
+[19:37] that's one of the issues with adding
+[19:40] these
+[19:42] these short positions against the long
+[19:44] stock or it worked the same way buying
+[19:46] stock against the long put does the same
+[19:49] thing it negates
+[19:51] this
+[19:53] right it eliminates that that unlimited
+[19:56] upside
+[19:58] one of the huge
+[20:00] beneficial
+[20:01] aspects of this long strangle is that
+[20:04] massive continuation
+[20:07] would just be windfall profits right
+[20:10] so
+[20:11] how many shares you short and at what
+[20:14] prices you do them or over here how many
+[20:16] shares you buy to hedge that and how you
+[20:20] know what what prices you do them is
+[20:22] going to dictate how your risk and
+[20:24] reward shifts
+[20:26] if you do it conservatively with 30
+[20:28] shares 30 shares 30 shares you're giving
+[20:31] yourself still profit potential for the
+[20:34] windfall
+[20:35] because let's imagine back here
+[20:38] the stock had gone up and we shorted at
+[20:40] 30 30 shares at 60 and it went down to
+[20:43] 59 and we locked it in then we shorted
+[20:46] another 30 shares at 60 and let's say it
+[20:48] gapped
+[20:49] i say it gapped all the way up here to
+[20:51] 75.
+[20:53] well it it is true that you're you
+[20:56] locked in
+[20:57] 30 shares short at 60
+[21:00] but the other 70 shares are uncovered
+[21:03] so now you get to buy 70 shares at 57
+[21:08] and they're trading at 75.
+[21:12] if we had all these short positions
+[21:15] and it shorted 90 shares and then it
+[21:17] made that huge gap it really wouldn't
+[21:19] benefit us much right we'd only benefit
+[21:22] on 10 uncovered shares
+[21:25] so how many shares you've shorted and at
+[21:28] what levels and so forth really matters
+[21:32] like we said if we short 100 shares
+[21:34] we've given our we've eliminated the
+[21:36] upside
+[21:37] so you better be aware and you better be
+[21:40] you know confident that that's what you
+[21:42] want and that's where you want to be
+[21:46] let's do another example but let's flip
+[21:48] it and do the long side trade so i'm
+[21:51] going to change up the scenario let's
+[21:54] have a higher price point let's say the
+[21:56] stock's at
+[21:57] per share
+[21:59] and hypothetically it's volatile and
+[22:02] whatnot we're going to buy
+[22:04] what we call going long a call we're
+[22:06] going to buy the 115 call
+[22:09] and we're going to buy or go long the
+[22:12] 105 put
+[22:14] and let's say that this one's more
+[22:16] expensive this trade costs us five bucks
+[22:19] so we have five hundred dollars at risk
+[22:22] in this trade don't we now that five
+[22:24] hundred dollars we might lose
+[22:26] if it just flatlines and volatility dies
+[22:29] down and you know it'd be pretty unlucky
+[22:31] but certainly possible
+[22:34] that a high volatility stock could just
+[22:36] go into a flatlining scenario with very
+[22:40] low volatility it's possible
+[22:43] our wrist graph on this
+[22:45] you know we don't need to draw it all
+[22:46] out perfectly but we'd basically have a
+[22:49] break even
+[22:50] we would have 500 dollars of loss
+[22:53] between
+[22:54] 105
+[22:57] let's put 110 right here in the middle
+[22:59] and 115.
+[23:01] between 105 to 115 we'd have losses we'd
+[23:04] need to get to 120 to break even we'd
+[23:07] need to get to 100 to break even and
+[23:10] then unlimited
+[23:12] profit potential beyond right the big
+[23:15] explosive move
+[23:16] either down or up
+[23:19] is where we would benefit
+[23:21] now let's say the stock goes this way
+[23:23] it's going down down down so now we get
+[23:26] to use our puts
+[23:28] the calls we're kind of ignoring they're
+[23:31] not really doing much they've they've
+[23:33] lost most of their value but the puts
+[23:35] are now in the money
+[23:37] so remember what we do we already own
+[23:39] the long put
+[23:41] now
+[23:42] which which by the way gives us the
+[23:44] right to sell at 105
+[23:47] now we're going to buy stock against it
+[23:50] we have the right
+[23:52] to sell at 105 100 shares no matter
+[23:56] where it goes
+[23:57] at expiration this will exercise
+[24:00] to sell 100
+[24:02] shares at 105. that's the right that's
+[24:06] what that's why this is a covered trade
+[24:09] you get to sell 100 shares at 105 no
+[24:11] matter how low it goes well by buying
+[24:14] stock you're locking in the exit price
+[24:17] right but we're trying to scalp it
+[24:20] theoretically and we're trying to lock
+[24:22] in profits along the way
+[24:24] so let's say the stock jumps down and
+[24:26] it's at a hundred
+[24:28] okay it's at a hundred bucks per share
+[24:31] so trade number one was the long
+[24:33] strangle
+[24:35] see if we can create more
+[24:37] room here
+[24:39] we're out 500 bucks that's what we've
+[24:41] spent
+[24:43] but trade number two we buy stock
+[24:47] and we buy it at a hundred
+[24:49] it goes down to a hundred and we buy it
+[24:52] a hundred and we buy thirty shares again
+[24:55] okay
+[24:56] let's keep it small
+[24:58] now
+[24:59] we bought a
+[25:01] 100 shares or pardon me 30 shares at 100
+[25:04] per share it goes back up
+[25:08] to 101
+[25:10] we sell you know i'm just keeping it
+[25:13] small and short actually let's we'd
+[25:16] probably try to squeeze out more than
+[25:18] that let's say it goes back up to 103.
+[25:20] okay
+[25:21] at 103 and we sell it this time the
+[25:24] scalping worked we bought it a hundred
+[25:27] dollars per share we sold at 103 times
+[25:30] 30 shares that's three bucks that's 90
+[25:33] in profit
+[25:35] okay that scalp worked out and it's
+[25:37] taken our risk down we had 500 at risk
+[25:40] and now we've put ninety dollars in our
+[25:43] pocket we're down to four ten
+[25:45] we try it again stock goes back down or
+[25:47] what not
+[25:49] and it hits this time
+[25:52] you know we think it's bouncing earlier
+[25:54] maybe it only gets to 101
+[25:57] and we decide to rebuy we just sold at
+[25:59] 103.
+[26:01] we buy 30 shares
+[26:03] again
+[26:05] at 101 and we were wrong
+[26:07] stock keeps going down
+[26:09] at 98
+[26:11] we decide to buy more
+[26:17] at 98 we buy another 30 shares
+[26:21] so now
+[26:22] we've got 60 shares and we've got a
+[26:25] promise to sell a hundred so we've got
+[26:27] 40 that are uncovered 40 more shares
+[26:30] that we could buy along the way
+[26:32] and bamo the stock gaps
+[26:35] bad news
+[26:36] and the stock's down here at 80.
+[26:39] at 80 bucks per share and we decided hey
+[26:41] let's lock it in
+[26:42] we're going to buy
+[26:44] the other 40 shares
+[26:48] at
+[26:49] 80 bucks
+[26:51] per share okay and we buy the other 40
+[26:55] because that's the windfall profit
+[26:57] that's the big move that's you know
+[27:00] locking it in we really only scalped
+[27:02] once
+[27:03] and then blammo
+[27:05] were fully hedged at this point at this
+[27:08] point there's nothing else to do you can
+[27:10] basically hold this trade to expiration
+[27:12] it'll go through a same-day substitution
+[27:15] and what happens well
+[27:18] the 30 shares if we think about the math
+[27:21] we get to sell
+[27:24] at 105.
+[27:26] that's what the put will exercise right
+[27:29] so some of those shares
+[27:31] we bought
+[27:32] already at 101
+[27:36] some of them we bought
+[27:39] at 98
+[27:41] and the last part we bought
+[27:44] at 80 and that's the big profit maker so
+[27:48] this was 30 shares this was 30 shares
+[27:51] and this was 40 shares in this example
+[27:54] so we can do the math on where we're at
+[27:56] in this trade right
+[27:58] we can add up all the numbers and we'll
+[28:00] bring back our calculator
+[28:02] just to show it
+[28:04] let me find a spot that's fairly clean
+[28:07] okay if you sell something at 105 at the
+[28:11] exercise
+[28:12] and you bought it at 101 you made four
+[28:15] dollars per share in profit
+[28:17] times 30 shares
+[28:20] that's 120 bucks
+[28:22] so we're going to write that down this
+[28:24] part
+[28:26] made
+[28:27] 120 back okay let's figure out the next
+[28:31] one
+[28:31] we get to sell at 105
+[28:34] we bought at 98. that's seven dollars of
+[28:37] profit that to that right
+[28:40] and we had 30 shares
+[28:43] that's 210 dollars that came back in on
+[28:46] that one
+[28:47] okay great
+[28:49] and then the last one you know this
+[28:51] would be i'm showing good scenarios best
+[28:54] case scenarios but this one 105 is where
+[28:57] we get to sell we bought it 80 that's 25
+[29:01] per share of profit times 40 shares this
+[29:04] one's gonna be the money maker that is
+[29:07] a thousand dollars we brought back in
+[29:11] and you got the huge volatility move
+[29:14] that's why there was the the bigger
+[29:17] windfall of profit
+[29:18] now we can't forget about this scalp
+[29:21] over here
+[29:23] we did have
+[29:24] the scalp that made 90 bucks
+[29:28] of profit
+[29:29] i shouldn't say profit brought back in
+[29:32] 90 because it's it's not all profit
+[29:34] right we had an outlay of capital so
+[29:36] this is just capital coming back in
+[29:39] and then we're going to have to figure
+[29:40] out how much we actually made well we
+[29:42] made a thousand there plus 90
+[29:46] in the scalp
+[29:48] plus 210
+[29:50] plus 120
+[29:52] we brought back in
+[29:54] a grand total
+[29:56] of 1 420
+[29:59] we had invested in this 500 bucks
+[30:03] originally
+[30:05] so your profit is 920
+[30:09] you have 920
+[30:12] in profit to show for this
+[30:14] and by the way
+[30:16] that's not as good now that's almost a
+[30:18] couple hundred percent in profit by the
+[30:21] way you did yourself
+[30:24] a disservice by trying to scalp
+[30:28] by trying to scalp you cost yourself
+[30:30] money
+[30:31] think about it had you done nothing and
+[30:34] held the long strangle
+[30:37] a stock is trading at 80 and you get to
+[30:40] sell at 105
+[30:42] how much would you have made
+[30:44] well
+[30:45] 80 to 105 is 25
+[30:48] times a hundred shares that's 2500 bucks
+[30:52] you'd have got back
+[30:53] and you only spent 500 bucks
+[30:56] for the trade you'd have brought back in
+[30:59] 2 000 of profit
+[31:01] by scalping you brought back in 920.
+[31:06] so
+[31:07] did you
+[31:08] you know are you happy with the results
+[31:09] well obviously we're happy with either
+[31:11] scenario but it is important to
+[31:13] understand the trade-offs
+[31:16] that there was a trade-off
+[31:18] in trying to scalp this and you know if
+[31:20] the stock is choppy here's the point if
+[31:23] the stock gets out here and it's choppy
+[31:26] boy you can lock in
+[31:28] a lot of profits on the scalping
+[31:30] but if it just is a runaway train you're
+[31:33] gonna cost yourself money by trying to
+[31:36] scalp so it's more of a matter of what
+[31:39] you're quite confident and comfortable
+[31:42] with and what your trading plan is and
+[31:44] how you think this asset is going to
+[31:47] behave
+[31:48] because if it gets outside of those
+[31:50] strikes and it's choppy out here
+[31:52] you can lock in profits profits profits
+[31:55] which will be helpful
+[31:56] at some point you may want to stop doing
+[31:58] that if you get the sense that it's just
+[32:01] going to start to run if it's going to
+[32:03] be
+[32:04] a runaway train then you do not want to
+[32:07] continue this scalping game
+[32:09] so
+[32:10] in review now you understand the concept
+[32:15] you own the long options you bought the
+[32:18] call you bought the put that gives you
+[32:20] the er the right and ability
+[32:23] in this case you have the right
+[32:27] you have locked in the option
+[32:30] no matter what happens you have the
+[32:32] right to pay
+[32:33] 115 for the stock at expiration right
+[32:36] you've locked in that that right that
+[32:39] option that ability and you also have
+[32:41] the right to sell at 105 no matter how
+[32:44] low it goes
+[32:46] neither one of those options are good if
+[32:48] you finish in the middle at expiration
+[32:52] they're both good if you're outside of
+[32:54] it so if you're way up here the calls
+[32:56] become good the puts expire worthless if
+[32:59] you're way out here the puts become good
+[33:01] the calls expire worthless but the point
+[33:03] being
+[33:04] either one of those
+[33:06] options
+[33:08] are active
+[33:09] you have the right and the ability to do
+[33:12] that
+[33:13] because of that
+[33:15] you can scalp against them
+[33:18] and what would be the trade well you
+[33:20] would short stock
+[33:22] against long calls as the scalping you
+[33:24] know hedging technique
+[33:26] and if you were trading against the puts
+[33:29] if you're going down you'd be going long
+[33:31] stock you'd be buying stock as your
+[33:34] scalps and as your hedging opportunities
+[33:36] so good review kind of an understanding
+[33:39] of how gamma scalping works
+[33:42] so this has been a fun discussion about
+[33:44] gamma scalping certainly even if you're
+[33:47] not going to employ this technique
+[33:49] it helps you to understand the options
+[33:52] market a little bit better
+[33:54] to understand concepts to understand
+[33:57] hedges like shorting stock against long
+[34:00] calls as a hedge like buying stock
+[34:02] against long puts as a hedge so you're a
+[34:04] little bit smarter a little bit further
+[34:06] along in the process have a great rest
+[34:09] of your day and we will see you next
+[34:10] time goodbye everyone
+[34:15] [Music]
+[34:22] you

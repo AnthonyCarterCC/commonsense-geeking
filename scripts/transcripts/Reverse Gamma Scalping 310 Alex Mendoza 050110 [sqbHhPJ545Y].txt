@@ -1,0 +1,227 @@
+Title: Reverse Gamma Scalping 3/10: Alex Mendoza: 05/01/10
+Video ID: sqbHhPJ545Y
+URL: https://www.youtube.com/watch?v=sqbHhPJ545Y
+------------------------------------------------------------
+
+[00:27] So, as I stated earlier, the downside to
+[00:30] selling straddles is the unlimited risk
+[00:32] and the margin. If you try to sell
+[00:34] straddles, they're going to cost you a
+[00:36] lot of money. Uh you're going to have to
+[00:38] put up a lot of money uh while you're
+[00:41] waiting to make your money through time
+[00:42] decay. So, this can tie up a lot of
+[00:44] capital. And so what you need to do then
+[00:47] is you can simply buy the tails. If you
+[00:50] sell a straddle, you can buy uh tails
+[00:53] that are out of the money in order to
+[00:54] protect the position. So for those of
+[00:58] you starting with a not a lot of money,
+[01:00] it's imperative that you purchase the
+[01:02] tails because the margin can be
+[01:04] extremely heavy. The margin on a short
+[01:07] straddle can be 50% of the stock price.
+[01:09] uh which can be a very heavy amount and
+[01:12] it can limit what you do with your
+[01:14] capital. So what do we do? We buy the
+[01:16] tails. Uh we buy an if we sell the at
+[01:19] the money call and the at the money put
+[01:21] to sell the straddle, we can then buy an
+[01:25] out- ofthe- money call and an out-
+[01:27] ofthe- money put in order to um in order
+[01:30] to hedge ourselves. And notice what we
+[01:32] then have done. We've sold a straddle
+[01:35] and we've bought a strangle. So, for
+[01:37] those of you that didn't know this, um,
+[01:39] a short straddle and a long strangle is
+[01:41] simply an iron butterfly. Um, and this
+[01:46] will now get you, um, for those of you
+[01:48] that have ever heard the joke, uh,
+[01:51] what's the difference? You know, you you
+[01:52] always, the beginner always asks, what's
+[01:54] the difference between a straddle and a
+[01:56] strangle? And the answer is an iron
+[01:59] butterfly. And, uh, it's it's supposed
+[02:01] to be funny, but the beginners never get
+[02:03] it. So, now you know where the joke
+[02:04] comes from. I just, you know, anything I
+[02:07] can help out with, I'm glad to do so.
+[02:08] So, if if all you get out of this is
+[02:10] that you now understand the old joke,
+[02:12] I'm happy. Um, we have, um, so what
+[02:16] we've done is we've bought a strangle in
+[02:19] order to help hedge ourselves in case
+[02:21] the market goes too far against us.
+[02:23] We've now been able to limit the risk,
+[02:25] but the goal is still to keep the
+[02:29] majority of the credit in the iron
+[02:31] butterfly position. Okay, we're still we
+[02:35] still want to keep as much of the credit
+[02:36] as possible. And in order to do that,
+[02:39] one of two things is going to have to
+[02:41] happen. either the stock is going to
+[02:43] have to behave perfectly
+[02:46] um which is something we cannot control
+[02:49] or as the stock moves and threatens to
+[02:52] get out of our range of profit, we're
+[02:54] going to have to employ the uh the use
+[02:56] of reverse gamma scalping uh to help put
+[03:00] the position back to help keep the
+[03:02] position within our range. Okay, so
+[03:05] again, what we cannot control where the
+[03:07] market goes. Okay, if you haven't
+[03:10] figured it out yet, try try it one of
+[03:13] these days. It it we can't we can't
+[03:15] control it. Okay, but what we can do is
+[03:17] we can control the type of trade that we
+[03:20] place and we can control the types of
+[03:22] things that we do as the market is
+[03:23] moving against us. And that's what
+[03:25] reverse gamma scalping uh allows us to
+[03:27] do. So when do we reverse gamma scalp?
+[03:32] The the obvious answer is when
+[03:35] volatility levels are high and you have
+[03:37] reason to believe that they're going to
+[03:40] decline um shortly. Uh that's a that's a
+[03:44] good time to reverse gamma scalp. Um
+[03:47] these things typically happen when the
+[03:50] market uh either advances or stabilizes.
+[03:53] Um, as you can see from uh from the
+[03:56] volatility index, this is a um this is
+[03:59] this is a a graph of the VIX and and
+[04:03] yeah, when the VIX was at 80, that was
+[04:06] probably uh a good time to reverse gamma
+[04:09] scalp your position. The the pro the
+[04:12] beautiful thing is I'm showing you a
+[04:14] graph of what happened in the past. So,
+[04:15] this is this is one of those common
+[04:17] trader mistakes we tell people not to
+[04:19] do. Obviously, you know, if we look at
+[04:21] the whole chart, then yes, obviously
+[04:23] selling at 80, um, selling, uh, reverse
+[04:27] gamma scalping when the VIX is at 80 is
+[04:29] a good idea. Of course, if you didn't
+[04:31] have access to what happened in the P to
+[04:34] what happened after that point, uh, you
+[04:36] wouldn't you would have you maybe you
+[04:37] would have thought that when the VIX got
+[04:39] to 60, that was a good idea to sell and
+[04:41] when the VIX got to 70, it was a good
+[04:43] idea to uh, to put on a short straddle.
+[04:46] So again, we are we'll never know when
+[04:51] the best time when when volatility is at
+[04:54] um is at a local high, but what we can
+[04:56] do is we can take a look at a volatility
+[04:58] chart um maybe for the past 3 or 6
+[05:02] months to try to get an idea of when we
+[05:04] might place a position. And that's what
+[05:06] we would do here. we'd look at the um we
+[05:09] look at the volatility index and maybe
+[05:11] we're not going to place a trade when
+[05:12] the VIX is at 80, but maybe we're going
+[05:14] to place a trade when the VIX is um you
+[05:16] know at a higher level than where it's
+[05:19] been. And that's what we're looking for.
+[05:21] If we have any reason to believe that
+[05:23] the markets are going to stabilize or
+[05:26] that the market's going to stop
+[05:27] dropping, now it's a good time to
+[05:30] possibly uh put on a position and use
+[05:34] reverse gamma scalping uh to help um to
+[05:37] help
+[05:38] uh offset some of the risk that you're
+[05:41] going to see in a short straddle or iron
+[05:45] butterfly position. Okay. So the there's
+[05:49] a lot of theory that I've thrown out and
+[05:51] I think the best way to really learn
+[05:53] this stuff is to throw an example at
+[05:54] you. So what I'm going to do now is I'm
+[05:57] going to take you through um an example
+[06:00] of how uh to use reverse gamma scalping.
+[06:04] Um it's going to have a lot of pieces to
+[06:07] it and I know that it's it can get a
+[06:09] little bit complicated. So that's part
+[06:11] of the reason that we're uh giving you
+[06:13] guys the slides. Uh I've heard a lot of
+[06:16] people say, "Wow, you know what? I've
+[06:17] heard this explained a lot simpler and
+[06:19] one of the things you got to be careful
+[06:21] with is reverse gamma scalping can get a
+[06:23] little bit involved. Okay? And sometimes
+[06:25] the details are the beauty of the
+[06:27] technique. So anybody can simplify
+[06:30] things. All you got to do is take stuff
+[06:31] out, right? Just like an engine, okay?
+[06:34] You can build a simpler engine. All you
+[06:35] got to do is take stuff out. The problem
+[06:37] is most people take enough out that it
+[06:39] doesn't work anymore. So, you got to be
+[06:41] careful with the notion of people uh
+[06:44] claiming to simplify when all they're
+[06:46] doing is taking important pieces out and
+[06:48] telling you they're not important. I
+[06:49] mean, what do you know about cars? So,
+[06:52] let's go through an example to actually
+[06:54] show you how the technique uh really is
+[06:57] uh
+[06:58] implemented. Um suppose you've been
+[07:01] watching IBM and you wanted to place a
+[07:04] trade to sell volatility. Okay, you
+[07:08] think volatility is uh you think
+[07:10] volatility is high. Um you think it's
+[07:13] higher than it's been. You think it's
+[07:14] about to revert back to some lower level
+[07:18] and you think to yourself maybe I can
+[07:20] sell volatility uh and make some money
+[07:23] not only through the volatility crush
+[07:25] but also through time decay. So, you
+[07:28] think that the market and the stock have
+[07:30] possibly hit a bottom and even if it's
+[07:34] even if it's only a temporary one, uh
+[07:36] you think that the stock is bottoming
+[07:38] out close um
+[07:41] $75.97 close to that 75 strike. So, what
+[07:45] do you do? You sell the 75 straddle. And
+[07:49] lo and behold, the 75 straddle is
+[07:52] trading for about
+[07:53] $13. What does this mean? It means that
+[07:56] if the stock settles at expiration at
+[07:58] $13 at
+[08:00] $75, you're going to you stand to make
+[08:03] the entire 13 bucks. Now, let me walk
+[08:06] you through a certain mindset here,
+[08:08] okay? And let me make it clear to
+[08:09] everybody uh in this
+[08:11] room. Um, and there are very few
+[08:15] absolutes in trading, but I'll I'll make
+[08:17] this one one of those that you should
+[08:19] shoot for. You're not going to get to if
+[08:21] you sell the straddle at $13, you're not
+[08:23] going to keep the whole 13 bucks. Okay,
+[08:26] let's just be clear on that. Something
+[08:28] will get in the way. The way the stock
+[08:31] moves will be something less than
+[08:33] perfect. And therefore, you're not going
+[08:35] to keep the whole 13. In fact, don't
+[08:37] even hope that you're going to keep the
+[08:39] 13. You're trying to make money, okay?
+[08:42] You're trying to keep as much of the 13
+[08:44] as you can, but make sure we go into
+[08:47] this with the understanding that some of
+[08:50] the $13 will be lost as a casualty of
+[08:53] trading. We're trying to capture as much
+[08:56] of it as possible. We're not going to
+[08:57] keep all of it. Okay? So, let's it it's
+[09:00] okay to lose some of it. I just want to
+[09:02] make sure you guys understand because I
+[09:04] know that when a lot of people uh
+[09:06] especially when people get involved
+[09:08] introduced to credit spreads people tend
+[09:11] to feel this entitlement that they get
+[09:13] that they have to keep the whole credit.
+[09:15] Okay. And a lot of times in the
+[09:17] education um people are sold on the
+[09:19] notion that they have to keep the whole
+[09:21] credit which in and of itself is not
+[09:24] true. U but since it works out enough of
+[09:27] the time people are happy with it.

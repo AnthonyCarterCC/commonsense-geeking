@@ -1,0 +1,255 @@
+Title: Reverse Gamma Scalping 2/10: Alex Mendoza: 05/01/10
+Video ID: DitNgCm4UhQ
+URL: https://www.youtube.com/watch?v=DitNgCm4UhQ
+------------------------------------------------------------
+
+[00:27] A lot of people will ask, "Well, how do
+[00:29] you know which stocks to gamma scalp
+[00:31] on?"
+[00:32] And the answer is actually not that
+[00:34] complicated.
+[00:36] You're You're going to gamma scalp when
+[00:38] you need to.
+[00:39] That's the answer. You see,
+[00:41] people think that when you introduce a a
+[00:43] strategy, that that strategy has to have
+[00:45] certain
+[00:47] market conditions associated with it.
+[00:49] You already chose a strategy. Your
+[00:51] strategy was the straddle.
+[00:54] And you thought the market was going to
+[00:55] move big either way up or way down. And
+[00:58] when it doesn't,
+[01:00] gamma scalping is the defensive
+[01:03] technique, and I stress that, defensive.
+[01:06] It is the defensive technique that you
+[01:08] can use to help you make a little bit of
+[01:10] money while the stock takes its own
+[01:13] sweet time in moving in your direction.
+[01:16] In other words, we're doing something to
+[01:19] help offset
+[01:20] the to help offset time decay
+[01:23] until the stock makes its big breakout
+[01:25] move that you've been looking for. So,
+[01:27] that's the notion of gamma scalping. And
+[01:30] what gamma scalping
+[01:32] necessitates,
+[01:35] uh in order for you to be successful at
+[01:37] gamma scalping,
+[01:39] you pretty much have to sit in front of
+[01:40] the screen all day because you're not
+[01:42] looking for moves at the end of the day,
+[01:45] you're looking to capitalize on those
+[01:47] intraday moves in which you can buy and
+[01:50] sell stock because think about what
+[01:51] you're doing. When the stock goes down,
+[01:54] you're buying stock.
+[01:55] And when the stock goes up, you're
+[01:57] selling it. And therefore, you're buying
+[02:00] the stock lower and you're selling the
+[02:02] stock higher. So, you're actually
+[02:04] looking to make stock. You're actually
+[02:06] looking to make money from your stock
+[02:08] position.
+[02:09] Okay? You're looking to make money. Why
+[02:11] are you looking to make money with the
+[02:13] stock?
+[02:14] Because it's going to help you in the
+[02:16] short run, it's going to help you offset
+[02:18] some of that time decay element that's a
+[02:21] that's part of your the purchase of the
+[02:23] straddle.
+[02:24] And gamma scalping is a defensive
+[02:28] technique
+[02:29] that we use on strat long straddles or
+[02:32] long strangles in order to help us make
+[02:34] a little bit of money while we're
+[02:36] waiting for the big breakout move that
+[02:38] we have predicted sometime earlier.
+[02:41] So, that's gamma scalping. And as you
+[02:43] can see, you're looking for intraday
+[02:45] moves. Whenever you get an intraday
+[02:48] move, you go ahead and you buy or sell
+[02:49] stock. That's a lot of work.
+[02:52] Okay? It's a good technique to know, but
+[02:54] it's a lot of work. So, a lot of traders
+[02:57] just to simply decide that's not what
+[02:59] they want to do.
+[03:00] They want to do They want to do Maybe
+[03:03] they feel better trading the opposite,
+[03:06] which is
+[03:07] scalping the short gamma.
+[03:10] This is what we refer to as reverse
+[03:12] gamma scalping. And let me explain how
+[03:13] that works.
+[03:16] You start out with the notion that you
+[03:18] think that the stock is not going to
+[03:20] move.
+[03:22] Okay? It's a different different
+[03:23] prognosis from the at the from the very
+[03:25] start. You don't think the stock is
+[03:27] going to move.
+[03:28] And therefore,
+[03:30] you sell a straddle.
+[03:33] And for the beginners that were you've
+[03:36] been told all your life through the
+[03:37] beginning of option trading that selling
+[03:39] naked options is bad,
+[03:41] you're probably cringing at this point.
+[03:43] Okay? So, let me just tell you that this
+[03:45] is the introduction. We'll show you how
+[03:47] to correct for it.
+[03:49] I just put up the example of selling a
+[03:51] straddle. I'll show you more sensible
+[03:54] positions for those of you that are new,
+[03:55] but I put up the example of selling a
+[03:57] straddle just so you understand the
+[03:59] notion of
+[04:01] what I mean by reverse gamma scalping.
+[04:03] As you look at the picture of the short
+[04:06] straddle,
+[04:07] what you see is that now, as the stock
+[04:10] goes down,
+[04:12] your short put
+[04:14] gains more and more deltas. And since
+[04:17] you're short put, your delta gets more
+[04:18] and more positive.
+[04:20] Positive deltas make money when the
+[04:22] stock goes up. So, if you have more and
+[04:25] more positive deltas as the stock goes
+[04:27] down and more
+[04:29] more goes lower and lower and lower,
+[04:31] that's not a good thing.
+[04:33] Okay? So, eventually we want to correct
+[04:34] for that. On the other hand, if the
+[04:36] stock goes up,
+[04:38] our delta gets more and more negative
+[04:40] because our short call option
+[04:43] starts to really become dominant.
+[04:45] So, as the stock goes up,
+[04:48] the more and more it goes up, the more
+[04:50] and more money you lose through delta.
+[04:53] This can be frustrating. So, again, what
+[04:56] do we have here? We have a position in
+[04:58] which we don't want the stock to move.
+[05:01] And if the stock doesn't move, then
+[05:03] we're going to make money through the
+[05:05] daily time decay
+[05:08] and through a possible volatility crush
+[05:12] by having the short straddle position.
+[05:14] That's what we're looking for. We're
+[05:16] looking to sell a straddle and we're
+[05:17] looking to make money through time decay
+[05:19] and through a volatility crush.
+[05:22] Unfortunately, while we're looking to
+[05:25] make money through time decay
+[05:27] and through a volatility crush, the
+[05:29] stock might move. And if it does, it's
+[05:32] going to make us feel a little bit
+[05:33] uncomfortable because we're going to
+[05:35] start losing money due to that move. So,
+[05:39] reverse gamma scalping is the technique
+[05:42] that we're going to use to address
+[05:45] the problem of having the stock move in
+[05:48] either direction.
+[05:49] Okay?
+[05:50] The goal here is to keep as much of the
+[05:53] premium of the short straddle as
+[05:55] possible.
+[05:57] Reverse gamma scalping is going to help
+[05:59] us deal with the one thing that we can't
+[06:02] control, which is the stock moving up or
+[06:05] the stock moving down.
+[06:06] Okay? So, the idea here is as the stock
+[06:10] moves up,
+[06:11] we get more and more negative deltas,
+[06:13] we're going to have to buy stock.
+[06:16] As the stock moves moves down, we're
+[06:18] going to get more positive deltas, and
+[06:21] that means we're going to have to sell
+[06:22] stock.
+[06:23] Cuz ideally we want to we would like to
+[06:24] remain delta neutral throughout this
+[06:27] process so that we can make money
+[06:29] through the time decay element and
+[06:30] through the volatility crush.
+[06:32] Um
+[06:33] Notice that what this means is that
+[06:35] you're going to be buying the stock
+[06:38] higher than where you put on the trade,
+[06:40] and you're going to be selling the stock
+[06:42] lower than where you put on the trade.
+[06:44] So, this goes counter and what it means
+[06:48] is and this goes counter to what a lot
+[06:49] of people are are comfortable with,
+[06:51] obviously. What it means is your stock
+[06:53] transactions are going to lose money.
+[06:56] Okay?
+[06:57] But the the idea is you're willing to
+[06:59] lose a little bit of money
+[07:02] in order to avoid losing a lot of money.
+[07:06] Okay? You're going to lose a little bit
+[07:08] through reverse scalping of the stock.
+[07:11] And you hope that the little bit that
+[07:13] you lose
+[07:14] is not as much as the amount that you're
+[07:17] going to make through the time decay
+[07:19] element in your trade. So, that's what
+[07:21] you're trying to do here.
+[07:24] Um this is one of those slides for which
+[07:26] you're
+[07:27] just sit back and enjoy it.
+[07:29] Make sure that you get the slides at the
+[07:31] end of
+[07:32] you know, if you haven't already
+[07:33] registered, make sure you register and
+[07:34] get a copy of the slides so you don't
+[07:36] have to write them down.
+[07:38] Um reverse gamma scalping or RGS,
+[07:42] um as we stated, is the opposite of long
+[07:44] gamma scalping, which is the first thing
+[07:45] that I explained.
+[07:47] Uh it's usually implemented by traders
+[07:49] who want to sell options
+[07:51] as they believe that implied volatility
+[07:54] levels are going to decline. In other
+[07:55] words, you're expecting some sort of a
+[07:57] volatility decline, if not a crush.
+[08:01] Uh you're also expecting to make some
+[08:03] money through the time decay element.
+[08:06] Now,
+[08:07] selling a straddle is the most basic way
+[08:11] to create a short gamma position. But as
+[08:13] you know, it has inherent risks.
+[08:16] Uh and many traders set limits on how
+[08:19] much risk they're willing to trade
+[08:21] they're willing to take on any
+[08:23] particular trade. Therefore, um rather
+[08:26] than use a short straddle, we may look
+[08:29] We're going to look at other positions
+[08:31] that you may consider
+[08:33] trading rather than a short straddle,
+[08:36] similar to a short straddle, but without
+[08:39] uh the unlimited risk of a short
+[08:41] straddle. So, we're going to get into
+[08:42] that a little bit.
+[08:43] Um as the market declines,
+[08:47] uh the short gamma
+[08:49] um will gather because you're short
+[08:51] gamma, you're going to gather long
+[08:52] deltas. In other words, the further down
+[08:55] the market goes, uh the longer your the
+[08:58] longer your delta your delta position
+[09:00] will get. And as I said earlier, you
+[09:03] don't want long deltas in a declining
+[09:05] market. On the other hand, if the stock
+[09:07] goes up, you'll get short deltas. And
+[09:11] nobody wants short deltas in
+[09:14] an a rising market. So,
+[09:17] reverse gamma scalping is the technique
+[09:19] that we're going to use in order to
+[09:22] defend ourselves against the stock
+[09:24] moving
+[09:25] um in either direction. So, again,
+[09:28] reverse gamma scalping is also a
+[09:30] defensive technique.

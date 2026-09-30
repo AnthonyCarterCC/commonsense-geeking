@@ -1,0 +1,899 @@
+Title: How I Use Gamma and Gex Levels in Futures Trading
+Video ID: luMedeeFVug
+URL: https://www.youtube.com/watch?v=luMedeeFVug
+------------------------------------------------------------
+
+[00:00] Gamma exposure or GEX levels are one of
+[00:03] the most important context layers in my
+[00:06] stack when it comes to trading futures
+[00:08] every single day. And I've had some
+[00:10] people ask me how I use gamma, how I use
+[00:12] these GEX levels when it comes to
+[00:14] trading futures. And so that's the
+[00:15] purpose of this video today. I'm going
+[00:17] to talk about what it is, how I use it,
+[00:20] and how you can actually understand what
+[00:22] it is that we're looking at and why does
+[00:24] it actually matter? What's up? It's
+[00:25] Thrax. We are back for another video. In
+[00:27] this video, we're going to be talking
+[00:29] about gamma exposure for futures
+[00:31] traders. So, we're going to talk about
+[00:33] what it is, why it actually matters, and
+[00:35] how I use it. And we're also going to
+[00:37] talk about common mistakes, ways that
+[00:39] people love to use gamma exposure or GEX
+[00:41] that may not be the best way to actually
+[00:43] go about it. Because we have to
+[00:45] understand that gamma exposure and GEX,
+[00:49] they're not it's not necessarily a a
+[00:52] crystal ball, okay? The levels that are
+[00:54] printed are not necessarily places where
+[00:57] you're just looking for bounces or
+[00:59] rejections off of them. But it is a
+[01:01] powerful tool in the sense that it can
+[01:04] set up proper expectations for the day
+[01:07] and potentially adjust the way that we
+[01:08] head into the morning and we go into the
+[01:10] session looking for trades. So, in this
+[01:12] video, we're going to just be going over
+[01:14] what it is and how dealer hedging shapes
+[01:17] compression or expansion and key
+[01:19] intraday levels that we should be
+[01:20] watching for. But it's not replacing
+[01:23] structure or order flow or location or
+[01:26] confirmation. It's just a context layer
+[01:29] for NQ or Nasdaq futures or ES ES
+[01:33] futures where we understand the options
+[01:37] driven positioning of market makers and
+[01:40] dealers. Now, let's take a quick break
+[01:42] to talk about the sponsor of this video,
+[01:44] Prop Firm Match. If you trade prop
+[01:46] firms, you already know how confusing it
+[01:48] can get. There's different prop firms,
+[01:50] there's different challenges, there's
+[01:51] different rules, and a lot of
+[01:53] conflicting information. Prop Firm Match
+[01:55] simplifies all that by putting
+[01:57] everything in one platform. They have
+[01:59] comparison tools so you can compare prop
+[02:01] firms side by side or even challenges
+[02:03] side by side where it even lays out all
+[02:05] the rules for you to see, so you know
+[02:07] exactly what you're going to be spending
+[02:09] your money on or what you should be
+[02:10] buying before committing any of your
+[02:12] money to anything. You can review the
+[02:14] rules side by side and see which prop
+[02:16] firms are actually popular by reading
+[02:17] some of the reviews from other traders
+[02:19] just like yourself, so you don't have to
+[02:22] go and spend any time digging through
+[02:23] all these different websites. So instead
+[02:25] of guessing or hoping that you pick the
+[02:27] right prop firm or the right challenge,
+[02:29] you can make a decision with everything
+[02:31] laid out in one place. If you want to
+[02:33] use Propfirmmatch, there's a link in the
+[02:34] description and in the pinned comment,
+[02:37] and make sure to check out their
+[02:38] exclusive offers so you get the best
+[02:40] deal on any of these prop firms by using
+[02:42] code match. Now let's get back into the
+[02:44] video. So first of all, let's talk about
+[02:46] why we should even care about gamma, why
+[02:50] we should even consider it. Now, when a
+[02:53] lot of traders trade futures, they're
+[02:55] never really considering options or the
+[02:58] options book, but that is a blind spot.
+[03:01] Not because options predict price, but
+[03:04] because dealer hedging can matter around
+[03:07] certain concentrations. So if you treat
+[03:09] the listed options complex as someone
+[03:11] else's game, you're essentially flying
+[03:14] blind on one of the forces that
+[03:16] routinely shapes behavior around dense
+[03:19] strikes. So when large options interest
+[03:22] clusters near spot, market makers may
+[03:25] hedge in the underlying and related
+[03:28] products, being futures. So for
+[03:31] Nasdaq-related risk, that can show up in
+[03:34] behavior you read on NQ futures or MNQ
+[03:37] futures, even when the flow originated
+[03:40] in listed options or let's just say QQQ
+[03:43] or NDX. So we have two ways that we can
+[03:46] watch the same session when we're
+[03:48] trading futures. We can look at futures
+[03:50] only, you're looking at candles,
+[03:52] structure only, or we can also add
+[03:54] options context to it. So, we're looking
+[03:56] at the same tape and basically a dealer
+[03:58] strike map. So, we're using it in terms
+[04:01] of context for added confluence to
+[04:04] understand what's actually happening in
+[04:06] the broader market. Now, gamma is
+[04:08] context. It's not a trade signal. It
+[04:10] does not replace the rest of the system
+[04:12] that you're trading. It just helps
+[04:14] classify the environment and know where
+[04:17] responses could be likely. So, when I
+[04:20] take a look at gamma in the morning, I
+[04:22] use gamma to ask very simple questions,
+[04:25] right? Is today a day where two-way chop
+[04:28] and pinning around a strike or more
+[04:31] plausible or where expansion and cleaner
+[04:34] directional trade is more plausible?
+[04:36] Then, once I understand that, I still
+[04:39] need to confirm it with structure and
+[04:41] order flow and the rest of my system.
+[04:43] So, let's talk about what gamma actually
+[04:46] is. I'm going to try and put it in the
+[04:49] most plain English version. And just so
+[04:51] you guys know, when we go over some of
+[04:53] this information, once we once you start
+[04:56] understanding options, right? If you
+[04:59] don't already understand it, it does go
+[05:01] pretty far into depth. It's not only
+[05:03] about gamma. It's also about the
+[05:05] different Greeks as well, such as charm
+[05:07] or vanna or these different things. But,
+[05:09] for this video, we're going to try and
+[05:10] keep it as basic as possible. I'm making
+[05:13] this video under the assumption that
+[05:14] you're a futures trader and you don't
+[05:16] really understand options. And so, we're
+[05:18] not going to go into full options full
+[05:21] guide, okay? We're just going to talk
+[05:23] about gamma and the basics of it and
+[05:25] what you may need to know in order to
+[05:27] try and use gamma data or gex levels in
+[05:30] your intraday trading for futures.
+[05:32] Technically, gamma is the rate of change
+[05:35] of delta. It's how fast an option's
+[05:37] sensitivity to the underlying moves as
+[05:40] price moves. So,
+[05:42] in trader language, this is basically
+[05:45] the closer price gets to a meaningful
+[05:47] near the money options concentrations,
+[05:50] especially where short-dated exposure is
+[05:52] heavy, the more dealer hedging
+[05:54] adjustments can matter. So, dense open
+[05:58] interest by itself is not gamma.
+[06:01] You care where delta sensitivity is
+[06:03] actually relevant, and you're not trying
+[06:06] to necessarily like pass a quant exam,
+[06:09] you're just tracking where the machinery
+[06:11] of hedging is more likely to engage. We
+[06:13] don't necessarily need to understand all
+[06:17] of the Greeks as of right now, or that's
+[06:19] not the purpose of this video. We just
+[06:20] need to think about how might hedging
+[06:22] interact with price as we approach or
+[06:26] leave those areas. So, how does hedging
+[06:29] actually work, and why does it matter
+[06:32] for futures?
+[06:33] Well, we have to think about it like
+[06:35] this. When a customer on the stock
+[06:38] exchange goes to buy or sell options,
+[06:41] someone needs to take the other side.
+[06:43] The market needs to be liquid. Now,
+[06:45] market makers will warehouse that risk
+[06:48] and hedge so that their book stays
+[06:50] within limits. The purpose of market
+[06:54] makers or dealers is they're trying to
+[06:56] stay directionally neutral. They're not
+[06:58] in the game necessarily of predicting
+[07:01] direction. So, they need to stay
+[07:03] directionally neutral. And how do they
+[07:05] do that? Well, they do that by hedging.
+[07:07] And when they do it by hedging, then
+[07:08] they typically will hedge in the
+[07:10] underlying assets, such as the futures
+[07:13] market being one of them, but there's
+[07:14] more of them. So, hedging can use the
+[07:17] underlying cash index components, ETFs,
+[07:20] and futures, among other tools, and
+[07:22] futures being only one key avenue,
+[07:25] right? Especially relevant if we're
+[07:28] looking at QQQ or NDX, and then we're
+[07:31] trading NQ. So, the idea of this is like
+[07:34] a very simplified hedging flow is a
+[07:36] customer or or somebody on the the
+[07:40] market buys a call, okay? The dealer or
+[07:44] the market maker
+[07:45] takes the other side of that position.
+[07:48] And now they have directional exposure
+[07:50] that they need to manage because they're
+[07:52] not in the game of being directionally
+[07:54] exposed to the market. So, what do they
+[07:57] do? Well, they hedge in the underlying.
+[07:59] They hedge in futures. Dealers don't all
+[08:02] hedge the same way at the same time. Net
+[08:05] positioning is an aggregate story. So,
+[08:07] we have to treat it as probabilistic
+[08:09] pressure, not necessarily a guaranteed
+[08:11] path. So, when it comes to gamma or gex,
+[08:15] there are two main environments. We have
+[08:18] positive gamma and we have negative
+[08:20] gamma. Now, this matters because it
+[08:23] changes how hedging tends to interact
+[08:26] with movement on average, not every
+[08:28] tick, okay? We use it to classify what
+[08:31] kind of day that we're more likely to be
+[08:33] in, not to necessarily cherry-pick an
+[08:36] exact trade from a Greek label. Now,
+[08:38] positive gamma often is where hedging
+[08:41] can dampen moves. Think about it as
+[08:43] suppressing momentum in a way because
+[08:46] dealers may buy dips or they sell rips
+[08:49] in a way that absorbs volatility and
+[08:51] price can feel pinned and we can have
+[08:53] mean reverting tendencies or even chop
+[08:56] around strong strikes. Now, that doesn't
+[08:58] mean that trends can't occur. They can
+[09:00] still occur. Nothing is necessarily
+[09:03] forbidden, but
+[09:05] it's just more likely due to the way
+[09:07] that dealers are hedging against price
+[09:09] movement, we're leaning more towards
+[09:12] compression or rotation rather than
+[09:14] faster expansion. Now, in a negative
+[09:17] gamma environment, often what happens is
+[09:20] hedging can actually amplify moves and
+[09:23] the adjustments may chase direction. So,
+[09:25] expansions in this scenario can feel
+[09:28] cleaner or more unstable where ranges
+[09:30] can break with less stickiness. So, if
+[09:33] we are in positive gamma environments,
+[09:36] then oftentimes dealers are going to be
+[09:40] hedging against price movement. So, we
+[09:42] may see rotational behavior or
+[09:44] compression. And in negative gamma
+[09:46] environments,
+[09:48] that hedging behavior can add to the
+[09:50] impulse moves. It can make the moves
+[09:52] faster. It can make expansion more
+[09:54] likely. Now, we use it as expectations
+[09:59] or how we can potentially set the
+[10:01] expectations for the day or the session
+[10:03] for the environment that we're actually
+[10:05] in. It's not necessarily to predict
+[10:07] every single candle. So, then what is
+[10:09] compression versus expansion
+[10:11] environments? Well, intraday, I care
+[10:13] less about labeling the perfect regime
+[10:16] and more about the session that I'm
+[10:18] likely going to be navigating. So, the
+[10:21] way that I think about it is in
+[10:22] compression, we have a tighter range, we
+[10:25] have two-way trade, there's more chop,
+[10:27] there's rotation, and it's balanced. In
+[10:30] an expansion, this is where we have
+[10:32] clear directional travel where we have
+[10:35] trends or the impulse tends to actually
+[10:37] move and be more usable. So, when we're
+[10:39] looking at gamma and we're looking at
+[10:41] the environment that we're in, we're
+[10:44] using it to inform us what we
+[10:47] potentially need to prepare for, but
+[10:50] entries still have to come from our
+[10:52] process. The way that I use gamma is
+[10:57] I'm using it as a context layer in my
+[11:00] full stack of my system, and it
+[11:02] typically comes at the beginning of the
+[11:03] day understanding what environment we're
+[11:06] in, understanding the structure of the
+[11:08] dealer positioning
+[11:10] on what is friendly. Are we more leaning
+[11:13] towards an expansion day or is the
+[11:16] market structured in a way that's more
+[11:17] friendly or favorable towards expansion
+[11:20] or is it more favorable towards
+[11:22] compression? So, gamma just helps me
+[11:24] frame whether I should expect more range
+[11:26] behavior and mean reversion around
+[11:28] certain levels or key areas or if we're
+[11:31] going to have a session with a greater
+[11:33] potential for directional expansion, but
+[11:36] it doesn't tell me which specific setup
+[11:38] to run. It just sets the day class that
+[11:41] I'm trying to prepare for. The actual
+[11:44] trade that we're taking is not solely
+[11:46] based off of a gamma level or or a
+[11:49] positive node or negative node on a
+[11:52] gamma profile. The actual trade needs
+[11:56] location, response, and in my system
+[11:58] order flow confirmation. Now, I do want
+[12:01] to talk about dead gamma
+[12:03] versus active gamma. Now, this isn't uh
+[12:06] by the way like professional options
+[12:09] vocabulary, but I do need to talk about
+[12:12] this because a level on a chart or a
+[12:14] gamma level is not automatically a live
+[12:17] wire. Dead gamma is a strike that is on
+[12:21] the board. We see it, but it's not
+[12:23] backed by meaningful interest or session
+[12:25] relevance, and price can drift through
+[12:27] these levels with little participation.
+[12:29] So, if we see thin open interest or
+[12:31] volume at that node, we have to take
+[12:33] that into account. Now, active gamma is
+[12:36] a strike that we treat as live when
+[12:39] we're looking at these levels because it
+[12:41] could be a meaningful gamma node that
+[12:43] has real interest at that strike on the
+[12:46] table. So, we see volume there. We see
+[12:48] open interest or however the platform
+[12:50] actually shows it, and then we're
+[12:52] watching for a potential reaction or
+[12:55] two-way trade or decision as price is
+[12:57] beginning to interact with this level.
+[12:59] Not only after a clean reject or
+[13:02] absorption or stall. So, those behaviors
+[13:06] are examples of confirmation, not the
+[13:07] full definition of what it means to be
+[13:10] active. So, this is where many gamma
+[13:12] failed me stories come from. You're
+[13:14] chasing a printed line with no size
+[13:16] behind it, or you're mistaking active
+[13:18] for already proved itself instead of
+[13:20] thinking in terms of this is worth
+[13:22] monitoring closely. So, when we're
+[13:25] looking at the gamma table, which we're
+[13:27] going to go over later, when you're
+[13:29] looking at it and then you identify a
+[13:31] node with interest together, we take
+[13:34] that into account. A strike with a gamma
+[13:37] tag, but dead volume, can still behave
+[13:40] like noise. And a node with real size is
+[13:42] usually what deserves your attention
+[13:44] first. And the map or the the gex table
+[13:48] narrows where to look, but live reading,
+[13:50] once we actually get to those areas, is
+[13:52] telling us what the auction is actually
+[13:55] doing there. Now, there are some key
+[13:57] levels that we look at. It's not the
+[14:00] only ones that we look at, but they are
+[14:02] the key levels that we need to look at
+[14:04] when considering gamma or gex. The
+[14:07] labels that you may see might vary by
+[14:10] the tool that you're using or the
+[14:11] platform that you're using. These are
+[14:13] the ideas that I actually use. Now, they
+[14:15] always come with context and you can
+[14:17] never just use these as an automatic
+[14:21] support or resistance. Now, what we see
+[14:24] on a gex chart or a gamma table is we
+[14:28] will see typically a call wall or some
+[14:31] places call it a call resistance. And
+[14:33] what this is is a major upside call
+[14:36] reference. Now, we also have the gamma
+[14:38] flip or the HVL, depending on whatever
+[14:41] platform you're using and what they like
+[14:42] to call it. Now, this is basically where
+[14:45] we are shifting from positive to
+[14:47] negative territory in terms of gamma.
+[14:50] And it's where regime or behavior may
+[14:53] actually shift. And then to the downside
+[14:55] we have put wall or put support,
+[14:57] depending on what platform you're using.
+[14:59] And this is a major downside put
+[15:01] reference. Now, the labels may change,
+[15:06] but this is the logic to it. A call wall
+[15:09] is often a major upside options
+[15:13] concentration. It may act as a magnet or
+[15:16] friction for continuation or a place
+[15:18] where upside costs more and hedging
+[15:21] terms. And we watch in this area for
+[15:24] failed continuation versus acceptance
+[15:27] through this level. Now, a put wall, it
+[15:30] may attract tests or dip flows or
+[15:33] hedging activity there, but again,
+[15:36] response confirms. We're not just
+[15:37] blindly taking trades or trying to take
+[15:40] a bounce off of a label that's called a
+[15:43] call resistance or a put support or a
+[15:45] call wall or a put wall. And then the
+[15:47] gamma flip or the high volume line or
+[15:49] the HVL, it's a line where the
+[15:51] volatility regime may shift and behavior
+[15:54] can change character, for example, from
+[15:57] stickier to more unstable or hedging
+[15:59] against the flow with the flow or vice
+[16:02] versa, and we treat it as a probable
+[16:04] regime boundary. It's not a single
+[16:05] switch that decides the day alone. And
+[16:09] so, we use these walls as reference
+[16:12] zones. The market can punch through, it
+[16:14] can backtest, or it can ignore them if
+[16:16] other forces dominate, and your job is
+[16:19] to trade what happens, not using them as
+[16:23] a crystal ball or a fairy tale of a
+[16:26] level. And so, we look at them in terms
+[16:29] of decision zones versus reaction zones.
+[16:32] Reaction versus decision is not a pair
+[16:36] of predefined zone types you stamp on
+[16:39] the chart. It's behavior that we observe
+[16:42] as price begins to actually interact
+[16:44] with these levels. So, a clean, fast
+[16:47] interaction versus an auction that has
+[16:49] to work that area before we actually
+[16:52] resolve. You can't necessarily know in
+[16:56] advance whether the next test will be a
+[16:59] reaction style or decision style. How
+[17:02] price trades the level in real time,
+[17:06] participation, pace, follow-through,
+[17:09] that is what actually sorts it. Now,
+[17:11] execution stays order flow and footprint
+[17:15] first in my system. This frame only
+[17:17] tells me what kind of read we may be
+[17:20] managing. Now, there are things that can
+[17:22] stack or context that can actually stack
+[17:25] at a level. Price side context and
+[17:28] option side loading both matter. And the
+[17:30] more that overlap, the higher odds of
+[17:32] auction style work. It's still not a
+[17:33] guarantee though. A stacked level can
+[17:36] still resolve as a clean reaction if the
+[17:38] tape is going to allow for it. So, the
+[17:40] platform that you're using, it may have
+[17:43] several derivative metrics that are
+[17:46] lining up at one strike or zone. So, for
+[17:48] example, you may see a call wall that
+[17:51] also has the highest absolute gamma or
+[17:53] the heaviest call open interest or the
+[17:55] heaviest put volume or the largest net
+[17:57] put or call flow. And the words or the
+[18:01] labels may vary by the vendor that
+[18:03] you're using or the platform that you're
+[18:05] using, but when those stack together,
+[18:08] they become stacked levels and that is
+[18:11] heavier option side context and it
+[18:13] raises the likelihood of decision style
+[18:16] behavior the same way as the diagram. It
+[18:19] doesn't dictate the outcome. We still
+[18:22] have to confirm it with order flow. Now,
+[18:24] reaction zones or reaction behaviors is
+[18:27] where we're looking at clean response at
+[18:29] the test, a quick rejection,
+[18:31] straightforward continuation, or
+[18:32] acceptance without the market needing a
+[18:34] long auction to decide. The read is
+[18:37] often faster and you still confirm it
+[18:40] with order flow. A decision zone is
+[18:43] where we have decision behavior in
+[18:45] auction style work where we may have
+[18:47] two-way trade, chop, multiple test,
+[18:50] absorption before the market commits to
+[18:53] continuation or failure at that level.
+[18:55] And you recognize it while it unfolds,
+[18:58] not by declaring the level necessarily
+[19:01] in advance. So, we keep a simple mental
+[19:04] model when we start approaching these
+[19:06] levels, right? We are looking at
+[19:09] reaction. It's lighter, faster read or
+[19:12] decision. It's stacked and there's
+[19:14] slower resolution, but then we're always
+[19:16] looking at what the outcome is and what
+[19:19] price is actually doing once it gets to
+[19:21] this level. Now, when gamma structure
+[19:24] and liquidity overlap, the odds of
+[19:27] decision style auction behavior go up.
+[19:30] They do not go to certainty. So, we
+[19:33] trade the response that we actually get,
+[19:36] not necessarily the stack that you hoped
+[19:39] for. So, then how do I actually use
+[19:41] gamma in my trading? Before we go look
+[19:43] at an actual gamma table or gamma levels
+[19:46] on the chart and how I would read that,
+[19:48] let's talk about how I actually use it.
+[19:49] Now, I use gamma as an environmental
+[19:53] filter and a location map. So, it does
+[19:57] not trigger entries for me. Just because
+[20:00] we touch into a gamma level, it does not
+[20:02] trigger an entry, but it narrows where
+[20:04] the auction may matter and what regime
+[20:07] I'm potentially preparing for. So, the
+[20:09] first thing that I do is I classify the
+[20:11] session. Are we in positive environment
+[20:14] or are we in a negative environment and
+[20:16] do we have more compression or pinning
+[20:18] risk or do we have more expansion
+[20:20] potential? And then I'm marking where
+[20:23] dealer dynamics are more likely to
+[20:25] matter at the walls, at the flip lines
+[20:27] or dense strikes. And then we frame
+[20:30] behavior. So, are we looking at mean
+[20:33] reversion tendencies or breakout
+[20:35] tendencies and what is more likely
+[20:37] probabilistically? And then we decide
+[20:39] where to pay attention. So, I'm not
+[20:41] flat-footed at obvious interaction
+[20:43] zones. So, the footprint and the tape
+[20:46] confirm or veto that map. And if gamma
+[20:49] says one thing and order flow says
+[20:51] another, well, then order flow wins. I
+[20:53] don't argue with the tape to try and
+[20:55] save a level or a line on the chart.
+[20:58] Execution stays the same. Location and
+[21:01] response first. Gamma tells me what
+[21:03] response is more likely to count. So,
+[21:05] gamma is going to suggest but order flow
+[21:08] in my system always is the one that
+[21:10] decides. So, we look at the dealer map,
+[21:13] we see price at location, then we look
+[21:15] at footprint. In my stack, gamma sits
+[21:18] above execution and confirmation. It's
+[21:21] context. So, the way that I typically
+[21:23] view the market in the morning is I'm
+[21:25] first looking at higher time frame
+[21:26] structure. I'm building my bias, I'm
+[21:28] building my road map, and I'm looking at
+[21:30] session context and location. And then
+[21:33] I'm looking at gamma. I'm understanding
+[21:35] the environment that we're in. I'm using
+[21:36] it as context, and then only as we
+[21:38] approach levels
+[21:41] and areas where I was already looking to
+[21:44] sit up in my chair and start paying
+[21:45] attention to footprint, do I start
+[21:48] looking at order flow and footprint
+[21:49] confirmation. Order flow is the final
+[21:52] confirmation layer in my system. Gamma
+[21:55] tells me where the conversation is more
+[21:57] likely to get interesting, where I
+[22:00] should start paying attention more. The
+[22:02] tape tells me whether the market agrees.
+[22:04] Now, there are a lot of common mistakes
+[22:06] that actually happen when people are
+[22:08] using gamma, and one of the biggest ones
+[22:12] that I see is that a lot of traders like
+[22:15] to trade gamma levels like automatic
+[22:17] support or resistance.
+[22:19] But, that's not necessarily the way that
+[22:21] we should be viewing this, and you can't
+[22:23] necessarily be treating every strike
+[22:25] cluster equally without a session read.
+[22:28] And then you have to understand dead
+[22:31] prints because if you're just looking at
+[22:34] big gamma nodes, and we just run right
+[22:37] through it, well, the auction never
+[22:39] engaged there, and you need to take that
+[22:41] into account, and you can't have gamma
+[22:44] override the rest of your system,
+[22:47] override price action, location, and
+[22:50] footprint. So, the bottom line to this
+[22:52] is that the way that I use gamma is I
+[22:55] use it as a lens. When the lens and the
+[22:57] tape disagree, then I trade the tape.
+[23:00] But, we're using gamma as context, and
+[23:02] what am I likely to be preparing for for
+[23:06] the morning heading into a New York
+[23:07] session for regular trading hours. So,
+[23:09] I'm going to show you guys what I use.
+[23:11] What I use is a platform called Tanuki
+[23:13] Trade. But before we do that, I do just
+[23:16] want to mention that gamma exposure
+[23:18] helps futures traders understand where
+[23:21] dealer hedging may matter and whether
+[23:23] the day is more likely to compress or
+[23:26] expand, but it only works as a context
+[23:30] layer alongside the rest of the stuff.
+[23:33] Structure, session location, and order
+[23:35] flow, at least for my system. And this
+[23:38] deck is built to match that reality.
+[23:40] Practical, probabilistic, and
+[23:43] subordinate to how price actually
+[23:45] trades. So, here we are on Tanuki Trade.
+[23:49] Now, Tanuki Trade, the way that I look
+[23:51] at this is I'm looking at it on two
+[23:53] visual representations. The first one is
+[23:55] the table or the GEX live table. And
+[23:58] this is showing us the profile of where
+[24:00] positive gamma is sitting, where
+[24:02] negative gamma is sitting, and there are
+[24:04] labels here that are showing us the
+[24:06] absolute GEX, the net volume per level.
+[24:10] And these are important to note. And
+[24:12] then you're also seeing when we zoom in
+[24:15] that we have C1, which is the call wall,
+[24:18] P1, which is the put wall, and then
+[24:20] there's the HVL or the gamma flip level.
+[24:23] Now, why is that the gamma flip level?
+[24:24] Because we're going from positive
+[24:26] environment to negative environment,
+[24:28] right? And so, this is where that's
+[24:30] technically happening. Now, the other
+[24:32] view that I look at is I look at it on
+[24:34] the actual chart. Now, gamma is changing
+[24:38] throughout the day. Dealer positioning
+[24:40] is changing throughout the day. So, it's
+[24:43] hard for me to show this to you without
+[24:45] having some type of backtesting, but the
+[24:48] good thing is is that in the Discord, I
+[24:51] send out basically like the daily
+[24:55] outlooks for gamma. And I'm about to
+[24:56] show it to you and I'm going to explain
+[24:58] the reasoning behind why I'm sending
+[25:00] these things and how I'm actually
+[25:01] reading it. Now, before I do that, I
+[25:03] just want to explain something, okay?
+[25:05] So, I have this pulled up
+[25:09] throughout the day, and I'm watching
+[25:10] these levels, and you can see when
+[25:13] levels have stacked confluences on them.
+[25:16] So, if we have C2, which is the second
+[25:19] biggest call side gamma wall, and we
+[25:22] also have the most absolute gex here,
+[25:25] the highest call open interest, the
+[25:28] highest put volume, and the highest
+[25:31] positive net deck strike, well, this
+[25:33] becomes a stacked level. Now, with
+[25:36] Tanuki Trade, you can actually click on
+[25:38] these, and it'll read this to you on the
+[25:40] side. Now, it's hard for you guys to
+[25:42] kind of see this right now, but
+[25:43] basically what this saying what this is
+[25:45] saying is that there's confluence here
+[25:47] at this level. Five levels are
+[25:49] converging, and so this strike is
+[25:51] reflecting heavy exposure concentration,
+[25:54] and it may function as a reaction zone
+[25:56] within the current option structure, and
+[25:58] it's showing us what we have here. And
+[26:00] this is important, and I think this is a
+[26:02] great way to view these levels, and
+[26:05] that's why this is why I love this
+[26:07] platform so much and why I pay for it,
+[26:09] because it makes it easy. It makes it
+[26:12] easy for me, right? So, let me go and
+[26:14] show you guys how I'm actually viewing
+[26:17] this on the day. Now, let's take Let's
+[26:20] take yesterday or Friday as an example.
+[26:24] Now, this is market open, okay? So, what
+[26:27] did we do during market open? We
+[26:29] compressed.
+[26:30] Now, if you didn't know what was
+[26:33] happening and what the environment that
+[26:36] we are potentially in, you could have
+[26:38] made the assumption that we were going
+[26:40] to make an expansion this day, that we
+[26:42] could have ran up to maybe a 4-hour draw
+[26:47] to that to the to the upside, right?
+[26:48] Maybe this was your draw for the day, or
+[26:50] maybe you wanted to see us come down and
+[26:52] rebalance this area, or even target
+[26:54] these lows. And once market opens and we
+[26:58] start pinning back and forth, you're
+[27:00] wondering why. Like, why are we doing
+[27:02] this and not actually making a move? Why
+[27:04] are we going back and forth? Well, let
+[27:06] me show you something, and let me show
+[27:08] you how I approached this day and how I
+[27:10] was actually anticipating this type of
+[27:12] behavior before the market ever even
+[27:15] opened. And if you can understand that,
+[27:17] then you can frame your decisions during
+[27:20] the day
+[27:21] ahead of time to understand what is more
+[27:24] likely and what is less likely to
+[27:25] actually happen. So, in the outlook for
+[27:29] Friday, this is what I said for QQQ and
+[27:32] NQ. I said we're currently trading in a
+[27:35] positive gamma environment.
+[27:38] This is where we were opening up for the
+[27:40] day. Here we are in a positive gamma
+[27:43] environment. Now, we have the gamma flip
+[27:45] level here, we have the put wall down
+[27:48] here, and we have the call wall up here.
+[27:50] Now, the call wall up here is stacked,
+[27:53] meaning that we have multiple
+[27:55] confluences here. We have the net call
+[27:57] open interest, we have call open
+[27:59] interest, we have absolute GEX, too. And
+[28:02] it's stacked here at the call wall, or
+[28:04] where you have the largest positive
+[28:06] gamma node. Now, the idea was is that my
+[28:10] baseline expectation for Friday morning.
+[28:13] Now, I understand it's not a guarantee,
+[28:14] but the baseline expectation for Friday
+[28:17] morning was that we were either going to
+[28:18] see that it was likely that we were
+[28:21] going to see compression or controlled
+[28:23] price reaction rather than a clean
+[28:24] expansion for the morning. Now, I did
+[28:27] note that price is pushing higher into a
+[28:29] stack decision zone, right? That's that
+[28:32] 24 450 area, or the call wall. Now, this
+[28:37] area is just where I'm going to be
+[28:40] watching, right? I'm watching this area
+[28:42] to see if we're going to have acceptance
+[28:44] past it or above it, or if we're going
+[28:47] to have absorption there. Now, if buyers
+[28:49] start pushing into this area and they
+[28:52] don't have any type of result for their
+[28:54] effort, then we can see a potential
+[28:56] rejection. If we end up actually getting
+[28:58] acceptance above it, then that opens the
+[29:00] door for delayed expansion. So, let's go
+[29:04] and mark out that level on the chart, 25
+[29:06] 450, right? So, here's where that level
+[29:09] actually was on the chart for the
+[29:11] morning. Now, it wasn't the only level
+[29:13] because we also had another level. We
+[29:15] had the second call wall, which
+[29:18] actually adjusted later to being the
+[29:20] call wall as the day progressed because
+[29:23] dealer positioning is changing
+[29:25] throughout the day, and where is that
+[29:26] sitting? Well, it's sitting right here
+[29:28] at 25 360. So, let's go mark that out.
+[29:32] So, as the day began to progress, okay,
+[29:35] we had CPI on Friday. We push up. We
+[29:38] come back down. We begin to compress
+[29:40] towards market open. Now, am I surprised
+[29:43] that we are compressing in a positive
+[29:44] gamma environment? No. That was the
+[29:47] baseline expectation for this day. So,
+[29:50] I'm watching this level as it later
+[29:52] changes to becoming the call wall, and I
+[29:55] understand that being in a positive
+[29:57] environment, that dealers are hedging
+[29:59] against price movement. Every time price
+[30:01] moves up, dealers are selling. Every
+[30:03] time price moves down, dealers are
+[30:05] buying, and it's causing this
+[30:07] suppression for momentum and volatility,
+[30:10] and I understand that we're in that
+[30:11] environment. So, understanding that I'm
+[30:14] in that environment, does that
+[30:15] necessarily mean that I'm going to just
+[30:19] be taking bounces off of this level? No.
+[30:22] Now, if you did, you can make the
+[30:24] argument that you would have made some
+[30:26] good trades, right? Because this level
+[30:28] existed here. You could have taken the
+[30:29] bounce off of it here, the bounce off of
+[30:31] it here, but that's not necessarily how
+[30:34] I use these levels. I just understand
+[30:36] that if we are in a situation like this
+[30:38] and the environment is telling me that
+[30:41] we're likely to compress or rotate for
+[30:44] this day, then I'm going to be less
+[30:47] likely to try and take breakout trades.
+[30:49] I'm going to be more suspicious
+[30:52] of
+[30:53] false moves, of false breakouts. And
+[30:57] that idea is coming from understanding
+[31:01] the environment. And that's why it's
+[31:03] being used as a context layer in my
+[31:05] system. And so I can go into the day
+[31:08] today with the idea that we have the
+[31:10] baseline expectation before price ever
+[31:12] started doing this, before we ever
+[31:14] started compressing like this.
+[31:16] You probably had a lot of traders this
+[31:19] day that were trading
+[31:21] and trying to take breakouts. They saw
+[31:23] effort, they tried to go long here,
+[31:25] maybe they tried to go short here, maybe
+[31:26] they tried to go long here.
+[31:28] And they're trying to trade the breakout
+[31:30] of this compression, but if you were
+[31:33] using gamma and understanding the
+[31:35] environment that were we were in and
+[31:37] understanding that we weren't really in
+[31:39] a friendly environment for breakouts or
+[31:42] expansion in the first place,
+[31:44] then you can filter those
+[31:47] subpar decisions out of your trading
+[31:49] day. I understood that we're in this
+[31:52] type of environment. I understood that
+[31:55] because of that environment, well, we
+[31:57] need to be careful about taking
+[31:58] breakouts and rather we may lean more
+[32:01] towards trades that we can have
+[32:03] rotational behavior. And so what was the
+[32:06] trade that I actually took on Friday?
+[32:08] It wasn't a breakout. It wasn't this
+[32:10] breakout. It wasn't this breakout
+[32:12] attempt.
+[32:13] Once we popped up above this area and I
+[32:16] was looking to see whether or not we
+[32:18] were going to accept prices higher and
+[32:21] then continue our way up here,
+[32:24] and the first thing that happened after
+[32:25] we got above this area is we slammed
+[32:27] back down.
+[32:28] Well, what is that telling me? When I'm
+[32:30] watching the footprint, what is that
+[32:31] telling me? It's telling me that we
+[32:34] failed to accept higher prices above
+[32:36] this level. And knowing that we're in a
+[32:38] positive gamma environment and that we
+[32:41] are likely to have mean reversion
+[32:42] behavior,
+[32:43] and that's the baseline expectation, not
+[32:45] a guarantee, but the baseline
+[32:46] expectation, well then I go short. Why?
+[32:49] Because that's the environment that
+[32:50] we're in. It's likely that we're going
+[32:52] to rotate. So, instead of taking the the
+[32:55] long and trying to chase a breakout in
+[32:57] an environment that's not friendly
+[32:59] towards breakouts in the first place, we
+[33:00] go for the mean reversion. We go for the
+[33:02] rotation. We go for the rejection or the
+[33:04] fake breakout
+[33:05] and the slam back down into this area.
+[33:08] And so, I took short here after I saw
+[33:09] this candle come down, and I got out
+[33:11] pretty quickly. Now, why did I get out
+[33:13] quickly? Why didn't I hold this trade
+[33:15] and take it all the way down here?
+[33:17] Well, because I understand that if we
+[33:21] are in a compression environment, we're
+[33:24] in a positive gamma environment, that
+[33:27] I'm more inclined to take profits
+[33:29] quicker. I'm more inclined to be
+[33:31] prepared to trail my stop. Now, we can
+[33:35] run. Now, we made a pretty good move,
+[33:36] right? We made a pretty good move. We
+[33:38] went all the way down for like 150
+[33:39] points.
+[33:40] I didn't catch the whole thing. I'm sure
+[33:42] a lot of people did, but the reason why
+[33:44] I took profits quickly is because when
+[33:46] we're in this type of environment, I'm
+[33:48] more inclined to take profits quickly if
+[33:50] I know that dealers are hedging against
+[33:52] price movement. If we're in a negative
+[33:53] gamma environment where dealers are
+[33:55] hedging with that movement, then I may
+[33:57] be more inclined to actually hold that
+[33:58] trade, let it breathe, and let it run
+[34:01] just because of the environment being
+[34:05] structured in a way that's more
+[34:07] favorable towards expansion, so you can
+[34:09] let those run. There are a lot of gamma
+[34:11] platforms and, you know, things that you
+[34:13] can use out there on the internet. I
+[34:15] chose to use this one. Why? Because I
+[34:18] love the interface of it. I think it's
+[34:19] super useful. I love to see this
+[34:22] information and see where the stack
+[34:23] levels are, and it makes it easy for me.
+[34:27] Now, there are other platforms, but this
+[34:29] is is personally the one that I use. You
+[34:32] can go and do your own research. You can
+[34:34] use the ones that you want to use, but
+[34:35] if you do want to use Tanuki Trade, then
+[34:38] click the link in the description below,
+[34:40] use code never flat, and then you can
+[34:44] get a free trial and you can test it out
+[34:45] and see how it works for you and your
+[34:47] trading. Just don't view this as
+[34:50] automatic levels where you're just going
+[34:52] to take rejections just blindly. That's
+[34:56] not really how you should be using this.
+[34:58] Although it may work that way sometimes,
+[35:01] that's not really how you should be
+[35:02] viewing this. We should just be using
+[35:03] this mainly to understand what type of
+[35:06] environment that we're in, understand
+[35:07] key levels when it comes to options
+[35:09] data, and how dealers may actually be
+[35:12] behaving once price is moving around at
+[35:15] market open, regular trading hours, and
+[35:17] what that type of behavior might be. Is
+[35:19] it against price? Is it with price? And
+[35:20] what is that allowing price to actually
+[35:22] do? And then we use our system or
+[35:24] whatever strategy you trade
+[35:26] to actually make normal decisions, but
+[35:28] we're using this as an environmental
+[35:30] filter and a location map, okay? If you
+[35:34] guys have any questions, you can drop a
+[35:36] comment in the comment section below.
+[35:37] I'll try and answer them, and I'll catch
+[35:40] you guys next time. Peace.

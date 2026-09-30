@@ -1,0 +1,140 @@
+Title: Reverse Gamma Scalping 7/10: Alex Mendoza: 05/01/10
+Video ID: oxxnep6Lc4A
+URL: https://www.youtube.com/watch?v=oxxnep6Lc4A
+------------------------------------------------------------
+
+[00:44] Then you're going to find the Vega for
+[00:47] the straddle. And remember that when you
+[00:48] find the Vega for the straddle, when you
+[00:50] go to your broker site, you're actually
+[00:52] going to want to add the Vega of the
+[00:55] call and the Vega of the put. Don't just
+[00:57] take one. Uh so the vega vega of the
+[01:00] call and the put uh together you should
+[01:02] know that the number is whatever the
+[01:04] call vega is you're just going to double
+[01:06] it because the call and vega are going
+[01:07] to be the same. The call and put vega
+[01:09] are going to be the same. So basically
+[01:12] if we have a total straddle vega of in
+[01:15] in you know step number four if you have
+[01:17] a total straddle vega of 18 on on 10
+[01:21] straddles this works out to be basically
+[01:24] about
+[01:25] $180. And what this means is that you
+[01:29] could the if you move one volatility
+[01:32] point, you can if if the volatility
+[01:35] changes by one point, the value of your
+[01:37] straddle will increase or decrease by
+[01:40] $180. The val value of your 10 straddle
+[01:43] position will increase or decrease by
+[01:45] about 180 bucks per volatility point.
+[01:49] Okay. So now what we're going to do is
+[01:52] we're going to multiply step two which
+[01:54] is 0.5 by step four which is 180 bucks.
+[01:58] And what that gives us is a total of 90
+[02:00] shares which is the maximum number of
+[02:03] shares that you want to be short. Okay
+[02:07] for if you're leaning short deltas you
+[02:09] want to be short 90 shares. Now I'm
+[02:13] going to give you a little bit of leeway
+[02:14] on this. If you if it if if the thing
+[02:16] says has to be short 90 shares, you know
+[02:18] what? Get short 100. Okay? It's not
+[02:21] worth paying the extra commissions and
+[02:22] having the awkward stock position uh of
+[02:25] 90 shares. People like to deal in what's
+[02:27] called a round lot. So, just, you know,
+[02:29] selling a 100 shares instead of 90 is
+[02:31] not going to kill you. All right. In
+[02:34] addition, you never want to have your
+[02:36] delta be greater than two times your
+[02:39] gamma in order to avoid the position
+[02:42] running away from you. Okay? Okay. So,
+[02:44] you want to keep these things fairly
+[02:45] delta neutral. Remember, you're starting
+[02:47] fairly delta neutral. Uh you want to
+[02:50] maintain this position fairly delta
+[02:52] neutral. Um because the maximum short
+[02:55] delta came out to be 90.
+[02:58] Um and the gamma in the previous example
+[03:02] was 40. Um we usually don't want to
+[03:05] exceed um you know being long or short
+[03:09] 80 shares. Um, however, remember that
+[03:12] we're going to we're going to start out
+[03:13] by leaning uh being short about 90
+[03:17] shares. Okay. So, on smaller what this
+[03:22] comes down to is understanding that in
+[03:23] smaller positions, you know, you're
+[03:26] going to have a few decisions to make.
+[03:27] Well, I technically shouldn't be uh long
+[03:31] more than 80 shares. Um, you shouldn't
+[03:33] be long more than 80 shares above and
+[03:35] beyond what you what you started
+[03:37] leaning. Okay? Remember, if you're going
+[03:39] to carry a short 90 or short 100 delta
+[03:42] to begin with, that's where you start
+[03:45] out. Okay? That's you're just saying, I
+[03:47] want to I want to remain short. I want
+[03:49] to maintain this position. So, what
+[03:51] we're saying is in addition to that
+[03:54] short amount, we don't want to be long
+[03:56] or short deltas above and beyond that
+[03:59] level.
+[04:01] um when it comes down to deciding uh we
+[04:04] don't want to be short more than twice
+[04:05] our gamma. We don't want to be short
+[04:07] more than twice our gamma above and
+[04:08] beyond what we're willing to be short
+[04:11] because what you're seeing is that if
+[04:13] you can picture this what you're
+[04:14] basically saying is that being short 90
+[04:17] deltas or as we say or as we round up to
+[04:19] 100 deltas being short 90 or 100 deltas
+[04:22] that's where that's what we consider to
+[04:24] be flat. Okay, we're basically saying um
+[04:28] we want that position. We want to lean
+[04:31] short. So if we're short 90, 100 deltas,
+[04:35] we're basically going to consider oursel
+[04:36] flat delta. So two times above and
+[04:40] beyond um from that starting point is
+[04:44] where you don't want to be. Okay. So
+[04:47] again, and know I also want to stress
+[04:49] that you probably want to go ahead and
+[04:51] trade stock in hundred in 100 um in 100
+[04:55] share increments just to make yourselves
+[04:57] um just to make things easier. Uh it's
+[04:59] more liquid to trade things that way. Um
+[05:02] so just round up or down based on what
+[05:04] you want to do. Okay, so those are some
+[05:07] of the things that we had um available
+[05:09] to you. Again, um I I hope that you've
+[05:12] enjoyed the presentation. Uh if we have
+[05:14] time for questions, I'll be more than
+[05:16] happy to answer anything that you have
+[05:17] in mind. I have a simple question.
+[05:20] Difference between a floor trader and a
+[05:22] market maker. Ah, good question. Uh the
+[05:25] difference between a floor trader and a
+[05:27] market maker. Um it's there is actually
+[05:29] a distinction. Uh a floor trader is a
+[05:33] specific type of market maker. Uh the
+[05:36] market maker is just defined as the guy
+[05:38] that makes the bid and the ask. Okay, he
+[05:41] reflects that market. he makes the bid
+[05:42] and the ask. Um you can do um in
+[05:45] electronic exchanges like the ICE, the
+[05:47] market maker actually sits behind a
+[05:50] computer and makes the market. So he's
+[05:52] technically not on a floor. So he would
+[05:54] just be considered a market maker. Uh a
+[05:57] floor trader is someone that's actually
+[05:59] in a trading pit. Um typically in
+[06:02] Chicago, you'll see you'll see market
+[06:04] makers. Um, you know, they're you'll see
+[06:07] floor traders and again they're just a
+[06:09] type of market maker that happens to be
+[06:11] on an exchange floor as opposed to a
+[06:14] market maker that sits behind a desk as
+[06:16] you'll see on the ice and often times on
+[06:19] the trading floors.

@@ -40,5 +40,61 @@
       "description": "thinkorSwim volume study for day trading execution",
       "url": "http://tos.mx/INvVO1t0F"
     }
+  ],
+  "scripts": [
+    {
+      "name": "Azure Security",
+      "icon": "&#x1F510;",
+      "description": "Entra ID and Azure security auditing and remediation scripts",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/Azure%20Security"
+    },
+    {
+      "name": "BloatWare Removal",
+      "icon": "&#x1F9F9;",
+      "description": "Windows cleanup and removal of pre-installed bloatware and utilities",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/BloatWare"
+    },
+    {
+      "name": "Exchange & Mailbox",
+      "icon": "&#x1F4E7;",
+      "description": "Exchange Online and mailbox management scripts for M365",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/Exchange%20%26%20Mailbox%20Management"
+    },
+    {
+      "name": "SharePoint & OneDrive",
+      "icon": "&#x1F4C2;",
+      "description": "SharePoint and OneDrive management and archival tools",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/SharePoint%20%26%20OneDrive"
+    },
+    {
+      "name": "System Troubleshooting",
+      "icon": "&#x1F527;",
+      "description": "Windows system repair and troubleshooting utilities",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/System%20Troubleshooting"
+    },
+    {
+      "name": "Security & Defender",
+      "icon": "&#x1F6E1;",
+      "description": "Windows Defender and security configuration scripts",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/Security%20%26%20Defender"
+    },
+    {
+      "name": "Deployment & Build",
+      "icon": "&#x1F3D7;",
+      "description": "Machine build and enterprise deployment automation",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/Deployment%20%26%20Build"
+    },
+    {
+      "name": "Local Admin",
+      "icon": "&#x1F465;",
+      "description": "Local administrator and user management scripts",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/Local%20Admin"
+    },
+    {
+      "name": "Utilities",
+      "icon": "&#x2699;",
+      "description": "Miscellaneous utility scripts and tools",
+      "url": "https://github.com/AnthonyCarterCC/commonsense-geeking/tree/main/scripts/Utilities"
+    }
   ]
 }
