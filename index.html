@@ -1,142 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A central hub for Commonsense Geeking scripts, tools, and applications.">
-    <title>Commonsense Geeking</title>
-    <style>
-        * { box-sizing: border-box; }
-        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; }
-        .header { background: linear-gradient(135deg, #5856d6 0%, #7c3aed 100%); color: white; padding: 24px 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
-        .header h1 { margin: 0 0 4px; font-size: 28px; }
-        .header p { margin: 0 0 12px; font-size: 14px; opacity: .95; }
-        .dark-mode-btn { background: rgba(255,255,255,.2); border: 1px solid rgba(255,255,255,.4); color: white; padding: 7px 12px; border-radius: 6px; cursor: pointer; font: inherit; font-size: 13px; }
-        .dark-mode-btn:hover { background: rgba(255,255,255,.3); }
-        .container { max-width: 1200px; margin: 0 auto; padding: 16px; }
-        .section-title { margin: 16px 0 8px; padding-bottom: 6px; border-bottom: 2px solid #5856d6; display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; }
-        .section-icon { font-size: 19px; }
-        .apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 10px; margin-bottom: 16px; }
-        .app-card { min-width: 0; background: white; border-radius: 8px; padding: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.08); display: flex; flex-direction: column; transition: box-shadow .2s, transform .2s; }
-        .app-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.14); transform: translateY(-2px); }
-        .app-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
-        .app-icon { font-size: 21px; min-width: 24px; }
-        .app-title { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
-        .app-desc { color: #666; font-size: 12px; line-height: 1.4; margin-bottom: 12px; flex-grow: 1; }
-        .app-btn { display: inline-block; align-self: flex-start; background: #5856d6; color: white; border-radius: 4px; padding: 7px 12px; font-size: 12px; font-weight: 600; text-decoration: none; }
-        .app-btn:hover, .app-btn:focus-visible { background: #4c51bf; }
-        .load-error { padding: 12px; border-left: 4px solid #b42318; background: #fff1f0; color: #7a271a; border-radius: 4px; }
-        body.dark-mode { background: #1a1a1a; color: #e0e0e0; }
-        body.dark-mode .app-card { background: #2a2a2a; color: #e0e0e0; }
-        body.dark-mode .app-title { color: #e0e0e0; }
-        body.dark-mode .app-desc { color: #bbb; }
-        body.dark-mode .section-title { border-bottom-color: #7c3aed; }
-        body.dark-mode .load-error { background: #3b2020; color: #ffd8d5; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A searchable catalog of Commonsense Geeking scripts, tools, and applications.">
+<title>Commonsense Geeking</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f5f5f5;color:#333}.header{background:linear-gradient(135deg,#5856d6 0%,#7c3aed 100%);color:white;padding:24px 20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.1)}.header h1{margin:0 0 4px;font-size:28px}.header p{margin:0 0 12px;font-size:14px;opacity:.95}.dark-mode-btn{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);color:white;padding:7px 12px;border-radius:6px;cursor:pointer;font:inherit;font-size:13px}.dark-mode-btn:hover{background:rgba(255,255,255,.3)}.container{max-width:1200px;margin:0 auto;padding:16px}.section-title{margin:16px 0 8px;padding-bottom:6px;border-bottom:2px solid #5856d6;display:flex;align-items:center;gap:8px;font-size:16px;font-weight:700}.section-icon{font-size:19px}.apps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr));gap:10px;margin-bottom:16px}.app-card{min-width:0;background:white;border-radius:8px;padding:14px;box-shadow:0 1px 3px rgba(0,0,0,.08);display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}.app-card:hover{box-shadow:0 2px 8px rgba(0,0,0,.14);transform:translateY(-2px)}.app-header{display:flex;align-items:center;gap:8px;margin-bottom:6px}.app-icon{font-size:21px;min-width:24px}.app-title{font-size:14px;font-weight:600;overflow-wrap:anywhere}.app-desc{color:#666;font-size:12px;line-height:1.5;margin:0 0 12px;flex-grow:1}.app-btn{display:inline-block;align-self:flex-start;background:#5856d6;color:white;border-radius:4px;padding:7px 12px;font-size:12px;font-weight:600;text-decoration:none}.app-btn:hover,.app-btn:focus-visible{background:#4c51bf}.catalog-intro{color:#666;font-size:13px;margin:0 0 12px}.catalog-controls{display:grid;grid-template-columns:minmax(220px,2fr) minmax(180px,1fr) minmax(180px,1fr);gap:10px;margin:12px 0}.catalog-controls input,.catalog-controls select{width:100%;min-height:42px;padding:9px 11px;border:1px solid #c8c8d0;border-radius:6px;background:white;color:#333;font:inherit;font-size:14px}.catalog-count{font-size:12px;color:#666;margin:0 0 10px}.app-tags{display:flex;flex-wrap:wrap;gap:6px;margin:auto 0 12px}.tag{display:inline-block;border-radius:999px;padding:4px 8px;background:#eeeafd;color:#493ca8;font-size:11px;line-height:1.3}.tag.category{background:#e8f1ff;color:#244c83}.app-card.warning{border-top:3px solid #c77700}.load-error{padding:12px;border-left:4px solid #b42318;background:#fff1f0;color:#7a271a;border-radius:4px}.empty-state{padding:18px;text-align:center;color:#666;background:white;border-radius:8px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}body.dark-mode{background:#1a1a1a;color:#e0e0e0}body.dark-mode .app-card,body.dark-mode .empty-state{background:#2a2a2a;color:#e0e0e0}body.dark-mode .app-title{color:#e0e0e0}body.dark-mode .app-desc,body.dark-mode .catalog-intro,body.dark-mode .catalog-count{color:#bbb}body.dark-mode .section-title{border-bottom-color:#7c3aed}body.dark-mode .load-error{background:#3b2020;color:#ffd8d5}body.dark-mode .catalog-controls input,body.dark-mode .catalog-controls select{background:#2a2a2a;color:#eee;border-color:#555}body.dark-mode .tag{background:#383252;color:#d9d1ff}body.dark-mode .tag.category{background:#24364f;color:#c7dcff}@media(max-width:650px){.catalog-controls{grid-template-columns:1fr}.container{padding:12px}.header h1{font-size:24px}}
+</style>
 </head>
 <body>
-    <header class="header">
-        <h1>Commonsense Geeking</h1>
-        <p>Central hub for scripts, tools, and applications</p>
-        <button class="dark-mode-btn" id="dark-mode-toggle" type="button" aria-pressed="false">🌙 Dark Mode</button>
-    </header>
-
-    <main class="container" id="app-content">
-        <section aria-labelledby="solar-title">
-            <h2 class="section-title" id="solar-title"><span class="section-icon" aria-hidden="true">⚡</span> Solar &amp; Energy</h2>
-            <div class="apps-grid" id="solar-grid"></div>
-        </section>
-        <section aria-labelledby="trading-title">
-            <h2 class="section-title" id="trading-title"><span class="section-icon" aria-hidden="true">📈</span> Trading Apps</h2>
-            <div class="apps-grid" id="trading-grid"></div>
-        </section>
-        <section aria-labelledby="indicators-title">
-            <h2 class="section-title" id="indicators-title"><span class="section-icon" aria-hidden="true">📊</span> Trading Indicators</h2>
-            <div class="apps-grid" id="indicators-grid"></div>
-        </section>
-        <section aria-labelledby="scripts-title">
-            <h2 class="section-title" id="scripts-title"><span class="section-icon" aria-hidden="true">💡</span> Scripts Library</h2>
-            <div class="apps-grid" id="scripts-grid"></div>
-        </section>
-        <p id="load-error" class="load-error" role="alert" hidden></p>
-    </main>
-
-    <script>
-        const darkModeToggle = document.getElementById('dark-mode-toggle');
-        const storageKey = 'geeking-darkmode';
-
-        function setDarkMode(enabled) {
-            document.body.classList.toggle('dark-mode', enabled);
-            darkModeToggle.setAttribute('aria-pressed', String(enabled));
-            darkModeToggle.textContent = enabled ? '☀️ Light Mode' : '🌙 Dark Mode';
-        }
-
-        darkModeToggle.addEventListener('click', () => {
-            const enabled = !document.body.classList.contains('dark-mode');
-            setDarkMode(enabled);
-            try { localStorage.setItem(storageKey, String(enabled)); } catch (error) { /* Storage may be unavailable in private browsing. */ }
-        });
-
-        try { setDarkMode(localStorage.getItem(storageKey) === 'true'); } catch (error) { setDarkMode(false); }
-
-        function decodeEntity(encoded) {
-            const textarea = document.createElement('textarea');
-            textarea.innerHTML = encoded;
-            return textarea.value;
-        }
-
-        function populateSection(gridId, apps) {
-            const grid = document.getElementById(gridId);
-            if (!Array.isArray(apps)) return;
-
-            apps.forEach((app) => {
-                if (!app || typeof app.name !== 'string' || typeof app.url !== 'string') return;
-                const card = document.createElement('article');
-                card.className = 'app-card';
-
-                const header = document.createElement('div');
-                header.className = 'app-header';
-                const icon = document.createElement('span');
-                icon.className = 'app-icon';
-                icon.setAttribute('aria-hidden', 'true');
-                icon.textContent = decodeEntity(typeof app.icon === 'string' ? app.icon : '');
-                const title = document.createElement('span');
-                title.className = 'app-title';
-                title.textContent = app.name;
-                header.append(icon, title);
-
-                const description = document.createElement('p');
-                description.className = 'app-desc';
-                description.textContent = typeof app.description === 'string' ? app.description : '';
-
-                const link = document.createElement('a');
-                link.className = 'app-btn';
-                link.href = app.url;
-                link.target = '_blank';
-                link.rel = 'noopener noreferrer';
-                link.textContent = 'Open App';
-
-                card.append(header, description, link);
-                grid.appendChild(card);
-            });
-        }
-
-        fetch('apps.json')
-            .then((response) => {
-                if (!response.ok) throw new Error('apps.json could not be loaded (' + response.status + ').');
-                return response.json();
-            })
-            .then((data) => {
-                populateSection('solar-grid', data.solar);
-                populateSection('trading-grid', data.trading);
-                populateSection('indicators-grid', data.indicators);
-                populateSection('scripts-grid', data.scripts);
-            })
-            .catch((error) => {
-                const errorMessage = document.getElementById('load-error');
-                errorMessage.textContent = 'The app list could not be loaded. Please refresh the page, or visit the repository directly. ' + error.message;
-                errorMessage.hidden = false;
-            });
-    </script>
+<header class="header"><h1>Commonsense Geeking</h1><p>Scripts, tools, and applications in one place</p><button class="dark-mode-btn" id="dark-mode-toggle" type="button" aria-pressed="false">🌙 Dark mode</button></header>
+<main class="container">
+<section aria-labelledby="solar-title"><h2 class="section-title" id="solar-title"><span class="section-icon" aria-hidden="true">☀️</span>Solar &amp; Energy</h2><div class="apps-grid" id="solar-grid"></div></section>
+<section aria-labelledby="trading-title"><h2 class="section-title" id="trading-title"><span class="section-icon" aria-hidden="true">📊</span>Trading Dashboards</h2><div class="apps-grid" id="trading-grid"></div></section>
+<section aria-labelledby="indicators-title"><h2 class="section-title" id="indicators-title"><span class="section-icon" aria-hidden="true">📈</span>Trading Indicators</h2><div class="apps-grid" id="indicators-grid"></div></section>
+<section aria-labelledby="scripts-title"><h2 class="section-title" id="scripts-title"><span class="section-icon" aria-hidden="true">🧰</span>Scripts Library</h2><p class="catalog-intro">Browse individual scripts by purpose. Search names, descriptions, categories, and tags; use the filters to narrow the list.</p><div class="catalog-controls"><label><span class="sr-only">Search scripts</span><input id="script-search" type="search" placeholder="Search scripts by name, purpose, or tag" autocomplete="off"></label><label><span class="sr-only">Filter by category</span><select id="script-category"><option value="">All categories</option></select></label><label><span class="sr-only">Filter by tag</span><select id="script-tag"><option value="">All tags</option></select></label></div><p id="script-count" class="catalog-count" aria-live="polite"></p><div class="apps-grid" id="scripts-grid"></div><p id="scripts-empty" class="empty-state" hidden>No scripts match those filters. Try a different search or category.</p></section>
+<div id="load-error" role="alert" class="load-error" hidden></div>
+</main>
+<script>
+(function(){
+'use strict';
+const $=id=>document.getElementById(id);
+function showError(message){const box=$('load-error');box.hidden=false;box.textContent=message;}
+function decodeIcon(value){const node=document.createElement('textarea');node.innerHTML=value||'';return node.value;}
+function createCard(item,script){const card=document.createElement('article');card.className='app-card'+(script&&(item.tags||[]).some(tag=>/credential|review|security warning/i.test(tag))?' warning':'');const head=document.createElement('div');head.className='app-header';if(item.icon){const icon=document.createElement('span');icon.className='app-icon';icon.setAttribute('aria-hidden','true');icon.textContent=decodeIcon(item.icon);head.append(icon);}const title=document.createElement('span');title.className='app-title';title.textContent=item.name||'Untitled';head.append(title);card.append(head);const desc=document.createElement('p');desc.className='app-desc';desc.textContent=item.description||'';card.append(desc);if(script){const tags=document.createElement('div');tags.className='app-tags';const category=document.createElement('span');category.className='tag category';category.textContent=item.category;tags.append(category);(item.tags||[]).forEach(value=>{const tag=document.createElement('span');tag.className='tag';tag.textContent=value;tags.append(tag);});card.append(tags);}const link=document.createElement('a');link.className='app-btn';link.href=item.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=script?'View script':'Open';card.append(link);return card;}
+async function loadApps(){try{const response=await fetch('apps.json',{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();[['solar','solar-grid'],['trading','trading-grid'],['indicators','indicators-grid']].forEach(([key,id])=>{const grid=$(id);(data[key]||[]).forEach(item=>grid.append(createCard(item,false)));});}catch(error){showError('Some dashboard links could not be loaded. Please refresh or try again later.');}}
+let scripts=[];
+function renderScripts(){const query=$('script-search').value.trim().toLocaleLowerCase();const category=$('script-category').value;const tag=$('script-tag').value;const filtered=scripts.filter(item=>{const haystack=[item.name,item.description,item.category,...(item.tags||[])].join(' ').toLocaleLowerCase();return(!query||haystack.includes(query))&&(!category||item.category===category)&&(!tag||(item.tags||[]).includes(tag));});const grid=$('scripts-grid');grid.replaceChildren(...filtered.map(item=>createCard(item,true)));$('script-count').textContent='Showing '+filtered.length+' of '+scripts.length+' scripts';$('scripts-empty').hidden=filtered.length!==0;}
+async function loadScripts(){try{const response=await fetch('scripts.json',{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();scripts=Array.isArray(data.scripts)?data.scripts:[];const categories=[...new Set(scripts.map(item=>item.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b));const tags=[...new Set(scripts.flatMap(item=>item.tags||[]))].sort((a,b)=>a.localeCompare(b));categories.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value;$('script-category').append(option);});tags.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value;$('script-tag').append(option);});renderScripts();}catch(error){$('script-count').textContent='Script catalog could not be loaded.';showError('The script catalog could not be loaded. Please refresh or try again later.');}}
+['script-search','script-category','script-tag'].forEach(id=>$(id).addEventListener(id==='script-search'?'input':'change',renderScripts));
+const toggle=$('dark-mode-toggle');function setDarkMode(enabled){document.body.classList.toggle('dark-mode',enabled);toggle.setAttribute('aria-pressed',String(enabled));toggle.textContent=enabled?'☀️ Light mode':'🌙 Dark mode';try{localStorage.setItem('commonsense-dark-mode',enabled?'on':'off');}catch(error){}}
+let saved=false;try{saved=localStorage.getItem('commonsense-dark-mode')==='on';}catch(error){}setDarkMode(saved);toggle.addEventListener('click',()=>setDarkMode(!document.body.classList.contains('dark-mode')));
+loadApps();loadScripts();
+})();
+</script>
 </body>
 </html>
