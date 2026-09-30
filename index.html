@@ -3,198 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A central hub for Commonsense Geeking scripts, tools, and applications.">
     <title>Commonsense Geeking</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f5f5f5;
-            color: #333;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #5856d6 0%, #7c3aed 100%);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        .header h1 {
-            font-size: 28px;
-            margin-bottom: 4px;
-            font-weight: 700;
-        }
-
-        .header p {
-            font-size: 13px;
-            opacity: 0.95;
-            margin-bottom: 12px;
-        }
-
-        .dark-mode-btn {
-            background: rgba(255,255,255,0.2);
-            border: 1px solid rgba(255,255,255,0.4);
-            color: white;
-            padding: 6px 12px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 12px;
-            transition: all 0.2s;
-        }
-
-        .dark-mode-btn:hover {
-            background: rgba(255,255,255,0.3);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 12px;
-        }
-
-        .section-title {
-            font-size: 14px;
-            font-weight: 700;
-            color: #333;
-            margin-top: 12px;
-            margin-bottom: 8px;
-            padding-bottom: 6px;
-            border-bottom: 2px solid #5856d6;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .section-title span {
-            font-size: 16px;
-        }
-
-        .apps-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 10px;
-            margin-bottom: 12px;
-        }
-
-        .app-card {
-            background: white;
-            border-radius: 8px;
-            padding: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            transition: all 0.2s;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .app-card:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-            transform: translateY(-2px);
-        }
-
-        .app-header {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 6px;
-        }
-
-        .app-icon {
-            font-size: 20px;
-            min-width: 20px;
-        }
-
-        .app-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: #333;
-        }
-
-        .app-desc {
-            font-size: 11px;
-            color: #666;
-            line-height: 1.3;
-            margin-bottom: 8px;
-            flex-grow: 1;
-        }
-
-        .app-btn {
-            background: #5856d6;
-            color: white;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-
-        .app-btn:hover {
-            background: #4c51bf;
-        }
-
-        /* Dark mode */
-        body.dark-mode {
-            background: #1a1a1a;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode .app-card {
-            background: #2a2a2a;
-            color: #e0e0e0;
-        }
-
-        body.dark-mode .app-title {
-            color: #e0e0e0;
-        }
-
-        body.dark-mode .app-desc {
-            color: #999;
-        }
-
-        body.dark-mode .section-title {
-            color: #e0e0e0;
-            border-bottom-color: #7c3aed;
-        }
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; }
+        .header { background: linear-gradient(135deg, #5856d6 0%, #7c3aed 100%); color: white; padding: 24px 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+        .header h1 { margin: 0 0 4px; font-size: 28px; }
+        .header p { margin: 0 0 12px; font-size: 14px; opacity: .95; }
+        .dark-mode-btn { background: rgba(255,255,255,.2); border: 1px solid rgba(255,255,255,.4); color: white; padding: 7px 12px; border-radius: 6px; cursor: pointer; font: inherit; font-size: 13px; }
+        .dark-mode-btn:hover { background: rgba(255,255,255,.3); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 16px; }
+        .section-title { margin: 16px 0 8px; padding-bottom: 6px; border-bottom: 2px solid #5856d6; display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; }
+        .section-icon { font-size: 19px; }
+        .apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 10px; margin-bottom: 16px; }
+        .app-card { min-width: 0; background: white; border-radius: 8px; padding: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.08); display: flex; flex-direction: column; transition: box-shadow .2s, transform .2s; }
+        .app-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.14); transform: translateY(-2px); }
+        .app-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+        .app-icon { font-size: 21px; min-width: 24px; }
+        .app-title { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+        .app-desc { color: #666; font-size: 12px; line-height: 1.4; margin-bottom: 12px; flex-grow: 1; }
+        .app-btn { display: inline-block; align-self: flex-start; background: #5856d6; color: white; border-radius: 4px; padding: 7px 12px; font-size: 12px; font-weight: 600; text-decoration: none; }
+        .app-btn:hover, .app-btn:focus-visible { background: #4c51bf; }
+        .load-error { padding: 12px; border-left: 4px solid #b42318; background: #fff1f0; color: #7a271a; border-radius: 4px; }
+        body.dark-mode { background: #1a1a1a; color: #e0e0e0; }
+        body.dark-mode .app-card { background: #2a2a2a; color: #e0e0e0; }
+        body.dark-mode .app-title { color: #e0e0e0; }
+        body.dark-mode .app-desc { color: #bbb; }
+        body.dark-mode .section-title { border-bottom-color: #7c3aed; }
+        body.dark-mode .load-error { background: #3b2020; color: #ffd8d5; }
     </style>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Commonsense Geeking</h1>
         <p>Central hub for scripts, tools, and applications</p>
-        <button class="dark-mode-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
-    </div>
+        <button class="dark-mode-btn" id="dark-mode-toggle" type="button" aria-pressed="false">🌙 Dark Mode</button>
+    </header>
 
-    <div class="container">
-        <div class="section-title"><span>⚡</span> Solar & Energy</div>
-        <div class="apps-grid" id="solar-grid"></div>
-
-        <div class="section-title"><span>📈</span> Trading Apps</div>
-        <div class="apps-grid" id="trading-grid"></div>
-
-        <div class="section-title"><span>📊</span> Trading Indicators</div>
-
-        <div class="section-title"><span>&#x1F4A1;</span> Scripts Library</div>
-        <div class="apps-grid" id="scripts-grid"></div>
-        <div class="apps-grid" id="indicators-grid"></div>
-    </div>
+    <main class="container" id="app-content">
+        <section aria-labelledby="solar-title">
+            <h2 class="section-title" id="solar-title"><span class="section-icon" aria-hidden="true">⚡</span> Solar &amp; Energy</h2>
+            <div class="apps-grid" id="solar-grid"></div>
+        </section>
+        <section aria-labelledby="trading-title">
+            <h2 class="section-title" id="trading-title"><span class="section-icon" aria-hidden="true">📈</span> Trading Apps</h2>
+            <div class="apps-grid" id="trading-grid"></div>
+        </section>
+        <section aria-labelledby="indicators-title">
+            <h2 class="section-title" id="indicators-title"><span class="section-icon" aria-hidden="true">📊</span> Trading Indicators</h2>
+            <div class="apps-grid" id="indicators-grid"></div>
+        </section>
+        <section aria-labelledby="scripts-title">
+            <h2 class="section-title" id="scripts-title"><span class="section-icon" aria-hidden="true">💡</span> Scripts Library</h2>
+            <div class="apps-grid" id="scripts-grid"></div>
+        </section>
+        <p id="load-error" class="load-error" role="alert" hidden></p>
+    </main>
 
     <script>
-        // Load apps from apps.json
-                populateSection('scripts-grid', data.scripts);
-        fetch('apps.json')
-            .then(res => res.json())
-            .then(data => {
-                populateSection('solar-grid', data.solar);
-                populateSection('trading-grid', data.trading);
-                populateSection('indicators-grid', data.indicators);
-            });
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const storageKey = 'geeking-darkmode';
+
+        function setDarkMode(enabled) {
+            document.body.classList.toggle('dark-mode', enabled);
+            darkModeToggle.setAttribute('aria-pressed', String(enabled));
+            darkModeToggle.textContent = enabled ? '☀️ Light Mode' : '🌙 Dark Mode';
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            const enabled = !document.body.classList.contains('dark-mode');
+            setDarkMode(enabled);
+            try { localStorage.setItem(storageKey, String(enabled)); } catch (error) { /* Storage may be unavailable in private browsing. */ }
+        });
+
+        try { setDarkMode(localStorage.getItem(storageKey) === 'true'); } catch (error) { setDarkMode(false); }
 
         function decodeEntity(encoded) {
             const textarea = document.createElement('textarea');
@@ -204,31 +87,56 @@
 
         function populateSection(gridId, apps) {
             const grid = document.getElementById(gridId);
-            apps.forEach(app => {
-                const card = document.createElement('div');
+            if (!Array.isArray(apps)) return;
+
+            apps.forEach((app) => {
+                if (!app || typeof app.name !== 'string' || typeof app.url !== 'string') return;
+                const card = document.createElement('article');
                 card.className = 'app-card';
-                const decodedIcon = decodeEntity(app.icon);
-                card.innerHTML = `
-                    <div class="app-header">
-                        <span class="app-icon">${decodedIcon}</span>
-                        <span class="app-title">${app.name}</span>
-                    </div>
-                    <div class="app-desc">${app.description}</div>
-                    <button class="app-btn" onclick="window.open('${app.url}', '_blank')">Open App</button>
-                `;
+
+                const header = document.createElement('div');
+                header.className = 'app-header';
+                const icon = document.createElement('span');
+                icon.className = 'app-icon';
+                icon.setAttribute('aria-hidden', 'true');
+                icon.textContent = decodeEntity(typeof app.icon === 'string' ? app.icon : '');
+                const title = document.createElement('span');
+                title.className = 'app-title';
+                title.textContent = app.name;
+                header.append(icon, title);
+
+                const description = document.createElement('p');
+                description.className = 'app-desc';
+                description.textContent = typeof app.description === 'string' ? app.description : '';
+
+                const link = document.createElement('a');
+                link.className = 'app-btn';
+                link.href = app.url;
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                link.textContent = 'Open App';
+
+                card.append(header, description, link);
                 grid.appendChild(card);
             });
         }
 
-        function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-            localStorage.setItem('geeking-darkmode', document.body.classList.contains('dark-mode'));
-        }
-
-        // Load dark mode preference
-        if (localStorage.getItem('geeking-darkmode') === 'true') {
-            document.body.classList.add('dark-mode');
-        }
+        fetch('apps.json')
+            .then((response) => {
+                if (!response.ok) throw new Error('apps.json could not be loaded (' + response.status + ').');
+                return response.json();
+            })
+            .then((data) => {
+                populateSection('solar-grid', data.solar);
+                populateSection('trading-grid', data.trading);
+                populateSection('indicators-grid', data.indicators);
+                populateSection('scripts-grid', data.scripts);
+            })
+            .catch((error) => {
+                const errorMessage = document.getElementById('load-error');
+                errorMessage.textContent = 'The app list could not be loaded. Please refresh the page, or visit the repository directly. ' + error.message;
+                errorMessage.hidden = false;
+            });
     </script>
 </body>
 </html>
