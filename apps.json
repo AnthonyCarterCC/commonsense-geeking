@@ -2,13 +2,13 @@
   "solar": [
     {
       "name": "Amber Battery Monitor",
-      "icon": "??",
+      "icon": "&#x1F50B;",
       "description": "Real-time battery charge levels and Amber Electric pricing integration",
       "url": "http://192.168.1.200:8080"
     },
     {
       "name": "FoxESS Inverter Status",
-      "icon": "??",
+      "icon": "&#x2600;",
       "description": "Solar generation and inverter performance monitoring",
       "url": "http://192.168.1.200:8081"
     }
@@ -16,13 +16,13 @@
   "trading": [
     {
       "name": "Carter Dashboard",
-      "icon": "??",
+      "icon": "&#x1F4CA;",
       "description": "SPX options portfolio management and position tracking",
       "url": "http://192.168.1.200:8787"
     },
     {
       "name": "Sheridan Dashboard v3",
-      "icon": "??",
+      "icon": "&#x1F3AF;",
       "description": "Trading strategy monitoring and Discord signal tracking",
       "url": "http://192.168.1.200:8181"
     }
@@ -30,13 +30,13 @@
   "indicators": [
     {
       "name": "ACarter-VolProfile",
-      "icon": "??",
+      "icon": "&#x1F4CD;",
       "description": "thinkorSwim volume profile indicator for price action",
       "url": "http://tos.mx/ITgduUyo4"
     },
     {
       "name": "ACarter-VolumStudy-Daytrade",
-      "icon": "??",
+      "icon": "&#x1F4C8;",
       "description": "thinkorSwim volume study for day trading execution",
       "url": "http://tos.mx/INvVO1t0F"
     }
