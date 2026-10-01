@@ -37,7 +37,7 @@
   </main>
   <script>
     (()=>{
-      const API_BASE=(window.SOLAR_API_BASE||'').replace(/\/$/,'');
+      const API_BASE=('https://commonsense-solar-monitor.anthony-efa.workers.dev').replace(/\/$/,'');
       const CAPACITY_KWH=41.93;
       const $=id=>document.getElementById(id);
       if(localStorage.getItem('geeking-darkmode')==='true') document.body.classList.add('dark');
