@@ -3,20 +3,8 @@
     {
       "name": "Solar & Battery Monitor",
       "icon": "&#x1F50B;",
-      "description": "Hourly solar, battery and grid history with Amber price insights and charge planning",
+      "description": "Solar, battery and grid history with Amber price insights and charge planning",
       "url": "/solar/"
-    },
-    {
-      "name": "Amber Battery Monitor",
-      "icon": "&#x1F50B;",
-      "description": "Real-time battery charge levels and Amber Electric pricing integration",
-      "url": "http://192.168.1.200:8080"
-    },
-    {
-      "name": "FoxESS Inverter Status",
-      "icon": "&#x2600;",
-      "description": "Solar generation and inverter performance monitoring",
-      "url": "http://192.168.1.200:8081"
     }
   ],
   "trading": [
