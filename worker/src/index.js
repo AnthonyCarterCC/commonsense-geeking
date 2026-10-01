@@ -22,7 +22,7 @@ export default {
     if (request.method !== "GET") return json({ error: "Method not allowed" }, 405, headers);
     if (url.pathname === "/api/health") {
       const row = await env.DB.prepare("SELECT MAX(timestamp) AS latest FROM readings").first();
-      return json({ configured: Boolean(env.FOXESS_TOKEN && env.FOXESS_DEVICE_SN), amberConfigured: Boolean(env.AMBER_TOKEN && env.AMBER_SITE_ID), latest: row?.latest ?? null }, 200, headers);
+      return json({ configured: Boolean(env.FOXESS_TOKEN && env.FOXESS_DEVICE_SN), amberConfigured: Boolean(env.AMBER_TOKEN), latest: row?.latest ?? null }, 200, headers);
     }
     if (url.pathname === "/api/prices") {
       const hours = Math.max(1, Math.min(24 * 7, Number.parseInt(url.searchParams.get("hours") || "24", 10) || 24));
@@ -110,7 +110,7 @@ async function collectHourly(env) {
   statements.push(env.DB.prepare("DELETE FROM readings WHERE timestamp < ?").bind(end - 5 * 366 * 24 * 60 * 60 * 1000));
   await env.DB.batch(statements);
 
-  if (env.AMBER_TOKEN && env.AMBER_SITE_ID) {
+  if (env.AMBER_TOKEN) {
     const prices = await collectAmberPrices(env);
     const priceStatements = [];
     for (const price of prices) {
@@ -129,8 +129,8 @@ async function collectHourly(env) {
   }
 }
 
-async function collectAmberPrices(env) {
-  const url = new URL(`https://api.amber.com.au/v1/sites/${encodeURIComponent(env.AMBER_SITE_ID)}/prices/current`);
+async function firstAmberSite(token) { const response = await fetch("https://api.amber.com.au/v1/sites", { headers: { Authorization: `Bearer ${token}`, Accept: "application/json" } }); if (!response.ok) throw new Error(`Amber site lookup failed (HTTP ${response.status}).`); const sites = await response.json(); const site = Array.isArray(sites) ? sites.find((item) => item.status === "active") || sites[0] : null; if (!site?.id) throw new Error("Amber API returned no sites for this token."); return site.id; } async function collectAmberPrices(env) {
+  const siteId = env.AMBER_SITE_ID || await firstAmberSite(env.AMBER_TOKEN); const url = new URL(`https://api.amber.com.au/v1/sites/${encodeURIComponent(siteId)}/prices/current`);
   url.searchParams.set("next", "48");
   url.searchParams.set("previous", "2");
   url.searchParams.set("resolution", "30");
