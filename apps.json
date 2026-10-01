@@ -9,10 +9,10 @@
   ],
   "trading": [
     {
-      "name": "Carter Dashboard",
+      "name": "Carter SPX Dashboard",
       "icon": "&#x1F4CA;",
       "description": "SPX options portfolio management and position tracking",
-      "url": "http://192.168.1.200:8787"
+      "url": "https://spxtrader.commonsense.com.au/"
     },
     {
       "name": "Sheridan Dashboard v3",
