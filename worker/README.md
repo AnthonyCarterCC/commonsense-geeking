@@ -1,6 +1,6 @@
 # Solar Monitor Worker setup
 
-This Worker collects FoxESS inverter history and Amber import prices once per hour, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data.
+This Worker collects FoxESS inverter history and Amber import prices every five minutes, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data. Readings and prices older than 90 days are deleted during collection.
 
 ## 1. Create the database and fill in its ID
 
@@ -13,7 +13,7 @@ This Worker collects FoxESS inverter history and Amber import prices once per ho
 
 1. In Cloudflare, go to **Workers & Pages → Create application → Import an existing Git repository**. Select `AnthonyCarterCC/commonsense-geeking` and branch `main`. Choose the existing repository; do not select a Cloudflare sample template or create a new Git repository.
 2. Set the project root directory to `worker`. Leave the build command empty; if asked for a deploy command, enter `npx wrangler deploy`.
-3. Deploy the Worker. Its `wrangler.toml` configures the hourly Cron Trigger, D1 binding named `DB`, allowed website origin, and 41.93 kWh nominal battery capacity.
+3. Deploy the Worker. Its `wrangler.toml` configures the five-minute Cron Trigger, D1 binding named `DB`, allowed website origin, and 41.93 kWh nominal battery capacity.
 
 ## 3. Add credentials and the Amber site ID
 
@@ -39,4 +39,4 @@ Commit the edit. The live dashboard will then read `/api/health`, `/api/readings
 
 ## Check the connection
 
-Open `https://<your-worker-address>/api/health`. `configured` should be `true`; after the first hourly collection, `latest` should contain a timestamp. The D1 database stores hourly FoxESS samples and Amber price intervals. The API is public by design, so anyone who can reach it can read the published energy history. Do not collect or store information you want to keep private. Amber price planning is an estimate only; the Worker never sends charge commands to the inverter.
+Open `https://<your-worker-address>/api/health`. `configured` should be `true`; after the first five-minute collection, `latest` should contain a timestamp. The D1 database stores FoxESS samples and Amber price intervals for 90 days. The API is public by design, so anyone who can reach it can read the published energy history. Do not collect or store information you want to keep private. Amber price planning is an estimate only; the Worker never sends charge commands to the inverter.

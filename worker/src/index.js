@@ -27,7 +27,7 @@ export default {
     }
     if (url.pathname === "/api/prices") {
       const hours = Math.max(1, Math.min(24 * 7, Number.parseInt(url.searchParams.get("hours") || "24", 10) || 24));
-      const since = Date.now() - 60 * 60 * 1000;
+      const since = Date.now() - hours * 60 * 60 * 1000;
       const until = Date.now() + hours * 60 * 60 * 1000;
       const result = await env.DB.prepare(
         `SELECT start_time AS startTime, end_time AS endTime, per_kwh AS perKwh,
@@ -67,6 +67,7 @@ async function collectHourly(env) {
   const capacityKwh = finite(env.BATTERY_CAPACITY_KWH, 41.93);
   const end = Date.now();
   const begin = end - 60 * 60 * 1000;
+  const retentionCutoff = end - 90 * 24 * 60 * 60 * 1000;
   const body = {
     sn: env.FOXESS_DEVICE_SN,
     variables: VARIABLES,
@@ -108,7 +109,7 @@ async function collectHourly(env) {
     point.gridImportKwh, point.gridExportKwh, point.chargeTotalKwh,
     point.dischargeTotalKwh, point.pvTotalKwh
   ));
-  statements.push(env.DB.prepare("DELETE FROM readings WHERE timestamp < ?").bind(end - 5 * 366 * 24 * 60 * 60 * 1000));
+  statements.push(env.DB.prepare("DELETE FROM readings WHERE timestamp < ?").bind(retentionCutoff));
   await env.DB.batch(statements);
 
   if (env.AMBER_TOKEN) {
@@ -125,7 +126,7 @@ async function collectHourly(env) {
       ).bind(price.startTime, price.endTime, price.channelType, price.perKwh, price.spotPerKwh,
         price.type, price.descriptor, price.estimate ? 1 : 0));
     }
-    priceStatements.push(env.DB.prepare("DELETE FROM amber_prices WHERE start_time < ?").bind(end - 5 * 366 * 24 * 60 * 60 * 1000));
+    priceStatements.push(env.DB.prepare("DELETE FROM amber_prices WHERE start_time < ?").bind(retentionCutoff));
     if (priceStatements.length) await env.DB.batch(priceStatements);
   }
 }
