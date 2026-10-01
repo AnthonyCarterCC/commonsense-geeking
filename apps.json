@@ -1,6 +1,12 @@
 {
   "solar": [
     {
+      "name": "Solar & Battery Monitor",
+      "icon": "&#x1F50B;",
+      "description": "Hourly solar, battery and grid history with Amber price insights and charge planning",
+      "url": "/solar/"
+    },
+    {
       "name": "Amber Battery Monitor",
       "icon": "&#x1F50B;",
       "description": "Real-time battery charge levels and Amber Electric pricing integration",
