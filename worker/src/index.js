@@ -1,7 +1,8 @@
 const FOX_BASE = "https://www.foxesscloud.com";
 const HISTORY_PATH = "/op/v0/device/history/query";
 const VARIABLES = [
-  "SoC", "SOH", "pvPower", "generationPower", "loadsPower", "gridConsumptionPower", "feedinPower",
+  "SoC", "SOH", "pvPower", "pv1Power", "pv2Power", "pv3Power", "pv4Power",
+  "generationPower", "loadsPower", "gridConsumptionPower", "feedinPower", "meterPower", "meterPower2",
   "batChargePower", "batDischargePower", "ResidualEnergy", "generation", "loads",
   "gridConsumption", "feedin", "chargeEnergyToTal", "dischargeEnergyToTal", "PVEnergyTotal"
 ];
@@ -169,7 +170,7 @@ async function foxRequest(token, path, body) {
   });
 }
 
-async function queryFoxLivePoint(token, deviceSN, capacityKwh) { const path = "/op/v1/device/real/query"; const variables = ["SoC", "SOH", "generationPower", "pvPower", "loadsPower", "gridConsumptionPower", "feedinPower", "batChargePower", "batDischargePower", "ResidualEnergy"]; const response = await foxRequest(token, path, { sns: [deviceSN] }); if (!response.ok) return null; const payload = await response.json(); if (payload.errno !== 0) return null; const device = Array.isArray(payload.result) ? payload.result.find((item) => item.deviceSN === deviceSN) || payload.result[0] : payload.result; const values = Object.fromEntries((device?.datas || []).map((item) => [item.variable, finite(item.value)])); const timestamp = parseFoxTime(device?.time || device?.datas?.find((item) => item.time)?.time) || Date.now(); if (!Object.keys(values).length) return null; return { timestamp, soc: values.SoC, soh: values.SOH, pvKw: values.pvPower, loadKw: values.loadsPower, gridImportKw: values.gridConsumptionPower, gridExportKw: values.feedinPower, chargeKw: values.batChargePower, dischargeKw: values.batDischargePower, storedKwh: values.ResidualEnergy ?? (values.SoC == null ? null : capacityKwh * values.SoC / 100), generationKwh: null, loadKwh: null, gridImportKwh: null, gridExportKwh: null, chargeTotalKwh: null, dischargeTotalKwh: null, pvTotalKwh: null }; } function pointsFrom(device, capacityKwh) {
+async function queryFoxLivePoint(token, deviceSN, capacityKwh) { const path = "/op/v1/device/real/query"; const variables = ["SoC", "SOH", "generationPower", "pvPower", "pv1Power", "pv2Power", "pv3Power", "pv4Power", "meterPower", "meterPower2", "loadsPower", "gridConsumptionPower", "feedinPower", "batChargePower", "batDischargePower", "ResidualEnergy"]; const response = await foxRequest(token, path, { sns: [deviceSN], variables }); if (!response.ok) return null; const payload = await response.json(); if (payload.errno !== 0) return null; const device = Array.isArray(payload.result) ? payload.result.find((item) => item.deviceSN === deviceSN) || payload.result[0] : payload.result; const values = Object.fromEntries((device?.datas || []).map((item) => [item.variable, finite(item.value)])); const timestamp = parseFoxTime(device?.time || device?.datas?.find((item) => item.time)?.time) || Date.now(); if (!Object.keys(values).length) return null; return { timestamp, soc: values.SoC, soh: values.SOH, pvKw: totalPvKw(values), loadKw: values.loadsPower, gridImportKw: values.gridConsumptionPower, gridExportKw: values.feedinPower, chargeKw: values.batChargePower, dischargeKw: values.batDischargePower, storedKwh: values.ResidualEnergy ?? (values.SoC == null ? null : capacityKwh * values.SoC / 100), generationKwh: null, loadKwh: null, gridImportKwh: null, gridExportKwh: null, chargeTotalKwh: null, dischargeTotalKwh: null, pvTotalKwh: null }; } function pointsFrom(device, capacityKwh) {
   const byTime = new Map();
   for (const series of device?.datas || []) {
     const name = series.variable;
@@ -184,7 +185,7 @@ async function queryFoxLivePoint(token, deviceSN, capacityKwh) { const path = "/
     timestamp,
     soc: v.SoC,
     soh: v.SOH,
-    pvKw: v.pvPower,
+    pvKw: totalPvKw(v),
     loadKw: v.loadsPower,
     gridImportKw: v.gridConsumptionPower,
     gridExportKw: v.feedinPower,
@@ -199,6 +200,14 @@ async function queryFoxLivePoint(token, deviceSN, capacityKwh) { const path = "/
     dischargeTotalKwh: v.dischargeEnergyToTal,
     pvTotalKwh: v.PVEnergyTotal
   }));
+}
+
+// FoxESS reports its own PV as pvPower. For AC-coupled arrays, the separate
+// inverter can appear as Gen Load via meterPower2; its CT may report either sign.
+function totalPvKw(values) {
+  const foxPv = Math.max(0, finite(values.pvPower, 0));
+  const genLoad = Math.abs(finite(values.meterPower2, 0));
+  return foxPv + genLoad;
 }
 
 function parseFoxTime(value) {
