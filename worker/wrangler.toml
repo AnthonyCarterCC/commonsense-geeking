@@ -5,7 +5,7 @@ workers_dev = true
 keep_vars = true
 
 [triggers]
-crons = ["0 * * * *"]
+crons = ["*/30 * * * *"]
 
 [vars]
 ALLOWED_ORIGIN = "https://geeking.commonsense.com.au"
