@@ -26,12 +26,20 @@
       "name": "ACarter-VolProfile",
       "icon": "&#x1F4CD;",
       "description": "thinkorSwim volume profile indicator for price action",
+      "group": "Market Profile",
+      "resources": [
+        {
+          "label": "Read indicator instructions (PDF)",
+          "url": "/docs/market-profile/NQ_TPO_VolumeMap_v1.0_Instructions.pdf"
+        }
+      ],
       "url": "https://tos.mx/!TgduUyo4"
     },
     {
       "name": "ACarter-VolumStudy-Daytrade",
       "icon": "&#x1F4C8;",
       "description": "thinkorSwim volume study for day trading execution",
+      "group": "Market Profile",
       "url": "https://tos.mx/!NvV01t0F"
     }
   ],
