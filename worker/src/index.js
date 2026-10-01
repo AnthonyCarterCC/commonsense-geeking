@@ -212,6 +212,7 @@ function parseFoxTime(value) {
 }
 
 function finite(value, fallback = null) {
+  if (value === null || value === undefined || value === "") return fallback;
   const n = Number(value);
   return Number.isFinite(n) ? n : fallback;
 }
