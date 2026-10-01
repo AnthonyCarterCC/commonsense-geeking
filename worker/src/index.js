@@ -1,7 +1,7 @@
 const FOX_BASE = "https://www.foxesscloud.com";
 const HISTORY_PATH = "/op/v0/device/history/query";
 const VARIABLES = [
-  "SoC", "SOH", "pvPower", "loadsPower", "gridConsumptionPower", "feedinPower",
+  "SoC", "SOH", "pvPower", "generationPower", "loadsPower", "gridConsumptionPower", "feedinPower",
   "batChargePower", "batDischargePower", "ResidualEnergy", "generation", "loads",
   "gridConsumption", "feedin", "chargeEnergyToTal", "dischargeEnergyToTal", "PVEnergyTotal"
 ];
@@ -184,7 +184,7 @@ function pointsFrom(device, capacityKwh) {
     timestamp,
     soc: v.SoC,
     soh: v.SOH,
-    pvKw: v.pvPower,
+    pvKw: v.generationPower ?? v.pvPower,
     loadKw: v.loadsPower,
     gridImportKw: v.gridConsumptionPower,
     gridExportKw: v.feedinPower,
