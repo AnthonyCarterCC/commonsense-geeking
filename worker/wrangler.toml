@@ -14,4 +14,4 @@ AMBER_SITE_ID = ""
 [[d1_databases]]
 binding = "DB"
 database_name = "commonsense-solar-readings"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "95d6dbef-3503-4b40-a220-e8b992c82f83"
