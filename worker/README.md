@@ -1,43 +1,42 @@
 # Solar Monitor Worker setup
 
-This Worker collects FoxESS inverter history and Amber import prices once per hour, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. The dashboard has been set to collect hourly data; it begins collecting after deployment and does not backfill earlier data.
+This Worker collects FoxESS inverter history and Amber import prices once per hour, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data.
 
-## Deploy from the GitHub repository
+## 1. Create the database and fill in its ID
 
-1. In Cloudflare, open **Workers & Pages → Create application → Import an existing Git repository**. Choose `AnthonyCarterCC/commonsense-geeking`. Do not select a Cloudflare sample template.
-2. Set the Worker project root directory to `worker`. Leave the build command empty and use `npx wrangler deploy` as the deploy command if Cloudflare asks for one.
-3. Create a D1 database named `commonsense-solar-readings`. In `wrangler.toml`, replace `REPLACE_WITH_D1_DATABASE_ID` with that database's ID. This ID is a configuration value, not a secret.
-4. Initialize the remote database from this directory, or run the equivalent command in a local checkout:
+1. In Cloudflare, open **Storage & databases → D1 SQL Database** and create `commonsense-solar-readings`.
+2. Copy the database ID from its details page.
+3. In GitHub, open [`worker/wrangler.toml`](https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/worker/wrangler.toml), choose **Edit**, and replace `REPLACE_WITH_D1_DATABASE_ID` with that ID. Keep the quotes. Commit the edit.
+4. Open the new D1 database's **Console** in Cloudflare, paste all of [`worker/schema.sql`](https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/worker/schema.sql), and run it. This creates the tables; there is no CSV to upload.
 
-   ```sh
-   npx wrangler d1 execute commonsense-solar-readings --remote --file=schema.sql
-   ```
+## 2. Connect the GitHub repository to Workers
 
-5. Add these three values as Worker **secrets** in Cloudflare. First revoke/rotate the old credentials from the supplied example files. Do not commit the replacement values or put them in `solar/index.html`.
+1. In Cloudflare, go to **Workers & Pages → Create application → Import an existing Git repository**. Select `AnthonyCarterCC/commonsense-geeking` and branch `main`. Choose the existing repository; do not select a Cloudflare sample template or create a new Git repository.
+2. Set the project root directory to `worker`. Leave the build command empty; if asked for a deploy command, enter `npx wrangler deploy`.
+3. Deploy the Worker. Its `wrangler.toml` configures the hourly Cron Trigger, D1 binding named `DB`, allowed website origin, and 41.93 kWh nominal battery capacity.
 
-   - `FOXESS_TOKEN` — newly generated FoxESS API token
-   - `FOXESS_DEVICE_SN` — inverter serial number
-   - `AMBER_TOKEN` — newly generated Amber API token
+## 3. Add credentials and the Amber site ID
 
-6. Set Worker variables:
+In the new Worker, open **Settings → Variables and Secrets**. Add these as Worker **secrets**. First revoke/rotate the old credentials from the supplied example files. Never commit the replacement values or put them in `solar/index.html`.
 
-   - `AMBER_SITE_ID` — the site ID returned for the correct Amber property
-   - `ALLOWED_ORIGIN` — `https://geeking.commonsense.com.au`
-   - `BATTERY_CAPACITY_KWH` — `41.93`
+- `FOXESS_TOKEN` — newly generated FoxESS API token
+- `FOXESS_DEVICE_SN` — inverter serial number
+- `AMBER_TOKEN` — newly generated Amber API token
 
-   The `wrangler.toml` already sets the last two variables and the hourly Cron Trigger. Keep the D1 binding name `DB`.
+Add `AMBER_SITE_ID` as a regular Worker variable, using the ID for the correct property from your Amber account. The `ALLOWED_ORIGIN` and `BATTERY_CAPACITY_KWH` variables are already in `wrangler.toml`.
 
-7. Deploy the Worker. In its **Settings → Domains & Routes**, enable the `workers.dev` subdomain if Cloudflare has not already enabled it. The resulting Worker URL will look like `https://commonsense-solar-monitor.<your-account-subdomain>.workers.dev`.
-8. Update `solar/index.html`: immediately before its main inline script, add the deployed URL:
+Enable the `workers.dev` subdomain if Cloudflare prompts you. Your Worker address will look like `https://commonsense-solar-monitor.<your-account-subdomain>.workers.dev`.
 
-   ```html
-   <script>window.SOLAR_API_BASE = "https://commonsense-solar-monitor.<your-account-subdomain>.workers.dev";</script>
-   ```
+## 4. Point the dashboard at the Worker
 
-   Replace the example host with the actual Worker address and commit the change. The dashboard then requests `/api/health`, `/api/readings`, and `/api/prices` from the Worker.
+In GitHub, edit [`solar/index.html`](https://github.com/AnthonyCarterCC/commonsense-geeking/blob/main/solar/index.html). Immediately before its main inline `<script>`, add this line, replacing the example host with the actual Worker address:
+
+```html
+<script>window.SOLAR_API_BASE = "https://commonsense-solar-monitor.<your-account-subdomain>.workers.dev";</script>
+```
+
+Commit the edit. The live dashboard will then read `/api/health`, `/api/readings`, and `/api/prices` from the Worker.
 
 ## Check the connection
 
-Open `https://<your-worker-address>/api/health`. `configured` should be `true`; after the first hourly collection, `latest` should contain a timestamp. The public dashboard can read the stored energy history, so avoid collecting or storing any information you do not want public.
-
-The D1 database stores hourly FoxESS samples and Amber price intervals. It does not accept CSV uploads. Amber price planning is an estimate only; this Worker never sends charge commands to the inverter.
+Open `https://<your-worker-address>/api/health`. `configured` should be `true`; after the first hourly collection, `latest` should contain a timestamp. The D1 database stores hourly FoxESS samples and Amber price intervals. The API is public by design, so anyone who can reach it can read the published energy history. Do not collect or store information you want to keep private. Amber price planning is an estimate only; the Worker never sends charge commands to the inverter.
