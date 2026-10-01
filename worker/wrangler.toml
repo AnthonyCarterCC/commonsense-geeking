@@ -2,6 +2,7 @@ name = "commonsense-solar-monitor"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
 workers_dev = true
+keep_vars = true
 
 [triggers]
 crons = ["0 * * * *"]
@@ -9,7 +10,6 @@ crons = ["0 * * * *"]
 [vars]
 ALLOWED_ORIGIN = "https://geeking.commonsense.com.au"
 BATTERY_CAPACITY_KWH = "41.93"
-AMBER_SITE_ID = ""
 
 [[d1_databases]]
 binding = "DB"
