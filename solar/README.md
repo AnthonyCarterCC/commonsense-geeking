@@ -5,8 +5,9 @@ Read-only dashboard served at https://geeking.commonsense.com.au/solar/. It is a
 ## What it shows
 
 - **Energy at a glance**: battery state of charge, stored energy, total solar, household load, battery charge/discharge, grid import and the current Amber import price.
-- **Battery and solar history**: battery charge (%), solar power (kW) and grid import (kW) over 24 hours, 7 days or 30 days.
+- **Battery and solar history**: battery charge (%), solar power (kW), grid import (kW) and grid export (kW, purple) over 24 hours, 7 days or 30 days. Hovering (or touching) the graph shows a bubble with the time, battery %, solar, house load, grid import and grid export at that point.
 - **Electricity cost today**: Amber buy and sell price bars for the Sydney day (history and forecast), estimated cost so far, projection to midnight and the current rate. Net cost is import cost minus export revenue. The chart axis is capped so normal prices stay readable; bars above the cap are red and the peak is noted on the chart. The projection uses your average import/export for each half-hour over the previous three days.
+- **Export earnings today**: money earned so far from power sent to the grid (each interval's export kWh x its Amber sell price), kWh exported, average sell rate and projected earnings at midnight. A red warning appears when, after 2:45pm Sydney time, the battery is below 50% and still exporting (using the latest reading, if under 15 minutes old). Thresholds are in `renderDailyCost`.
 - **Charge planning**: energy needed to reach a target charge, time at a given rate, and the lowest-price forecast windows. Estimate only; it never controls the inverter.
 
 ## Data source
