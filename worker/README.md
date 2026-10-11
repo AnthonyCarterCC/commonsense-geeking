@@ -1,6 +1,6 @@
 # Solar Monitor Worker setup
 
-This Worker collects FoxESS inverter history and Amber import prices every five minutes, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data. Readings and prices older than 90 days are deleted during collection.
+This Worker collects FoxESS inverter history and Amber import (general) prices every five minutes, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data. Readings and prices older than 90 days are deleted during collection.
 
 ## 1. Create the database and fill in its ID
 
@@ -40,3 +40,13 @@ Commit the edit. The live dashboard will then read `/api/health`, `/api/readings
 ## Check the connection
 
 Open `https://<your-worker-address>/api/health`. `configured` should be `true`; after the first five-minute collection, `latest` should contain a timestamp. The D1 database stores FoxESS samples and Amber price intervals for 90 days. The API is public by design, so anyone who can reach it can read the published energy history. Do not collect or store information you want to keep private. Amber price planning is an estimate only; the Worker never sends charge commands to the inverter.
+
+## API endpoints
+
+- `/api/health` - `configured`, `amberConfigured` and the timestamp of the `latest` reading.
+- `/api/readings?hours=N` - inverter samples (battery, solar, load, grid import, grid export, charge, discharge).
+- `/api/prices?hours=N` - Amber price intervals, past and forecast.
+
+## Known limitation: sell (feed-in) prices
+
+The collector currently keeps only Amber's `general` (import) channel: `collectAmberPrices` in `src/index.js` filters out every other `channelType`, and `/api/prices` does not return `channel_type`. The database table already has a `channel_type` column, so feed-in rates can be stored once the filter is widened to include `feed-in` and the endpoint returns the field. Until then the dashboard's green sell-price bars have no data to draw.
