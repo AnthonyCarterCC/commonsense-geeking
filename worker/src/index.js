@@ -30,7 +30,7 @@ export default {
       const since = Date.now() - hours * 60 * 60 * 1000;
       const until = Date.now() + hours * 60 * 60 * 1000;
       const result = await env.DB.prepare(
-        `SELECT start_time AS startTime, end_time AS endTime, per_kwh AS perKwh,
+        `SELECT start_time AS startTime, end_time AS endTime, channel_type AS channelType, per_kwh AS perKwh,
           spot_per_kwh AS spotPerKwh, interval_type AS type, descriptor, estimate
          FROM amber_prices WHERE end_time > ? AND start_time < ? ORDER BY start_time ASC LIMIT 1000`
       ).bind(since, until).all();
@@ -132,19 +132,22 @@ async function collectHourly(env) {
 }
 
 async function firstAmberSite(token) { const response = await fetch("https://api.amber.com.au/v1/sites", { headers: { Authorization: `Bearer ${token}`, Accept: "application/json" } }); if (!response.ok) throw new Error(`Amber site lookup failed (HTTP ${response.status}).`); const sites = await response.json(); const site = Array.isArray(sites) ? sites.find((item) => item.status === "active") || sites[0] : null; if (!site?.id) throw new Error("Amber API returned no sites for this token."); return site.id; } async function collectAmberPrices(env) {
-  const siteId = env.AMBER_SITE_ID || await firstAmberSite(env.AMBER_TOKEN); const url = new URL(`https://api.amber.com.au/v1/sites/${encodeURIComponent(siteId)}/prices/current`);
-  url.searchParams.set("next", "48");
-  url.searchParams.set("previous", "2");
-  url.searchParams.set("resolution", "30");
-  const response = await fetch(url, { headers: { Authorization: `Bearer ${env.AMBER_TOKEN}`, Accept: "application/json" } });
-  if (!response.ok) throw new Error(`Amber prices request failed (HTTP ${response.status}).`);
-  const body = await response.json();
-  if (!Array.isArray(body)) throw new Error("Amber prices response was not an array.");
-  return body.filter((row) => row.channelType === "general" && row.startTime && row.endTime)
-    .map((row) => ({
+  const siteId = env.AMBER_SITE_ID || await firstAmberSite(env.AMBER_TOKEN);
+  // First run after feed-in collection was added: also pull the last 48 hours so today's sell prices exist.
+  const hasFeedIn = await env.DB.prepare("SELECT 1 AS found FROM amber_prices WHERE channel_type = 'feed-in' LIMIT 1").first();
+  let body;
+  if (hasFeedIn) {
+    body = await fetchAmberPrices(env, siteId, 2);
+  } else {
+    try { body = await fetchAmberPrices(env, siteId, 96); } catch (error) { console.warn("Amber backfill failed, using short window", String(error)); body = await fetchAmberPrices(env, siteId, 2); }
+  }
+  // Amber names the sell channel "feedIn"; store it as "feed-in". Amber reports feed-in perKwh as NEGATIVE when you are paid; it is stored as received and the dashboard flips the sign.
+  return body.map((row) => ({ row, channelType: row.channelType === "feedIn" || row.channelType === "feed-in" ? "feed-in" : row.channelType }))
+    .filter(({ row, channelType }) => (channelType === "general" || channelType === "feed-in") && row.startTime && row.endTime)
+    .map(({ row, channelType }) => ({
       startTime: Date.parse(row.startTime),
       endTime: Date.parse(row.endTime),
-      channelType: row.channelType,
+      channelType,
       perKwh: finite(row.perKwh),
       spotPerKwh: finite(row.spotPerKwh),
       type: row.type || "unknown",
@@ -152,6 +155,18 @@ async function firstAmberSite(token) { const response = await fetch("https://api
       estimate: Boolean(row.estimate)
     }))
     .filter((row) => Number.isFinite(row.startTime) && Number.isFinite(row.endTime));
+}
+
+async function fetchAmberPrices(env, siteId, previous) {
+  const url = new URL(`https://api.amber.com.au/v1/sites/${encodeURIComponent(siteId)}/prices/current`);
+  url.searchParams.set("next", "48");
+  url.searchParams.set("previous", String(previous));
+  url.searchParams.set("resolution", "30");
+  const response = await fetch(url, { headers: { Authorization: `Bearer ${env.AMBER_TOKEN}`, Accept: "application/json" } });
+  if (!response.ok) throw new Error(`Amber prices request failed (HTTP ${response.status}).`);
+  const body = await response.json();
+  if (!Array.isArray(body)) throw new Error("Amber prices response was not an array.");
+  return body;
 }
 
 async function foxRequest(token, path, body) {

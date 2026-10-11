@@ -1,6 +1,6 @@
 # Solar Monitor Worker setup
 
-This Worker collects FoxESS inverter history and Amber import (general) prices every five minutes, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data. Readings and prices older than 90 days are deleted during collection.
+This Worker collects FoxESS inverter history and Amber buy (general) and sell (feed-in) prices every five minutes, stores them in Cloudflare D1, and serves read-only JSON to the dashboard. It does not control the inverter. Collection starts after deployment; this setup does not backfill earlier data. Readings and prices older than 90 days are deleted during collection.
 
 ## 1. Create the database and fill in its ID
 
@@ -47,6 +47,6 @@ Open `https://<your-worker-address>/api/health`. `configured` should be `true`; 
 - `/api/readings?hours=N` - inverter samples (battery, solar, load, grid import, grid export, charge, discharge).
 - `/api/prices?hours=N` - Amber price intervals, past and forecast.
 
-## Known limitation: sell (feed-in) prices
+## Sell (feed-in) prices
 
-The collector currently keeps only Amber's `general` (import) channel: `collectAmberPrices` in `src/index.js` filters out every other `channelType`, and `/api/prices` does not return `channel_type`. The database table already has a `channel_type` column, so feed-in rates can be stored once the filter is widened to include `feed-in` and the endpoint returns the field. Until then the dashboard's green sell-price bars have no data to draw.
+The collector stores Amber's `general` (buy) and `feedIn` channels; the sell channel is stored as `feed-in`, and `/api/prices` returns `channelType` for every row. Amber reports feed-in `perKwh` as a negative number when you are paid, and it is stored exactly as received; the dashboard flips the sign. On the first run after this change (no `feed-in` rows yet) the collector also requests the previous 96 intervals (48 hours) so today's sell prices exist; if Amber rejects that window it falls back to the normal two intervals. Collection now writes roughly twice as many price rows per run.
