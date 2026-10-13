@@ -43,6 +43,14 @@
       "url": "https://tos.mx/!NvV01t0F"
     }
   ],
+  "msp": [
+    {
+      "name": "SPO Manager",
+      "icon": "&#x1F5C2;",
+      "description": "SharePoint Online management across client tenants: reports, archive, cold storage, path lengths, version trim. Runs on Anthony's PC only: starts the app on click.",
+      "url": "spom://start"
+    }
+  ],
   "scripts": [
     {
       "name": "Azure Security",
